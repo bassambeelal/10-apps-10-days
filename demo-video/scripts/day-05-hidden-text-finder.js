@@ -6,7 +6,7 @@ window.DEMO = {
   logo: HT_LOGO,
   theme: { bg: '#0b0f14', accent: '#e5484d', 'accent-ink': '#ffffff' },
   music: { bpm: 118, chords: ['Em', 'C', 'G', 'D'], seed: 5 },
-  poster: 24,
+  poster: 35.5,
   segments: [
     {
       say: 'Some CVs now carry text you cannot see, written for the AI that screens them.',

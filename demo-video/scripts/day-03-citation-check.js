@@ -7,7 +7,7 @@ window.DEMO = {
   theme: { bg: '#11141a', accent: '#e0533d', 'accent-ink': '#ffffff' },
   music: { bpm: 112, chords: ['Cm', 'G#', 'D#', 'A#'], seed: 3 },
   mocks: 'demo-video/mocks/citation.js',
-  poster: 26,
+  poster: 35,
   segments: [
     {
       say: 'AI tools invent references that look exactly like real ones: plausible authors, a real journal, sometimes even a real DOI.',
