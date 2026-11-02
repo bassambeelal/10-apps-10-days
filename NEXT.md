@@ -18,7 +18,7 @@ Five apps stay and get rebuilt to a shipped standard. Five Nigeria-only apps are
 | 2 | **Bus Spotter** (replaces Light Log) | Android | New |
 | 3 | **Citation Check** (replaces Lender Check) | Web | New |
 | 4 | Voice Note Reader | Android | Fix and rebuild |
-| 5 | **Hidden Text Finder** (replaces Refund Clock) | Web | New |
+| 5 | **Hidden Text Finder** (replaces Refund Clock) | Web | Built 2 Nov: [day-05-hidden-text-finder](day-05-hidden-text-finder/) |
 | 6 | Proof Pack | Android | Rebuild |
 | 7 | QR Check | Web | Polish |
 | 8 | **Dose Buddy** (replaces Keep My Number) | Android | New |

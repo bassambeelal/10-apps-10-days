@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- The page may only load its own files: it cannot send a CV anywhere, even by mistake. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; font-src 'self' blob: data:; worker-src 'self' blob:; connect-src 'self' blob: data:; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>Hidden Text Finder</title>
+  <meta name="description" content="Check job applicants' CVs for hidden white, tiny and off-page text, and for instructions aimed at AI screeners. PDF and Word files are read in your browser and never uploaded.">
+  <meta name="theme-color" content="#eef2f6">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preload" href="fonts/plex-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="app.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="frame" id="frame">
+    <aside class="side" id="side" aria-label="Files"></aside>
+    <header class="top" id="top"></header>
+    <main class="sheet" id="main" tabindex="-1">
+      <noscript><p style="padding:24px">Hidden Text Finder needs JavaScript to read files in your browser.</p></noscript>
+    </main>
+  </div>
+  <div class="drop-veil" id="veil" hidden><p>Drop to check. Files stay on this device.</p></div>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <dialog class="sheet-dialog" id="menu" aria-label="Files"></dialog>
+  <input type="file" id="picker" multiple accept=".pdf,.docx,.doc,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
+  <script src="lib/fflate.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

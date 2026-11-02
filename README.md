@@ -12,7 +12,7 @@ On 2 November 2026 the owner reviewed the first builds: five were rebuilt to a s
 | 2 | Light Log | Android | Outage schedules don't match reality and nobody keeps a record | [day-02-light-log](day-02-light-log/) |
 | 3 | Lender Check | Web | Borrowers can't tell a licensed loan app from a predatory one | [day-03-lender-check](day-03-lender-check/) |
 | 4 | Voice Note Reader | Android | Reading a voice note without playing it aloud | [day-04-voice-note-reader](day-04-voice-note-reader/) |
-| 5 | Refund Clock | Web | Debited but not delivered: no one knows the refund deadline | [day-05-refund-clock](day-05-refund-clock/) |
+| 5 | Hidden Text Finder | Web | Applicants hide white, tiny and off-page text and AI instructions in CVs, and employers can't see it | [day-05-hidden-text-finder](day-05-hidden-text-finder/) |
 | 6 | Proof Pack | Android | Damage claims you can't disprove at return | [day-06-proof-pack](day-06-proof-pack/) |
 | 7 | QR Check | Web | Printed QR codes held hostage by the generator | [day-07-qr-check](day-07-qr-check/) |
 | 8 | Keep My Number | Android | Prepaid numbers lapse and get recycled with your bank OTPs | [day-08-keep-my-number](day-08-keep-my-number/) |
@@ -27,7 +27,7 @@ On 2 November 2026 the owner reviewed the first builds: five were rebuilt to a s
 | 2 Light Log | APK 1.2 MB | 8 unit tests | A real phone on a real charger |
 | 3 Lender Check | Web PWA | Inspector clean in 3 states; matching tested on real FCCPC names | Refresh the register on filming day |
 | 4 Voice Note Reader | APK 1.1 MB | 5 unit tests | A real Android 13+ phone, and WhatsApp's own transcripts |
-| 5 Refund Clock | Web PWA | Inspector clean on the case view; CBN rules from the primary letter | A real stuck debit |
+| 5 Hidden Text Finder | Web PWA | Browser test of 18 checks on 9 PDF and Word files (every trick found, clean and designed CVs not flagged); inspector 0 FAIL on every screen | A folder of real CVs from a small employer |
 | 6 Proof Pack | APK 1.3 MB | 4 unit tests | A real walkaround and PDF |
 | 7 QR Check | Web PWA | Generate-and-decode round trips; inspector clean in 2 of 3 states | Real menus and flyers |
 | 8 Keep My Number | APK 1.3 MB | 4 unit tests on the NCC day boundaries | Someone's real SIM drawer |
