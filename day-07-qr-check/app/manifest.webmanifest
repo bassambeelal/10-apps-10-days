@@ -1,0 +1,24 @@
+{
+  "name": "QR Check",
+  "short_name": "QR Check",
+  "description": "Who controls your printed QR code? Check it, then make a direct one.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf7f8",
+  "theme_color": "#fbf7f8",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
