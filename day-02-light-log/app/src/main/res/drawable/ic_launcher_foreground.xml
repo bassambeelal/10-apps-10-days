@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- a bulb whose lower half is a log line: on, off, on -->
+    <path
+        android:fillColor="#FFB547"
+        android:pathData="M54,30a16,16 0,0 1,9 29.2V66H45V59.2A16,16 0,0 1,54 30z" />
+    <path
+        android:fillColor="#3A2A10"
+        android:pathData="M46,69h16v3H46zM48,74h12v3H48z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#3A2A10"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M44,48h6v6h5v-6h9" />
+</vector>
