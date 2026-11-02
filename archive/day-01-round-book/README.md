@@ -7,7 +7,7 @@
 
 - **Who has it:** members and treasurers of rotating savings circles (ajo, esusu, adashe, chama, susu).
 - **What it costs them:** the whole record lives in one person's notebook or memory. Members can't check who has paid, whose turn is next, or where the money went, and people lose savings when a collector disappears or a record goes missing.
-- **Proof it's real:** [legit.ng](https://www.legit.ng/people/1718360-lady-shares-experience-saving-money-ajo-collector-what-happened-6-months/), [zikoko](https://www.zikoko.com/?p=260498), [VICE](https://www.vice.com/en/article/sidra-humaid-committee-scam-pakistan/), [biznakenya](https://biznakenya.com/?p=120719). More in [PLAN.md](../PLAN.md).
+- **Proof it's real:** [legit.ng](https://www.legit.ng/people/1718360-lady-shares-experience-saving-money-ajo-collector-what-happened-6-months/), [zikoko](https://www.zikoko.com/?p=260498), [VICE](https://www.vice.com/en/article/sidra-humaid-committee-scam-pakistan/), [biznakenya](https://biznakenya.com/?p=120719). More in [PLAN.md](../../PLAN.md).
 
 ## What it does
 
