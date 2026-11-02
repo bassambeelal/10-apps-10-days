@@ -14,27 +14,33 @@ let chosenZone = deviceZone; // for memories with no place
 const isMemory = (path) => /(^|\/)memories(\/|_)/i.test(path) || /^(\d{4}-\d{2}-\d{2})_[^/]*-(main|overlay)\./i.test(path.split('/').pop());
 const concat = (chunks) => { if (chunks.length === 1) return chunks[0]; const n = chunks.reduce((s, c) => s + c.length, 0); const out = new Uint8Array(n); let o = 0; for (const c of chunks) { out.set(c, o); o += c.length; } return out; };
 
-/** Streams one ZIP, handing each wanted entry to onEntry, and waits for it before reading on. */
+/** Streams one ZIP, handing each wanted entry to onEntry one at a time, and lets the entries already read
+    finish before reading on. An entry can span several reads, so only entries whose last byte has arrived
+    are waited for; waiting on one that is still arriving would stop the stream for good. */
 async function eachEntry(file, want, onEntry) {
   const uz = new fflate.Unzip();
-  uz.register(fflate.UnzipInflate);
-  const pending = [];
+  uz.register(fflate.UnzipInflate); // synchronous: every entry completed by a push has called back before push returns
+  let queue = Promise.resolve();
+  let failed = null;
   uz.onfile = (f) => {
     if (!want(f.name)) return; // never started, so never decompressed
     const chunks = [];
-    pending.push(new Promise((res, rej) => {
-      f.ondata = (err, chunk, final) => { if (err) return rej(err); chunks.push(chunk); if (final) res(); };
-      f.start();
-    }).then(() => onEntry(f.name, concat(chunks))));
+    f.ondata = (err, chunk, final) => {
+      if (err) { failed = failed || err; return; }
+      chunks.push(chunk);
+      if (final) { const data = concat(chunks); queue = queue.then(() => onEntry(f.name, data)); }
+    };
+    f.start();
   };
   const reader = file.stream().getReader();
   for (;;) {
     const { done, value } = await reader.read();
-    if (done) { uz.push(new Uint8Array(0), true); break; }
-    uz.push(value);
-    if (pending.length) await Promise.all(pending.splice(0));
+    if (done) uz.push(new Uint8Array(0), true);
+    else uz.push(value);
+    if (failed) throw failed;
+    await queue;
+    if (done) break;
   }
-  await Promise.all(pending);
 }
 
 async function eachInput(want, onEntry, onProgress) {

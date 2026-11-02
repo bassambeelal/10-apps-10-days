@@ -2,7 +2,7 @@
 
 Notes from the build, 2 November 2026.
 
-- The biggest risk was memory: exports run to gigabytes. Used fflate's streaming `Unzip` and only decompress the entries that are wanted. It waits for each file to be processed before reading the next chunk.
+- The biggest risk was memory: exports run to gigabytes. Used fflate's streaming `Unzip` and only decompress the entries that are wanted. It lets the files already read finish before reading the next chunk (see the fix below: the first version of this waiting could stop for good).
 - Two passes: the history JSON can be in a different ZIP from the photos, so the first pass reads the JSON and lists every memory, and the second pass fixes and writes.
 - Matching: exact when the file id appears in the entry's download link, or when there's a single memory of that type that day. Otherwise the right day at noon. A place is only added when every candidate that day shares it, so the app never guesses a place.
 - Wrote an MP4 date patcher (`mvhd`, `tkhd`, `mdhd`, versions 0 and 1) instead of pulling in ffmpeg.wasm (25 MB+).
@@ -26,6 +26,15 @@ Notes from the build, 2 November 2026.
   - a light theme
   - a neutral light ground, after the inspector flagged a warm one as cream
 - **Tests:** the engine tests pass 5 of 5. The end-to-end run on a made-up two-ZIP export passes all 11 of its file checks.
+
+## Demo video, 2 November 2026
+
+- **A real bug, found while recording the demo:**
+  - with a bigger made-up export (143 memories, 260 KB of ZIPs), fixing stopped at "Fixing 95 of 164" and never finished, with no error
+  - the cause: after each chunk of a ZIP, the reader waited for every file it had started, but a file that runs past the end of the chunk can only finish when the next chunk is read, so the reader waited for ever
+  - the test exports were too small to show it: each ZIP arrived in a single chunk. Any real export would have hit it, in pass 1 too if `memories_history.json` crossed a chunk boundary
+- **The fix:** each file is handed on when its last byte arrives, files are processed one at a time in order, and the reader waits only for those before reading on. The service worker's cache name moved to v3 so installed copies update.
+- **Tests:** `test/e2e.mjs` now also fixes the 143-memory export (`demo-video/fixtures/make-memories.py`): 117 photos and 26 videos dated, 21 captions merged, 143 files out, Sydney's New Year's Eve memory named `2024-12-31_23-58-10`. The small export still passes all 11 file checks, and the engine tests pass 5 of 5.
 
 ## Still to do with a real person
 

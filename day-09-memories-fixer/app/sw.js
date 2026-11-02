@@ -1,6 +1,6 @@
 /* Memories Fixer service worker: keeps the app working offline. Only the app's own files are cached;
    your export is read in the page and never stored here. */
-const CACHE = 'memories-fixer-v2';
+const CACHE = 'memories-fixer-v3';
 const SHELL = ['./', 'index.html', 'app.css', 'style.css', 'app.js', 'fix.js', 'tz-cities.js', 'manifest.webmanifest', 'icon.svg',
   'vendor/fflate.js', 'vendor/piexif.js', 'fonts/inter-latin.woff2', 'fonts/inter-latin-ext.woff2', 'icons/icon-192.png'];
 self.addEventListener('install', (e) => e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())));
