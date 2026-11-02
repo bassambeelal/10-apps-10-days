@@ -1,0 +1,14 @@
+{
+  "name": "Lender Check",
+  "short_name": "Lender Check",
+  "description": "Is this loan app approved by the FCCPC? Check before you borrow.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f4f7",
+  "theme_color": "#f2f4f7",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Lender Check: is this loan app approved?</title>
+  <meta name="description" content="Type a Nigerian loan app's name and see whether the FCCPC lists it as approved, conditional, on its watchlist, delisted or licensed by the CBN.">
+  <meta name="theme-color" content="#f2f4f7">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="column bar">
+      <a class="brand" href="./">
+        <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><rect x="2.75" y="2.75" width="16.5" height="16.5" rx="3" fill="none" stroke="#0a0a0a" stroke-width="1.5"/><path d="M6.5 11.2l3 3 6-6.4" fill="none" stroke="#1d5fbf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Lender Check
+      </a>
+      <span class="stamp" id="stamp"></span>
+    </div>
+  </header>
+  <main class="column canvas" id="main">
+    <div class="title-row">
+      <div>
+        <h1>Check a loan app</h1>
+        <p class="sub" id="sub">Type the app's name or the company behind it. The answer comes from the FCCPC's register of digital lenders.</p>
+      </div>
+    </div>
+    <form class="search" role="search" onsubmit="return false">
+      <label for="q" class="sr">Loan app or company name</label>
+      <input id="q" class="input" type="search" placeholder="For example, Kashout" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+      <p class="tries" id="tries"></p>
+    </form>
+    <section class="panel results" id="results" aria-live="polite" aria-labelledby="h-results"></section>
+    <section class="panel browse" aria-labelledby="h-browse">
+      <header><h2 id="h-browse">The whole register</h2><span class="meta" id="browse-count"></span></header>
+      <div class="tabs" role="tablist" id="tabs"></div>
+      <p class="tab-say" id="tab-say"></p>
+      <div id="browse"></div>
+      <p class="meta" id="source" style="margin-top:12px"></p>
+    </section>
+    <p class="fine">Lender Check is not run by the FCCPC and is not legal advice. It shows a dated copy of the FCCPC's public list, so check the date above. If a lender threatens you or messages your contacts, report it to the FCCPC at <a href="https://fccpc.gov.ng" rel="noopener">fccpc.gov.ng</a>.</p>
+  </main>
+  <script src="data/lenders.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

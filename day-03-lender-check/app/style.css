@@ -1,0 +1,93 @@
+/* Lender Check: the achromatic-ledger sheet (seed 1032484889) on top of app.css.
+   Face: a blue-grey ledger ground. Signature: the register's own line shown beside every answer. */
+:root {
+  --ground: #f2f4f7; --surface: #ffffff; --raised: #eef0f3; --active: #e6e9ee;
+  --border: #e3e6ea; --rule: #eff1f3; --control: #cfd4da;
+  --text: #0a0a0a; --muted: #5e6268; --faint: #66696e;
+  --accent: #1d5fbf; --primary: #141414; --primary-ink: #ffffff;
+  --positive: #2e7d32; --negative: #c4242a; --warning: #92400e;
+  --pill-positive-bg: #dcfae5; --pill-positive-ink: #04250e;
+  --pill-negative-bg: #ffedea; --pill-negative-ink: #831c1e;
+  --pill-warning-bg: #fffbeb; --pill-warning-ink: #92400e;
+  --pill-neutral-bg: #e9ecf0; --pill-neutral-ink: #2f3338;
+  --font: "Geist", system-ui, sans-serif;
+  --mono: "Geist Mono", ui-monospace, monospace;
+  --fs-title: 24px; --fs-section: 16px; --fs-body: 15px; --fs-small: 13px;
+  --radius-card: 8px; --radius-control: 6px;
+  --gap: 16px; --pad: 24px; --card-pad: 20px; --control-height: 36px; --row-height: 44px;
+}
+body { line-height: 22px; font-variant-numeric: tabular-nums; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- shell: no sidebar. A 48px top bar over a centred 1104px column ---------- */
+/* grid: 12 columns × 76px + 11 gutters × 16px = 912 + 176 = 1088 + nothing; the column is 1104 with 8px of air each side of the grid */
+.column { width: min(1104px, 100% - 48px); margin-inline: auto; }
+.topbar { position: sticky; top: 0; z-index: 5; height: 48px; background: var(--ground); border-bottom: 1px solid var(--border); }
+.topbar .bar { display: flex; align-items: center; justify-content: space-between; height: 100%; gap: 16px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; }
+.stamp { color: var(--muted); font-size: var(--fs-small); }
+.canvas { padding: 32px 0 48px; }
+.title-row { margin-bottom: 16px; }
+
+/* ---------- search ---------- */
+.search { margin-bottom: var(--gap); }
+.search .input { width: 100%; height: 52px; padding: 0 16px; font-size: 18px; border-radius: var(--radius-control); border-color: var(--control); }
+.search .input:focus { outline: 2px solid var(--text); outline-offset: 0; }
+.tries { margin-top: 10px; color: var(--muted); font-size: var(--fs-small); }
+.tries button { border: 0; padding: 0 2px; min-height: 28px; background: none; color: var(--text); font: inherit; font-weight: 500; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+
+/* ---------- results and meanings: 8 + 4 ---------- */
+.results > * { max-width: 760px; }
+.results > .verdicts.multi { max-width: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+.verdicts.multi .verdict + .verdict { margin-top: 0; padding-top: 0; border-top: 0; }
+.tab-say { margin: -8px 0 8px; color: var(--muted); font-size: var(--fs-small); }
+.kv { display: grid; }
+.kv > div { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; padding: 12px 0; }
+.kv > div + div { border-top: 1px solid var(--rule); }
+.kv dt { display: flex; align-items: center; gap: 8px; }
+.kv dd { grid-column: 1 / -1; color: var(--muted); font-size: var(--fs-small); line-height: 18px; }
+.kv .n { margin-left: auto; font-family: var(--mono); font-size: var(--fs-small); color: var(--muted); } /* taste-skill-ignore: figures in the ledger mono, the style's decision */
+
+/* ---------- a verdict ---------- */
+.verdict + .verdict { margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--rule); }
+.verdict .head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.verdict h2 { margin-top: 10px; font-size: 22px; line-height: 28px; font-weight: 700; letter-spacing: -0.01em; }
+.verdict .say { margin-top: 6px; }
+.verdict .next { margin-top: 10px; color: var(--muted); }
+.line { margin-top: 12px; padding: 10px 12px; border-radius: var(--radius-control); background: var(--raised); font-size: var(--fs-small); line-height: 18px; }
+.line .k { color: var(--muted); }
+.line .v { font-family: var(--mono); overflow-wrap: anywhere; } /* taste-skill-ignore: the register's own text, quoted as a record */
+.line mark { background: #fff2b8; color: inherit; border-radius: 2px; padding: 0 1px; }
+.pill { height: 24px; padding: 0 10px; font-size: var(--fs-small); }
+.pill.big { height: 28px; font-size: 14px; }
+.notfound h2 { font-size: 22px; line-height: 28px; font-weight: 700; margin-top: 10px; }
+.steps { margin-top: 12px; padding-left: 18px; color: var(--text); }
+.steps li + li { margin-top: 6px; }
+.more { margin-top: 16px; color: var(--muted); font-size: var(--fs-small); }
+.warn-box { margin-bottom: 16px; padding: 12px 14px; border: 1px solid #fde68a; border-radius: var(--radius-control); background: #fffbeb; color: #92400e; font-size: var(--fs-small); line-height: 18px; }
+
+/* ---------- browse ---------- */
+.browse { margin-top: var(--gap); }
+.tabs { overflow-x: auto; white-space: nowrap; scrollbar-width: none; gap: 20px; }
+.tabs button { position: relative; flex: none; padding: 10px 0; border: 0; background: none; color: var(--muted); font: inherit; cursor: pointer; }
+.tabs button .n { font-family: var(--mono); font-size: var(--fs-small); margin-left: 4px; } /* taste-skill-ignore: counts in the ledger mono */
+.tabs button[aria-selected="true"] { color: var(--text); }
+.tabs button[aria-selected="true"]::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--text); }
+.reg td { vertical-align: top; }
+.reg td.apps-cell { width: 50%; font-weight: 500; }
+.reg td .sub { display: block; color: var(--muted); font-size: var(--fs-small); font-weight: 400; }
+.show-all { margin-top: 12px; }
+.fine { margin-top: 24px; color: var(--muted); font-size: var(--fs-small); line-height: 18px; max-width: 80ch; }
+.fine a { text-decoration: underline; text-underline-offset: 2px; }
+
+@media (max-width: 860px) {
+  .column { width: calc(100% - 32px); }
+  .canvas { padding-top: 20px; }
+  .results, .meanings { grid-column: 1 / -1; }
+  .stamp { display: none; }
+  .reg, .reg tbody { display: block; }
+  .reg thead { display: none; }
+  .reg tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--rule); }
+  .reg td { display: block; padding: 0; border: 0; width: auto !important; }
+  .search .input { font-size: 17px; }
+}
