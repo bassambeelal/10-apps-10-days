@@ -1,0 +1,4 @@
+<resources>
+    <style name="Theme.VoiceNotes" parent="android:Theme.Material.Light.NoActionBar" />
+    <color name="ic_launcher_background">#E3F1EA</color>
+</resources>

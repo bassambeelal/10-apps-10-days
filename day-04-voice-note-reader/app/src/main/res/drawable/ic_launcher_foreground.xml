@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- a speech bubble whose waveform turns into lines of text -->
+    <path
+        android:fillColor="#2F5D50"
+        android:pathData="M34,34h40a6,6 0,0 1,6 6v22a6,6 0,0 1,-6 6H50l-10,8v-8h-6a6,6 0,0 1,-6 -6V40a6,6 0,0 1,6 -6z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M38,46v8M43,42v16M48,47v6M54,46h16M54,54h12" />
+</vector>
