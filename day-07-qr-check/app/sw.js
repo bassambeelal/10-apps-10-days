@@ -1,25 +1,19 @@
-// Offline: the app shell from the network when there is one, from the cache when there isn't.
-const CACHE = 'qr-check-v1';
-const SHELL = ['./', './index.html', './app.css', './style.css', './app.js', './manifest.webmanifest', './icon.svg', './16.5l2.5', './2.5', './4.5-5 stroke=#b8336a stroke-width=2 stroke-linecap=round stroke-linejoin=round/></g>', './vendor/jsQR.js', './vendor/qrcode.js'];
-
-self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL))); self.skipWaiting(); });
-self.addEventListener('activate', (e) => {
-  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k)))));
-  self.clients.claim();
-});
+/* QR Check service worker: keeps the app working offline. Only the app's own files are cached; the
+   codes you check and save stay in the page's own storage. */
+const CACHE = 'qr-check-v2';
+const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'qr-core.js', 'icons.js', 'manifest.webmanifest', 'icon.svg',
+  'vendor/jsQR.js', 'vendor/qrcode.js', 'fonts/dm-sans-latin.woff2', 'fonts/dm-sans-latin-ext.woff2', 'icons/icon-192.png'];
+self.addEventListener('install', (e) => e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())));
+self.addEventListener('activate', (e) => e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', (e) => {
-  if (e.request.method !== 'GET') return;
-  const url = new URL(e.request.url);
-  const font = url.hostname.endsWith('fonts.googleapis.com') || url.hostname.endsWith('fonts.gstatic.com');
-  if (url.origin !== location.origin && !font) return;
-  if (font) {
-    e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request).then((res) => {
-      const copy = res.clone(); caches.open(CACHE).then((c) => c.put(e.request, copy)); return res;
-    })));
+  const req = e.request;
+  if (req.method !== 'GET' || new URL(req.url).origin !== self.location.origin) return;
+  if (req.mode === 'navigate') {
+    e.respondWith(fetch(req).then((r) => { const c = r.clone(); caches.open(CACHE).then((x) => x.put('index.html', c)); return r; }).catch(() => caches.match('index.html')));
     return;
   }
-  e.respondWith(fetch(e.request).then((res) => {
-    if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(e.request, copy)); }
-    return res;
-  }).catch(() => caches.match(e.request, { ignoreSearch: true }).then((hit) => hit || caches.match('./index.html'))));
+  e.respondWith(caches.match(req, { ignoreSearch: true }).then((hit) => hit || fetch(req).then((r) => {
+    if (r.ok) { const c = r.clone(); caches.open(CACHE).then((x) => x.put(req, c)); }
+    return r;
+  })));
 });

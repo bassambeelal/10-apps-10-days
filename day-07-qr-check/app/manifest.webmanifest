@@ -1,24 +1,18 @@
 {
   "name": "QR Check",
   "short_name": "QR Check",
-  "description": "Who controls your printed QR code? Check it, then make a direct one.",
+  "description": "Scan the QR codes on your menus, flyers and signs, see whether a link service controls them, and make direct codes that never expire.",
+  "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#fbf7f8",
   "theme_color": "#fbf7f8",
+  "categories": ["business", "utilities"],
   "icons": [
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
-    }
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }

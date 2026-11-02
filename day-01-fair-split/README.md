@@ -80,7 +80,7 @@
 - **Run the tests:**
 
 ```bash
-node --test day-01-fair-split/test/
+node --test day-01-fair-split/test/core.test.js
 ```
 
 ## What was tested

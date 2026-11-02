@@ -20,7 +20,7 @@ Five apps stay and get rebuilt to a shipped standard. Five Nigeria-only apps are
 | 4 | Voice Note Reader | Android | Fix and rebuild |
 | 5 | **Hidden Text Finder** (replaces Refund Clock) | Web | Built 2 Nov: [day-05-hidden-text-finder](day-05-hidden-text-finder/) |
 | 6 | Proof Pack | Android | Rebuild |
-| 7 | QR Check | Web | Polish |
+| 7 | QR Check | Web | Rebuilt 2 Nov: three places, offline fixed, UTF-8 fixed |
 | 8 | **Dose Buddy** (replaces Keep My Number) | Android | New |
 | 9 | Memories Fixer | Web | Polish |
 | 10 | Letter Sorter | Android | Fix and rebuild |

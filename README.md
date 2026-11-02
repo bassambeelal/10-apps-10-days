@@ -29,7 +29,7 @@ On 2 November 2026 the owner reviewed the first builds: five were rebuilt to a s
 | 4 Voice Note Reader | APK 1.1 MB | 5 unit tests | A real Android 13+ phone, and WhatsApp's own transcripts |
 | 5 Hidden Text Finder | Web PWA | Browser test of 18 checks on 9 PDF and Word files (every trick found, clean and designed CVs not flagged); inspector 0 FAIL on every screen | A folder of real CVs from a small employer |
 | 6 Proof Pack | APK 1.3 MB | 4 unit tests | A real walkaround and PDF |
-| 7 QR Check | Web PWA | Generate-and-decode round trips; inspector clean in 2 of 3 states | Real menus and flyers |
+| 7 QR Check | Web PWA | Rebuilt as an app: 6 unit tests (every code kind round-trips, any language); make, download, upload, save and camera tested in Chromium; offline reload | Real menus and flyers |
 | 8 Keep My Number | APK 1.3 MB | 4 unit tests on the NCC day boundaries | Someone's real SIM drawer |
 | 9 Memories Fixer | Web PWA | End-to-end on a synthetic export (dates, GPS, captions, MP4) | A real Snapchat export |
 | 10 Letter Sorter | APK 1.6 MB | 7 unit tests | OCR on a real folded bill |
