@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Proof Pack</string>
+    <color name="ic_launcher_background">#ECEFF4</color>
+    <style name="Theme.ProofPack" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
