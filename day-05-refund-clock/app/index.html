@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Refund Clock: when your bank owes you a reversal</title>
+  <meta name="description" content="Debited but the money never arrived? See the CBN refund deadline counting down, then ready-written complaints to your bank and the CBN.">
+  <meta name="theme-color" content="#f5f4f0">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="frame">
+    <aside class="side" aria-label="Refund Clock">
+      <a class="brand" href="#/">
+        <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="8.25" fill="none" stroke="#131416" stroke-width="1.5"/><path d="M11 6.5V11l3 2" fill="none" stroke="#1b6c80" stroke-width="2" stroke-linecap="round"/><path d="M4.5 4.5l-1.5-1.5" stroke="#131416" stroke-width="1.5" stroke-linecap="round"/></svg>
+        Refund Clock
+      </a>
+      <nav class="nav">
+        <a class="nav-item" href="#/" data-nav="cases"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 4h10M3 8h10M3 12h6" fill="none" stroke="currentColor" stroke-linecap="round"/></svg>My cases<span class="count" id="nav-count"></span></a>
+        <a class="nav-item" href="#/new" data-nav="new"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M3 8h10" fill="none" stroke="currentColor" stroke-linecap="round"/></svg>New case</a>
+      </nav>
+      <p class="side-note">Cases are kept on this phone only.</p>
+    </aside>
+    <header class="top"><div id="crumb" class="crumb"></div></header>
+    <main class="sheet" id="main" tabindex="-1"></main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
