@@ -3,6 +3,7 @@
 **Date:** 2 November 2026 (replaces [Refund Clock](../archive/day-05-refund-clock/))
 **Platform:** Web (installable PWA, works offline)
 **Live:** https://bassambeelal.github.io/10-apps-10-days/day-05-hidden-text-finder/app/
+**Demo video:** [a one-minute narrated tour](media/demo.mp4), recorded from the running app (how it's made: [demo-video](../demo-video/)).
 **Samples:** add `#/sample` to the address to load three made-up CVs, or `#/sample/maya` to open the one with the most tricks.
 
 ![A CV with its hidden text painted back in: an off-page line in a band above the page, invisible lines boxed where they sit, and each finding listed beside it](media/desktop-maya-revealed.jpg)

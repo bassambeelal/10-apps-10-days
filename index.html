@@ -18,6 +18,11 @@
     a.app:hover { border-color: var(--muted); }
     a.app b { font-weight: 600; }
     a.app span { color: var(--muted); }
+    li { display: flex; gap: 10px; }
+    a.app { flex: 1; min-width: 0; }
+    a.demo { display: flex; align-items: center; gap: 8px; padding: 0 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: inherit; text-decoration: none; white-space: nowrap; }
+    a.demo:hover { border-color: var(--muted); }
+    a.demo svg { width: 12px; height: 12px; fill: currentColor; }
     footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
     footer a { color: inherit; }
   </style>
@@ -25,13 +30,13 @@
 <body>
   <main>
     <h1>10 Apps in 10 Days</h1>
-    <p>Each app solves one real problem. The web apps run right here; the Android apps are on the releases page.</p>
+    <p>Each app solves one real problem. The web apps run right here, each with a one-minute narrated demo; the Android apps are on the releases page.</p>
     <ul>
-      <li><a class="app" href="day-01-fair-split/app/"><b>Fair Split</b><span>Day 1</span></a></li>
-      <li><a class="app" href="day-03-citation-check/app/"><b>Citation Check</b><span>Day 3</span></a></li>
-      <li><a class="app" href="day-05-hidden-text-finder/app/"><b>Hidden Text Finder</b><span>Day 5</span></a></li>
-      <li><a class="app" href="day-07-qr-check/app/"><b>QR Check</b><span>Day 7</span></a></li>
-      <li><a class="app" href="day-09-memories-fixer/app/"><b>Memories Fixer</b><span>Day 9</span></a></li>
+      <li><a class="app" href="day-01-fair-split/app/"><b>Fair Split</b><span>Day 1</span></a><a class="demo" href="day-01-fair-split/media/demo.mp4" aria-label="Watch the Fair Split demo"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.4 6z"/></svg>Demo</a></li>
+      <li><a class="app" href="day-03-citation-check/app/"><b>Citation Check</b><span>Day 3</span></a><a class="demo" href="day-03-citation-check/media/demo.mp4" aria-label="Watch the Citation Check demo"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.4 6z"/></svg>Demo</a></li>
+      <li><a class="app" href="day-05-hidden-text-finder/app/"><b>Hidden Text Finder</b><span>Day 5</span></a><a class="demo" href="day-05-hidden-text-finder/media/demo.mp4" aria-label="Watch the Hidden Text Finder demo"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.4 6z"/></svg>Demo</a></li>
+      <li><a class="app" href="day-07-qr-check/app/"><b>QR Check</b><span>Day 7</span></a><a class="demo" href="day-07-qr-check/media/demo.mp4" aria-label="Watch the QR Check demo"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.4 6z"/></svg>Demo</a></li>
+      <li><a class="app" href="day-09-memories-fixer/app/"><b>Memories Fixer</b><span>Day 9</span></a><a class="demo" href="day-09-memories-fixer/media/demo.mp4" aria-label="Watch the Memories Fixer demo"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.4 6z"/></svg>Demo</a></li>
     </ul>
     <footer><a href="https://github.com/bassambeelal/10-apps-10-days">Code</a> · <a href="https://github.com/bassambeelal/10-apps-10-days/releases">Android apps</a></footer>
   </main>

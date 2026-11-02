@@ -3,6 +3,7 @@
 **Date:** 2 November 2026 (replaces [Lender Check](../archive/day-03-lender-check/))
 **Platform:** Web (installable PWA)
 **Live:** https://bassambeelal.github.io/10-apps-10-days/day-03-citation-check/app/
+**Demo video:** [a one-minute narrated tour](media/demo.mp4), recorded from the running app (how it's made: [demo-video](../demo-video/)).
 
 ![A checked sample list: three real papers found, a made-up paper not found, a real DOI attached to an invented title caught, a wrong year flagged, and a court case linked to CourtListener](media/desktop-results.jpg)
 

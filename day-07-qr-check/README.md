@@ -2,6 +2,7 @@
 
 **Platform:** Web (installable PWA, works offline)
 **Live:** https://bassambeelal.github.io/10-apps-10-days/day-07-qr-check/app/
+**Demo video:** [a one-minute narrated tour](media/demo.mp4), recorded from the running app (how it's made: [demo-video](../demo-video/)).
 **Links straight in:** `?q=https://bit.ly/x` checks a code's text at once, and `?make=https://yourshop.com` fills the code maker.
 
 ![QR Check on a desktop: a hosted QR code shown as a chain, with the middleman highlighted and what to do about it](media/desktop-check-hosted.jpg)

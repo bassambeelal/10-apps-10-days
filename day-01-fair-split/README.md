@@ -3,6 +3,7 @@
 **Date:** 2 November 2026 (replaces [Round Book](../archive/day-01-round-book/))
 **Platform:** Web (installable PWA, works offline)
 **Live:** https://bassambeelal.github.io/10-apps-10-days/day-01-fair-split/app/
+**Demo video:** [a 45-second narrated tour](media/demo.mp4), recorded from the running app (how it's made: [demo-video](../demo-video/)).
 **Sample book:** add `#/sample` to the address to open a filled-in flat of four housemates.
 
 ![Fair Split on a desktop: balances with Tom's working opened, the settle-up list and where the money went](media/desktop-overview.jpg)

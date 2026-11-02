@@ -2,6 +2,7 @@
 
 **Platform:** Web (installable PWA, works offline once loaded)
 **Live:** https://bassambeelal.github.io/10-apps-10-days/day-09-memories-fixer/app/
+**Demo video:** [a one-minute narrated tour](media/demo.mp4), recorded from the running app (how it's made: [demo-video](../demo-video/)).
 **Run it:** serve the `app/` folder and open it in Chrome or Edge, which can save straight into a folder. Any modern browser works, with a ZIP download instead.
 
 ![The summary of a made-up export: each memory's time set in the zone where it was taken, and a preview of what every file becomes](media/desktop-time-zones-and-preview.jpg)
@@ -52,6 +53,7 @@
   - no place: the chosen zone, Berlin, and no GPS
   - London, two photos on one day: the right day and the shared place
   - the chat image: left out
+- **A larger export:** the same run then fixes a made-up 143-memory export in two ZIPs (from `demo-video/fixtures/make-memories.py`): 117 photos and 26 videos dated, 21 captions merged, 143 files out. This caught a real bug: the first streaming reader could wait for ever when a file crossed a chunk boundary, which any real export would hit. It's fixed (see the log).
 - **Offline:** the first build's service worker never installed, because its file list held fragments of a broken icon file. It's rewritten, along with the icon.
 - **Inspector:** the start screen shows 0 FAIL. One WARN, for the space around the drop zone's prompt inside its dashed box.
 
