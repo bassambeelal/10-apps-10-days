@@ -17,6 +17,23 @@ The plan, the evidence behind each problem and the ideas that were killed are in
 | 9 | Memories Fixer | Web | Snapchat exports lose dates and locations | [day-09-memories-fixer](day-09-memories-fixer/) |
 | 10 | Letter Sorter | Android | Unopened letters turn into fees | [day-10-letter-sorter](day-10-letter-sorter/) |
 
+## Where each app stands
+
+| Day | Built | Checked | Not yet checked |
+|---|---|---|---|
+| 1 Round Book | Web PWA | Design inspector 0 FAIL / 0 WARN; full flow clicked through in a browser | A real treasurer |
+| 2 Light Log | APK 1.2 MB | 8 unit tests | A real phone on a real charger |
+| 3 Lender Check | Web PWA | Inspector clean in 3 states; matching tested on real FCCPC names | Refresh the register on filming day |
+| 4 Voice Note Reader | APK 1.1 MB | 5 unit tests | A real Android 13+ phone, and WhatsApp's own transcripts |
+| 5 Refund Clock | Web PWA | Inspector clean on the case view; CBN rules from the primary letter | A real stuck debit |
+| 6 Proof Pack | APK 1.3 MB | 4 unit tests | A real walkaround and PDF |
+| 7 QR Check | Web PWA | Generate-and-decode round trips; inspector clean in 2 of 3 states | Real menus and flyers |
+| 8 Keep My Number | APK 1.3 MB | 4 unit tests on the NCC day boundaries | Someone's real SIM drawer |
+| 9 Memories Fixer | Web PWA | End-to-end on a synthetic export (dates, GPS, captions, MP4) | A real Snapchat export |
+| 10 Letter Sorter | APK 1.6 MB | 7 unit tests | OCR on a real folded bill |
+
+None of the Android apps has run on a device yet: the emulator on the build machine wouldn't accept input and kept crashing. Each day's `README.md` lists its limits honestly.
+
 ## Each day's folder
 
 ```
