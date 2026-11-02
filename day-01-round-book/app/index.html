@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Round Book: the shared record for your ajo</title>
+  <meta name="description" content="A record book for rotating savings circles (ajo, esusu, adashe). The treasurer logs every payment with its reference; members check who has paid and whose turn is next.">
+  <meta name="theme-color" content="#f3f5f7">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <nav class="rail" aria-label="Round Book">
+      <a class="mark" href="#/" aria-label="Round Book: the book" title="Round Book">
+        <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><g fill="#1d5fd6"><circle cx="14" cy="3.5" r="2.5"/><circle cx="21.4" cy="6.6" r="2.5" opacity=".35"/><circle cx="24.5" cy="14" r="2.5" opacity=".35"/><circle cx="21.4" cy="21.4" r="2.5" opacity=".35"/><circle cx="14" cy="24.5" r="2.5" opacity=".35"/><circle cx="6.6" cy="21.4" r="2.5" opacity=".35"/><circle cx="3.5" cy="14" r="2.5" opacity=".35"/><circle cx="6.6" cy="6.6" r="2.5" opacity=".35"/></g><circle cx="14" cy="14" r="5" fill="none" stroke="#1b1d1f" stroke-width="1.5"/></svg>
+      </a>
+      <a class="rail-item" href="#/" data-nav="book" title="Book"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/><path d="M8 7h8M8 11h6"/></svg><span>Book</span></a>
+      <a class="rail-item" href="#/entries" data-nav="entries" title="Entries"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Entries</span></a>
+      <button class="rail-item" type="button" data-action="share" title="Share with members"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg><span>Share</span></button>
+      <a class="rail-item bottom" href="#/settings" data-nav="settings" title="Circle settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>Circle</span></a>
+    </nav>
+    <div>
+      <header class="topbar">
+        <svg width="24" height="24" viewBox="0 0 28 28" aria-hidden="true"><g fill="#1d5fd6"><circle cx="14" cy="3.5" r="2.5"/><circle cx="21.4" cy="6.6" r="2.5" opacity=".35"/><circle cx="24.5" cy="14" r="2.5" opacity=".35"/><circle cx="21.4" cy="21.4" r="2.5" opacity=".35"/><circle cx="14" cy="24.5" r="2.5" opacity=".35"/><circle cx="6.6" cy="21.4" r="2.5" opacity=".35"/><circle cx="3.5" cy="14" r="2.5" opacity=".35"/><circle cx="6.6" cy="6.6" r="2.5" opacity=".35"/></g><circle cx="14" cy="14" r="5" fill="none" stroke="#1b1d1f" stroke-width="1.5"/></svg>
+        Round Book
+      </header>
+      <main id="main" class="canvas" tabindex="-1"></main>
+    </div>
+  </div>
+  <dialog id="dlg" aria-labelledby="dlg-title"></dialog>
+  <noscript><p style="padding:24px">Round Book needs JavaScript to keep your circle's record on this phone.</p></noscript>
+  <script src="app.js"></script>
+</body>
+</html>
