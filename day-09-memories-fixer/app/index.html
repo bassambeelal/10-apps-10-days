@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Memories Fixer: put the dates back on your Snapchat memories</title>
+  <meta name="description" content="Drop in your Snapchat export. Memories Fixer writes each memory's real date and place back into the photos and videos, merges captions back on, and never uploads anything.">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><div class="column bar">
+    <span class="brand"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><rect x="3" y="4" width="16" height="14" rx="3" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M3 8h16" stroke="#fff" stroke-width="1.5"/><circle cx="11" cy="13" r="2.5" fill="#f2b33d"/></svg>Memories Fixer</span>
+    <span class="stamp">Everything happens on this device. Nothing is uploaded.</span>
+  </div></header>
+  <main class="column canvas" id="main">
+    <div class="title-row"><div>
+      <h1>Put the dates back on your Snapchat memories</h1>
+      <p class="sub" id="sub">Snapchat's download loses when and where each memory was taken, and keeps captions in separate files. Drop the export here to fix both, then move the folder into Google Photos.</p>
+    </div></div>
+    <div class="grid">
+      <section class="panel s7" id="work" aria-live="polite" aria-labelledby="h-work"></section>
+      <section class="panel s5 how" aria-labelledby="h-how">
+        <header><h2 id="h-how">How to get your export</h2></header>
+        <dl class="kv">
+          <div><dt>In Snapchat</dt><dd>Settings, then My Data</dd></div>
+          <div><dt>Tick</dt><dd>Memories, and "export your Memories"</dd></div>
+          <div><dt>Choose</dt><dd>JSON files, all time</dd></div>
+          <div><dt>When the email arrives</dt><dd>Download every ZIP it links to</dd></div>
+        </dl>
+        <p class="note">Drop all the ZIPs in at once. The dates are in one of them (memories_history.json), and the photos and videos are spread across the rest.</p>
+        <p class="note">Your files never leave this page. You can switch off Wi-Fi after it loads and it still works.</p>
+      </section>
+    </div>
+  </main>
+  <script src="vendor/fflate.js"></script>
+  <script src="vendor/piexif.js"></script>
+  <script src="fix.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
