@@ -25,7 +25,19 @@ Five apps stay and get rebuilt to a shipped standard. Five Nigeria-only apps are
 | 9 | Memories Fixer | Web | Polished 2 Nov: local time zones, preview, offline fixed |
 | 10 | Letter Sorter | Android | Fix and rebuild |
 
-The old Nigeria apps can move to an `archive/` folder rather than being deleted, since they're part of the series' story.
+The old Nigeria apps can move to an `archive/` folder rather than being deleted, since they're part of the series' story. (Done for Days 1, 3 and 5: see [archive/](archive/).)
+
+## Where things stand (end of 2 November 2026)
+
+- **Web days done and live:** 1 Fair Split, 3 Citation Check, 5 Hidden Text Finder, 7 QR Check (rebuilt) and 9 Memories Fixer (polished).
+  - Each one has gone through the design skill's lint and inspector, with tests and browser runs at phone and desktop widths, light and dark. Each README lists exactly what was and wasn't checked.
+- **Bugs fixed on the way:** the first builds of QR Check and Memories Fixer never worked offline. Their service-worker file lists held fragments of truncated icon SVGs, so the workers never installed. QR Check also garbled any code in a non-Latin script.
+- **One check still to do in a normal browser:** open Citation Check's live page and press "Try a sample list". The build machine couldn't reach Crossref or OpenAlex, so the app was tested against fixture responses in their documented formats.
+- **Android days (2, 4, 6, 8, 10): not started in the cloud session.** The cloud environment's network policy blocks `dl.google.com`, where the Android SDK platforms and build tools come from, so nothing Android can be compiled or tested there. To continue, do one of these:
+  - add `dl.google.com` to the environment's allowed domains (Edit the cloud environment, then Network access)
+  - or run the Android days on the owner's PC with a working emulator image or a phone
+
+  Each Android day still needs the plan below: a device run or Robolectric and Roborazzi screenshots, then the APK on GitHub Releases.
 
 ### The replacements
 

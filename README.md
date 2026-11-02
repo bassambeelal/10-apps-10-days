@@ -36,6 +36,10 @@ On 2 November 2026 the owner reviewed the first builds: five were rebuilt to a s
 
 None of the Android apps has run on a device yet: the emulator on the build machine wouldn't accept input and kept crashing. Each day's `README.md` lists its limits honestly.
 
+**Rebuild status (2 November 2026):**
+- **Web days:** the five web days are rebuilt or replaced to the new bar, live on GitHub Pages.
+- **Android days:** the five Android days (2, 4, 6, 8, 10) are next, waiting on a machine that can build Android. See [NEXT.md](NEXT.md).
+
 ## Each day's folder
 
 ```
