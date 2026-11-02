@@ -1,0 +1,30 @@
+// Browser test: drops the made-up export into the app, fixes it to a ZIP, and saves the result.
+// Run (with day-09-memories-fixer/app served on :8791): node day-09-memories-fixer/test/e2e.mjs OUT_DIR
+import { createRequire } from 'node:module';
+import path from 'node:path';
+const require = createRequire(import.meta.url);
+const { chromium } = require('playwright');
+const here = path.dirname(new URL(import.meta.url).pathname);
+const out = process.argv[2];
+const b = await chromium.launch();
+const ctx = await b.newContext({ viewport: { width: 1440, height: 900 }, acceptDownloads: true, timezoneId: 'America/Los_Angeles' });
+const p = await ctx.newPage();
+const errors = [];
+p.on('pageerror', (e) => errors.push(e.message));
+await p.goto('http://127.0.0.1:8791/');
+await p.setInputFiles('#pick', [path.join(here, 'fixtures/mydata~1730550000000.zip'), path.join(here, 'fixtures/mydata~1730550000000-2.zip')]);
+await p.waitForSelector('[data-fix]');
+await p.selectOption('#zone', 'Europe/Berlin');
+await p.waitForSelector('[data-fix]');
+const preview = await p.$$eval('.preview tbody tr', (rows) => rows.map((r) => r.innerText.replace(/\s+/g, ' ').trim()));
+console.log('preview:\n  ' + preview.join('\n  '));
+await p.screenshot({ path: out + '/summary.png', fullPage: true });
+const folder = await p.$('#to-folder');
+if (folder) await folder.uncheck();
+await p.click('[data-fix]');
+await p.waitForSelector('a[download]', { timeout: 30000 });
+await p.screenshot({ path: out + '/done.png', fullPage: true });
+const [dl] = await Promise.all([p.waitForEvent('download'), p.click('a[download]')]);
+await dl.saveAs(out + '/memories-fixed.zip');
+console.log(errors.length ? 'page errors: ' + errors.join(' / ') : 'no page errors');
+await b.close();

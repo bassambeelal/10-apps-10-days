@@ -8,6 +8,8 @@ const nf = new Intl.NumberFormat('en-GB');
 let inputs = [];      // File objects: ZIPs, or loose JSON/photos/videos
 let found = null;     // result of pass 1
 let mergeOverlays = true;
+const deviceZone = (() => { try { return Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC'; } catch { return 'UTC'; } })();
+let chosenZone = deviceZone; // for memories with no place
 
 const isMemory = (path) => /(^|\/)memories(\/|_)/i.test(path) || /^(\d{4}-\d{2}-\d{2})_[^/]*-(main|overlay)\./i.test(path.split('/').pop());
 const concat = (chunks) => { if (chunks.length === 1) return chunks[0]; const n = chunks.reduce((s, c) => s + c.length, 0); const out = new Uint8Array(n); let o = 0; for (const c of chunks) { out.set(c, o); o += c.length; } return out; };
@@ -61,7 +63,7 @@ async function scan() {
   const files = names.map((p) => ({ path: p, ...Fix.parseName(p) }));
   const mains = files.filter((f) => f.part === 'main');
   const overlayIds = new Set(files.filter((f) => f.part === 'overlay').map((f) => f.id));
-  const matched = Fix.match(mains, history);
+  const matched = Fix.assignZones(Fix.match(mains, history), chosenZone);
   found = { files, history, mains: matched, overlayIds };
   renderFound();
 }
@@ -89,7 +91,7 @@ async function fix() {
       try { bytes = await composite(main, overlay); stats.merged++; } catch { bytes = main; await emit(m, overlay, 'overlay'); }
     } else if (overlay) await emit(m, overlay, 'overlay');
     if (/^jpe?g$/.test(m.ext) || (overlay && mergeOverlays)) {
-      try { bytes = Fix.writeJpegExif(piexif, bytes, m.date, m.loc); if (overlay && mergeOverlays) m = { ...m, ext: 'jpg' }; } catch { stats.failed++; }
+      try { bytes = Fix.writeJpegExif(piexif, bytes, m.date, m.loc, m.zone); if (overlay && mergeOverlays) m = { ...m, ext: 'jpg' }; } catch { stats.failed++; }
     }
     await emit(m, bytes, 'main');
     stats.photos++; stats[m.how]++; if (m.loc) stats.located++;
@@ -190,7 +192,7 @@ function yearsStrip(dates) {
   if (!years.length) return '';
   const all = []; for (let y = years[0]; y <= years[years.length - 1]; y++) all.push(y);
   const max = Math.max(...counts.values());
-  return `<div class="years" role="img" aria-label="${all.map((y) => `${y}: ${counts.get(y) || 0}`).join(', ')}">${all.map((y) => `<div class="y" title="${y}: ${nf.format(counts.get(y) || 0)} memories"><div class="bar" style="height:${((counts.get(y) || 0) / max) * 100}%"></div><span>${String(y).slice(2)}</span></div>`).join('')}</div>
+  return `<div class="years" role="img" aria-label="${all.map((y) => `${y}: ${counts.get(y) || 0}`).join(', ')}">${all.map((y) => `<div class="y" title="${y}: ${nf.format(counts.get(y) || 0)} memories"><div class="bar" style="height:${((counts.get(y) || 0) / max) * 100}%"></div><span>${y}</span></div>`).join('')}</div>
     <div class="years-head"><span>Memories per year, ${all[0]} to ${all[all.length - 1]}</span><span>Most: ${nf.format(max)}</span></div>`;
 }
 
@@ -215,10 +217,47 @@ function renderFound() {
       <span><b>${nf.format(located)}</b> get the place they were taken.</span>
       ${f.history.length ? '' : '<span class="err">memories_history.json wasn\'t found, so dates come from the file names only. Add the ZIP that contains it for exact times and places.</span>'}
     </div>
+    ${zoneBlock()}
+    ${previewBlock()}
     <label class="check"><input type="checkbox" id="merge" ${mergeOverlays ? 'checked' : ''}> Put captions and stickers back on the photos</label>
     ${canFolder ? '<label class="check"><input type="checkbox" id="to-folder" checked> Save straight into a folder (best for big exports)</label>' : '<p class="note">This browser will give you one ZIP to download. For very large exports, use Chrome or Edge on a computer.</p>'}
     <div class="done-actions"><button class="btn amber" type="button" data-fix>Fix ${nf.format(f.mains.length)} memories</button><button class="btn" type="button" data-again>Start again</button></div>`;
   document.getElementById('merge').addEventListener('change', (e) => { mergeOverlays = e.target.checked; });
+  const zs = document.getElementById('zone');
+  if (zs) zs.addEventListener('change', (e) => { chosenZone = e.target.value; found.mains = Fix.assignZones(found.mains, chosenZone); renderFound(); document.getElementById('zone')?.focus(); });
+}
+
+// Where the times come from: each memory's place, or the zone picked here.
+function zoneName(z) { return z ? z.split('/').pop().replace(/_/g, ' ') : 'this device'; }
+function zoneBlock() {
+  const placed = found.mains.filter((m) => m.zoneFrom === 'place');
+  const zones = new Set(placed.map((m) => m.zone));
+  const rest = found.mains.length - placed.length;
+  let list = [];
+  try { list = Intl.supportedValuesOf('timeZone'); } catch { list = [deviceZone]; }
+  if (!list.includes(chosenZone)) list = [chosenZone, ...list];
+  const opts = list.map((z) => `<option value="${esc(z)}"${z === chosenZone ? ' selected' : ''}>${esc(z.replace(/_/g, ' '))}${z === deviceZone ? ' (this device)' : ''}</option>`).join('');
+  return `<div class="zone">
+    <p><b style="color:var(--text);font-weight:500">Times are set in the local time where each memory was taken.</b> ${placed.length ? `${nf.format(placed.length)} of ${nf.format(found.mains.length)} have a place, so their time zone comes from it (${nf.format(zones.size)} ${zones.size === 1 ? 'zone' : 'zones'}: ${[...zones].slice(0, 4).map(zoneName).map(esc).join(', ')}${zones.size > 4 ? '…' : ''}).` : 'None of them has a place.'}</p>
+    ${rest ? `<label for="zone">Time zone for the ${nf.format(rest)} without a place</label><select id="zone">${opts}</select><p>Pick where you were for most of them. Your phone's photo app then shows the time on the clock there.</p>` : ''}
+  </div>`;
+}
+const dfWhen = new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short', year: 'numeric' });
+function whenText(m) {
+  const w = Fix.wall(m.date, m.zone);
+  const d = new Date(Date.UTC(w.y, w.mo - 1, w.d, 12));
+  const day = new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(d);
+  return m.how === 'exact' ? `${day}, ${String(w.h).padStart(2, '0')}:${String(w.mi).padStart(2, '0')}` : `${day}, time unknown`;
+}
+function previewBlock() {
+  const rows = found.mains.slice().sort((a, b) => b.date - a.date).slice(0, 6);
+  void dfWhen;
+  return `<div class="preview"><h3>What each file becomes</h3>
+    <table><thead><tr><th scope="col">Snapchat's file</th><th scope="col">Date and time</th><th scope="col">Place</th></tr></thead><tbody>
+    ${rows.map((m) => `<tr><td class="file">${esc(m.path.split('/').pop().slice(0, 28))}${m.path.split('/').pop().length > 28 ? '…' : ''}</td>
+      <td class="when">${esc(whenText(m))}<small>${esc(m.how === 'exact' ? zoneName(m.zone) + ' time (UTC' + Fix.offsetText(Fix.wall(m.date, m.zone).offset) + ')' : 'the right day, from the file name')}</small></td>
+      <td class="where">${m.loc ? `<span style="white-space:nowrap">${m.loc.lat.toFixed(3)}, ${m.loc.lon.toFixed(3)}</span>` : '<span style="color:var(--muted)">No place</span>'}</td></tr>`).join('')}
+    </tbody></table>${found.mains.length > rows.length ? `<p class="more">and ${nf.format(found.mains.length - rows.length)} more, newest first.</p>` : ''}</div>`;
 }
 
 function renderDone(s, link, kind) {

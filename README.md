@@ -31,7 +31,7 @@ On 2 November 2026 the owner reviewed the first builds: five were rebuilt to a s
 | 6 Proof Pack | APK 1.3 MB | 4 unit tests | A real walkaround and PDF |
 | 7 QR Check | Web PWA | Rebuilt as an app: 6 unit tests (every code kind round-trips, any language); make, download, upload, save and camera tested in Chromium; offline reload | Real menus and flyers |
 | 8 Keep My Number | APK 1.3 MB | 4 unit tests on the NCC day boundaries | Someone's real SIM drawer |
-| 9 Memories Fixer | Web PWA | End-to-end on a synthetic export (dates, GPS, captions, MP4) | A real Snapchat export |
+| 9 Memories Fixer | Web PWA | Local time from each memory's place (nearest of 7,260 cities); 5 engine tests; end-to-end on a two-ZIP made-up export with every output file checked; offline fixed | A real Snapchat export |
 | 10 Letter Sorter | APK 1.6 MB | 7 unit tests | OCR on a real folded bill |
 
 None of the Android apps has run on a device yet: the emulator on the build machine wouldn't accept input and kept crashing. Each day's `README.md` lists its limits honestly.

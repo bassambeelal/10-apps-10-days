@@ -22,7 +22,7 @@ Five apps stay and get rebuilt to a shipped standard. Five Nigeria-only apps are
 | 6 | Proof Pack | Android | Rebuild |
 | 7 | QR Check | Web | Rebuilt 2 Nov: three places, offline fixed, UTF-8 fixed |
 | 8 | **Dose Buddy** (replaces Keep My Number) | Android | New |
-| 9 | Memories Fixer | Web | Polish |
+| 9 | Memories Fixer | Web | Polished 2 Nov: local time zones, preview, offline fixed |
 | 10 | Letter Sorter | Android | Fix and rebuild |
 
 The old Nigeria apps can move to an `archive/` folder rather than being deleted, since they're part of the series' story.

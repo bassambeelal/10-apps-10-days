@@ -62,23 +62,65 @@
     });
   }
 
+  // ---------- time zones: the local time where each memory was taken ----------
+  // Snapchat's history stores every time in UTC. A photo app shows EXIF times as the wall clock where
+  // the photo was taken, so each memory with a place gets the zone of the nearest city to it, and the
+  // rest get the zone the person picks. The tz table is optional: without it, everything uses `fallback`.
+  function zoneAt(loc, table) {
+    table = table || root.TZCities;
+    if (!loc || !table) return null;
+    const pts = table.pts, la = loc.lat * 10, lo = loc.lon * 10, k = Math.cos(loc.lat * Math.PI / 180);
+    let best = -1, bestD = Infinity;
+    for (let i = 0; i < pts.length; i += 3) {
+      let dlo = Math.abs(pts[i + 1] - lo); if (dlo > 1800) dlo = 3600 - dlo;
+      const dla = pts[i] - la, dd = dla * dla + (dlo * k) * (dlo * k);
+      if (dd < bestD) { bestD = dd; best = i; }
+    }
+    return best < 0 ? null : table.zones[pts[best + 2]];
+  }
+  const fmtCache = {};
+  // The wall-clock time in `zone` for an instant, and that zone's offset from UTC in minutes.
+  function wall(date, zone) {
+    if (!zone) return { y: date.getFullYear(), mo: date.getMonth() + 1, d: date.getDate(), h: date.getHours(), mi: date.getMinutes(), s: date.getSeconds(), offset: -date.getTimezoneOffset() };
+    const f = fmtCache[zone] || (fmtCache[zone] = new Intl.DateTimeFormat('en-US', { timeZone: zone, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' }));
+    const p = {};
+    f.formatToParts(date).forEach((x) => { if (x.type !== 'literal') p[x.type] = +x.value; });
+    if (p.hour === 24) p.hour = 0;
+    const asUtc = Date.UTC(p.year, p.month - 1, p.day, p.hour, p.minute, p.second);
+    return { y: p.year, mo: p.month, d: p.day, h: p.hour, mi: p.minute, s: p.second, offset: Math.round((asUtc - Math.floor(date.getTime() / 1000) * 1000) / 60000) };
+  }
+  function offsetText(min) { const sign = min < 0 ? '-' : '+'; const a = Math.abs(min); return sign + pad(Math.floor(a / 60)) + ':' + pad(a % 60); }
+
   // ---------- JPEG: EXIF date and GPS ----------
   const toBin = (u8) => { let s = ''; for (let i = 0; i < u8.length; i += 0x8000) s += String.fromCharCode.apply(null, u8.subarray(i, i + 0x8000)); return s; };
   const fromBin = (s) => { const u = new Uint8Array(s.length); for (let i = 0; i < s.length; i++) u[i] = s.charCodeAt(i) & 255; return u; };
-  const exifDate = (d) => `${d.getFullYear()}:${pad(d.getMonth() + 1)}:${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
+  const exifDate = (w) => `${w.y}:${pad(w.mo)}:${pad(w.d)} ${pad(w.h)}:${pad(w.mi)}:${pad(w.s)}`;
+  // EXIF 2.31's offset tags, which this version of piexifjs doesn't list yet.
+  function addOffsetTags(piexif) {
+    if (!piexif.TAGS || !piexif.TAGS.Exif || piexif.TAGS.Exif[36881]) return;
+    piexif.TAGS.Exif[36880] = { name: 'OffsetTime', type: 'Ascii' };
+    piexif.TAGS.Exif[36881] = { name: 'OffsetTimeOriginal', type: 'Ascii' };
+    piexif.TAGS.Exif[36882] = { name: 'OffsetTimeDigitized', type: 'Ascii' };
+  }
   function dms(v) {
     const a = Math.abs(v); const d = Math.floor(a); const mf = (a - d) * 60; const m = Math.floor(mf); const s = Math.round((mf - m) * 60 * 100);
     return [[d, 1], [m, 1], [s, 100]];
   }
-  function writeJpegExif(piexif, u8, date, loc) {
+  function writeJpegExif(piexif, u8, date, loc, zone) {
+    addOffsetTags(piexif);
     const bin = toBin(u8);
     let exif;
     try { exif = piexif.load(bin); } catch { exif = { '0th': {}, Exif: {}, GPS: {} }; }
     exif['0th'] = exif['0th'] || {}; exif.Exif = exif.Exif || {}; exif.GPS = exif.GPS || {};
-    const when = exifDate(date); // the browser's local time, which is what photo apps read DateTimeOriginal as
+    const w = wall(date, zone); // the wall clock where it was taken, which is how photo apps read it
+    const when = exifDate(w);
     exif['0th'][piexif.ImageIFD.DateTime] = when;
     exif.Exif[piexif.ExifIFD.DateTimeOriginal] = when;
     exif.Exif[piexif.ExifIFD.DateTimeDigitized] = when;
+    if (piexif.TAGS && piexif.TAGS.Exif[36881]) {
+      const off = offsetText(w.offset); // tells photo apps the true moment, whatever zone they're viewed in
+      exif.Exif[36880] = off; exif.Exif[36881] = off; exif.Exif[36882] = off;
+    }
     if (loc) {
       exif.GPS[piexif.GPSIFD.GPSLatitudeRef] = loc.lat >= 0 ? 'N' : 'S';
       exif.GPS[piexif.GPSIFD.GPSLatitude] = dms(loc.lat);
@@ -129,10 +171,18 @@
   }
 
   function outName(m) {
-    const d = m.date;
-    const stamp = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}_${pad(d.getHours())}-${pad(d.getMinutes())}-${pad(d.getSeconds())}`;
+    const w = wall(m.date, m.zone);
+    const stamp = `${w.y}-${pad(w.mo)}-${pad(w.d)}_${pad(w.h)}-${pad(w.mi)}-${pad(w.s)}`;
     return `${stamp}_${m.id.slice(0, 8)}${m.part === 'overlay' ? '-overlay' : ''}.${m.ext === 'jpeg' ? 'jpg' : m.ext}`;
   }
 
-  root.Fix = { parseSnapDate, parseLocation, readHistory, parseName, match, writeJpegExif, writeMp4Date, readMp4Date, outName, toBin, fromBin };
+  // Give each matched memory its zone: from its place, or the chosen one.
+  function assignZones(mains, fallback, table) {
+    return mains.map((m) => {
+      const z = m.loc ? zoneAt(m.loc, table) : null;
+      return { ...m, zone: z || fallback || null, zoneFrom: z ? 'place' : 'chosen' };
+    });
+  }
+
+  root.Fix = { parseSnapDate, parseLocation, readHistory, parseName, match, writeJpegExif, writeMp4Date, readMp4Date, outName, toBin, fromBin, zoneAt, wall, offsetText, assignZones };
 })(typeof window !== 'undefined' ? window : globalThis);

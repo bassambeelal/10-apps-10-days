@@ -1,21 +1,23 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Memories Fixer: put the dates back on your Snapchat memories</title>
   <meta name="description" content="Drop in your Snapchat export. Memories Fixer writes each memory's real date and place back into the photos and videos, merges captions back on, and never uploads anything.">
-  <meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f5f5f5" media="(prefers-color-scheme: light)">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta name="color-scheme" content="dark light">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="topbar"><div class="column bar">
-    <span class="brand"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><rect x="3" y="4" width="16" height="14" rx="3" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M3 8h16" stroke="#fff" stroke-width="1.5"/><circle cx="11" cy="13" r="2.5" fill="#f2b33d"/></svg>Memories Fixer</span>
+    <span class="brand"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><rect x="3" y="4" width="16" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h16" stroke="currentColor" stroke-width="1.5"/><circle cx="11" cy="13" r="2.5" fill="#f2b33d"/></svg>Memories Fixer</span>
     <span class="stamp">Everything happens on this device. Nothing is uploaded.</span>
   </div></header>
   <main class="column canvas" id="main">
@@ -34,12 +36,20 @@
           <div><dt>When the email arrives</dt><dd>Download every ZIP it links to</dd></div>
         </dl>
         <p class="note">Drop all the ZIPs in at once. The dates are in one of them (memories_history.json), and the photos and videos are spread across the rest.</p>
-        <p class="note">Your files never leave this page. You can switch off Wi-Fi after it loads and it still works.</p>
+        <p class="note">Your files never leave this page. After the first visit it works with Wi-Fi off.</p>
+        <h2 class="after-h">After fixing</h2>
+        <dl class="kv">
+          <div><dt>Google Photos</dt><dd>On a computer, Upload, then the folder</dd></div>
+          <div><dt>Apple Photos</dt><dd>File, Import, then the folder</dd></div>
+          <div><dt>Android gallery</dt><dd>Copy the files into DCIM</dd></div>
+        </dl>
+        <p class="note">Each photo now carries the time and place it was taken, so it lands on the right day, not the day you downloaded it. Keep the original ZIPs until you've checked a few.</p>
       </section>
     </div>
   </main>
   <script src="vendor/fflate.js"></script>
   <script src="vendor/piexif.js"></script>
+  <script src="tz-cities.js"></script>
   <script src="fix.js"></script>
   <script src="app.js"></script>
 </body>
