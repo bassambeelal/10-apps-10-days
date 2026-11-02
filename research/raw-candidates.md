@@ -1,0 +1,1516 @@
+# Raw candidate problems
+
+Unfiltered output of the first research pass, collected 2026-11-01. Nothing here has been verified yet.
+
+## Caregiving, disability and access
+
+### Deaf patients miss their turn because staff call names out loud in waiting rooms
+
+- **Who:** Deaf and hard-of-hearing adults who attend GP surgeries, hospital outpatients or emergency departments alone
+- **Problem:** Your turn is announced by voice or intercom, so you have to watch the door and every staff member for the whole wait. Telling reception you are deaf does not reliably stop it happening. Display screens can be out of sight from where you sit.
+- **Cost:** Dignity first: one patient was publicly challenged by a GP across the room after telling reception she was deaf, and said it left her stressed and humiliated. Practical cost: the risk of a missed slot, constant anxiety during the wait, and needing to bring a hearing companion. One author worried people may delay care to avoid this.
+- **Workaround today:** Asking reception to come and tap you, sitting close to the door, bringing a hearing friend, watching staff continuously, and hospital-owned pagers where a site has bought them.
+- **Why existing tools fail:** Pagers are hardware that each site has to buy and manage, and one trust was still piloting them in 2026, so coverage is patchy and outside the patient's control. Screens are not visible from every seat. My search for a phone-based equivalent found none, but that search was narrow.
+- **App idea:** A no-install web page the patient opens on their own phone. It shows a large card reading 'I am deaf, please tap this when it is my turn' and a QR code. The receptionist scans it once and gets a single button. Pressing it makes the patient's phone vibrate and flash full screen, with an optional room number. No accounts and no patient data stored. It also works at pharmacies, passport offices, barbers and any other queue.
+- **Platform:** web
+- **Region:** Global. Evidence is mostly UK, with one US-based thread.
+- **Evidence:**
+  - Deaf patient Lianne Herbert says that alone in NHS waiting rooms she cannot tell when she is called, noise masks the call and screens may be out of view. She asks for a buzzer like the ones used for food orders. (https://limpingchicken.com/2017/11/10/lianne-herbert-a-system-is-needed-for-ddeaf-patients-in-nhs-buildings/) [2017-11-10]
+  - A deaf blogger told reception she was deaf and asked to be alerted. After about 20 minutes the GP called across the room asking why she had not come, leaving her stressed and humiliated. (https://deafinitelygirly.com/2016/05/deaf-girly-and-doctor.html) [2016-05-23]
+  - Deaf people in Dudley feared missing appointments because they could not hear their names. The NHS trust introduced vibrating, flashing pagers, which are now also used by people with other impairments. (https://www.healthwatch.co.uk/news/deaf-people-help-make-hospitals-more-accessible) [2017-11-10]
+  - Craigavon Emergency Department is only now piloting a vibrating, flashing handheld buzzer after engagement with the British Deaf Association and Deaf service users. Rollout depends on pilot feedback. (https://southerntrust.hscni.net/?p=24963) [2026-08-18]
+  - Search snippet from a hearing loss community thread: a commenter describes clinics that hand each patient a vibrating, flashing transmitter at registration. Page refused the fetch. (https://connect.mayoclinic.org/comment/319413) [search snippet only]
+
+### When the only carer is hurt, nobody else knows how to look after the person
+
+- **Who:** Sole carers, often older spouses, with no family or neighbours nearby
+- **Problem:** Everything needed to run the person's day sits in one carer's head: medication and where it is kept, routines, what calms them, keys, contacts. If that carer is admitted to hospital, there is no handover. One carer with a head injury had to bring her partner with frontotemporal dementia to hospital because no one could sit with him.
+- **Cost:** Risk to a dependent adult left alone, emergency-service or stranger care with no context, and ongoing fear for the carer. It also takes hours of writing to build a plan that then goes out of date.
+- **Workaround today:** Handwritten or Word documents shared with friends, Message in a Bottle kept in the fridge, carer ID cards, council-held plans, and paid printable binders.
+- **Why existing tools fail:** Binders and templates are generic, sit in one house, go stale and depend on the exhausted carer writing everything at once. The local card schemes vary by area. The content people most need, such as what calms someone or how they take their tablets, has no slot on a medical form.
+- **App idea:** A guided interview, typed or spoken, that asks one small question at a time and builds two outputs: a one-page 'first 24 hours' sheet and a fuller how-to manual for a stand-in. It produces a private link, a printable fridge sheet and a wallet card with a QR code. It nudges the carer every 90 days to confirm details are still right. It only records what the carer writes and gives no medical guidance.
+- **Platform:** web
+- **Region:** Global. The emergency card schemes are UK-local, but the document itself is not.
+- **Evidence:**
+  - A carer describes the head-injury incident and asks what happens if she is admitted. Replies list a patchwork: household document shared with two friends, Message in a Bottle in the fridge, carer emergency cards, a plan lodged with the council, key safes and lifeline alarms. (https://forum.alzheimers.org.uk/threads/what-if-something-happens-to-me-no-family-or-friends-close.136330/) [2022-12-24]
+  - Carers UK advises all carers to make an emergency plan covering medication location, GP, allergies, care services, continence supplies, mobility aids and behaviour, and to share and update it. (https://www.carersuk.org/help-and-advice/practical-support/creating-a-contingency-plan/)
+  - Search snippet: local emergency card schemes hold plans and offer a 24-hour response. The page does not say they exist everywhere. (https://www.carersuk.org/help-and-advice/practical-support/getting-help-in-an-emergency/) [search snippet only]
+  - Search snippet: if the main caregiver is unavailable, the rest of the family may not know medications, doctor, pharmacy or access instructions. (https://allseniors.org/articles/emergency-care-binder-aging-parent/) [search snippet only]
+  - Listing title only: a caregiver planner and family care binder sold as Excel and fillable PDF. One of many paid templates, which shows people pay for this. (https://www.etsy.com/listing/4582000090) [search snippet only]
+  - Title only: a thread asking what happens if an emergency hits the sole caregiver. The site refused the fetch. (https://www.agingcare.com/questions/what-if-an-emergency-happens-to-the-sole-caregiver-475068.htm) [search snippet only]
+
+### A phone a person with dementia can still use costs $349, or the family fights a standard one
+
+- **Who:** Adult children and spouses of people in early to mid-stage dementia who can no longer manage a normal phone
+- **Problem:** Standard phones let the person wander into settings, apps and scam surveys. Simple phones are fiddly to set up and may lack photo contacts or remote management. Carers also face repeat calling, in one case more than 20 calls a day from a father who keeps ringing after a problem is sorted.
+- **Cost:** $349 for the RAZ Memory phone plus a plan and optional $130 a year emergency service. Without one: lost contact, scam exposure, carer exhaustion. One thread reports a father repeatedly dialling emergency services, with replies warning of possible fines.
+- **Workaround today:** Buying a RAZ phone, Doro or Emporia handsets, Geemarc photo-button home phones, deleting icons, airplane mode, or telling the person the phone is broken and taking it away.
+- **Why existing tools fail:** The purpose-built option is expensive and needs a separate plan. Cheap simple phones lack photo contacts or remote control and are fiddly to set up. iPhone Assistive Access requires an iPhone. I did not audit general Android senior launchers, so check those before committing.
+- **App idea:** An Android launcher that turns a cheap or hand-me-down phone into a photo-button phone: one screen of up to six faces, settings hidden, ringer forced loud, incoming calls limited to the approved list, and a per-contact daily call cap with a recorded message from the family. A small web page lets a son or daughter change contacts remotely after pairing by QR code. The one-day cut is launcher plus call screening. Remote changes are the stretch goal.
+- **Platform:** both
+- **Region:** Global. Works with any SIM. Emergency dialling cannot be fully controlled, and that must be stated plainly.
+- **Evidence:**
+  - Review puts the RAZ Memory Cell Phone at $349 plus a plan, with optional emergency service at $130 a year. Family manage contacts through a web portal or app. Up to 50 photo contacts, no apps or browsing. (https://theseniorlist.com/cell-phones/raz-memory-phone) [2025-12-17]
+  - A wife says she is worn out by phone options for her husband. Another carer reports a Doro smartphone proved too complicated and frustrated the family. (https://forum.alzheimers.org.uk/threads/mobile-advice.150583/) [2024-06-26]
+  - A carer wants a phone showing two contacts by photo. A later reply says a Doro 580 worked only after considerable setup and its tracker never ran. (https://forum.alzheimers.org.uk/threads/recommendations-for-easy-mobile-with-photos-for-contacts.123127/) [2020-07-11]
+  - A daughter says her mother wanders into settings and websites and completes scam-like surveys. Replies suggest faking a broken phone, airplane mode, or iPhone Assistive Access. (https://alzconnected.org/discussion/comment/187541/) [2023-10]
+  - A carer's dad phones more than 20 times a day about bills the family already handles. Replies describe silencing the phone and using cameras to check on safety first. (https://forum.alzheimers.org.uk/threads/managing-phone-calls.175781/) [2026-08-01]
+  - Vendor release: RAZ added a per-contact cap on repeat calls with a recorded message, confirming this is a recognised caregiver need. (https://www.razmobility.com/news/new-feature-of-the-raz-memory-cell-phone-solves-a-common-problem-for-caregivers-repetitive-calling/) [2025-02-13]
+  - A father with dementia keeps dialling 911 because he believes he must turn the phone off after each use. Replies doubt that emergency calling can be blocked on a normal phone. Year not shown. (https://alzconnected.org/discussion/76164/cell-phone)
+
+### Low-vision people at a bus stop cannot tell which bus is coming in time to hail it
+
+- **Who:** Blind and partially sighted people who travel by bus, especially on unfamiliar routes or at stops without audio
+- **Problem:** Route numbers are hard to read at distance and buses often will not stop unless flagged, so people must identify the bus before it passes. Drivers do not always announce it. Timetables and stop signs are also hard to read, and looking at a phone app with low vision is itself hard.
+- **Cost:** Missed buses, standing at a stop not knowing, and lost independence. RNIB's 2025 survey of nearly 1,200 people found only 46% can make the journeys they want and 80% find unfamiliar bus journeys difficult.
+- **Workaround today:** Asking other passengers, flagging every bus, asking each driver, standing and hoping, or relying on live-departure apps that do not say what is physically in front of you.
+- **Why existing tools fail:** General camera apps such as Seeing AI and Lookout read text but were not described as built for spotting a route number on a moving bus. I found no first-hand test of them for this job, so test them before building. Real-time apps give arrival times, not which vehicle is pulling in.
+- **App idea:** Enter or speak one route number, then hold the phone towards the road. On-device text recognition looks only for that number, which is simpler than reading all text, and when it sees it the phone gives a strong vibration and says '42 is here'. It needs no map, no network and no transit data. It supports hailing and does not replace it.
+- **Platform:** android
+- **Region:** Global for buses showing Latin-script digits. Evidence is mostly UK.
+- **Evidence:**
+  - RNIB survey of almost 1,200 people: 46% can make journeys they want, 80% find unfamiliar bus journeys difficult. Respondents say a lack of tactile information makes it hard to know which bus has arrived. (https://www.aop.org.uk/ot/news/2025/05/21/inaccessible-bus-travel-leaving-blind-and-partially-sighted-people-trapped-at-home-says-rnib) [2025-05-21]
+  - Accompanied-journey feedback: people struggle to read route numbers quickly enough to flag a bus, and nothing signals that one is approaching. One participant said: "Hard to look at an app on your phone with impaired vision". (https://yourcityyoursay.portsmouth.gov.uk/bus-stop-consultation-2024/bus-stops/accompanied-bus-journeys-bus-stop-improvements/) [2024]
+  - RNIB: nine in 10 blind and partially sighted people cannot see well enough to hail a bus, and over half had difficulty getting the bus number and destination from the driver. (https://cbwmagazine.com/?p=7770) [2012-10-02]
+  - Search snippet: only 2% said they can read timetables at the stop, and one in five go to a stop and hope a bus arrives. PDF refused the fetch. (https://media.rnib.org.uk/documents/RNIB_Cymru_-_All_Aboard_-_Bus_Services_report_2025.pdf) [2025] [search snippet only]
+  - Search snippet: Korean company Lightvision lists a bus route number recognition solution for low-vision users, showing commercial interest. Availability unknown; the fetch failed. (https://www.csun.edu/cod/conference/ebb/rbk/index.php/public/exhibitors/view/606) [search snippet only]
+
+### ADHD adults leave post unopened until it turns into fees and shut-off notices
+
+- **Who:** Adults with ADHD who avoid opening letters because they might contain bad news
+- **Problem:** The envelope is not hard to open; it is the fear of what is inside. Letters pile up unsorted, and each one becomes a decision waiting to happen. Overdue notices surface months late, and the avoidance itself becomes a daily source of guilt.
+- **Cost:** ADDA estimates late fees and interest at about $150 to $1,200 or more a year, while noting its figures are rough. Other costs are shut-off notices, missed deadlines, and long periods of dread.
+- **Workaround today:** Weekly sorting sessions, a rolling mail station near the door, opening post over the recycling bin, automatic payments, and body doubling.
+- **Why existing tools fail:** All the advice assumes you can make yourself open the envelope. Autopay covers known bills, not surprise letters. Generic scanner and document apps store files but do not lower the fear by telling you what actually needs doing. I did not audit this category in depth.
+- **App idea:** One letter at a time. Photograph it, and on-device text recognition pulls out dates, amounts and words such as overdue or final notice. Each letter becomes one of three plain results: do this by a date, file it, or bin it. The session ends with a calm count such as '2 need you, 9 are nothing', and only the two go on the list. Nothing leaves the phone.
+- **Platform:** android
+- **Region:** Global, English first. Date and currency formats need per-country handling.
+- **Evidence:**
+  - Jacke Rose describes a counter stack of post, finding an overdue DMV notice and a utility bill she believed was paid, past shut-off notices, and hours spent paying one bill. (https://www.additudemag.com/adhd-debt-unpaid-bills/) [2018-09-21]
+  - A commenter with ADHD says avoidance is their main coping mechanism: they do not open post in case it is bad news, then feel awful for a long time. (https://lemmy.world/comment/24970283)
+  - ADDA describes people putting off opening post and overdue bills, an avoidance cycle driven by fear of unexpected expenses, and gives its rough cost estimates. (https://www.add.org/adhd-tax/) [2026-07-29]
+  - Search snippet: doom piles are heaps where each item waits on a decision, with unopened mail a typical member. (https://www.simplypsychology.com/articles/adhd-doom-piles) [search snippet only]
+
+### Disability benefit claimants must describe fluctuating bad days from memory
+
+- **Who:** UK PIP claimants with fluctuating conditions such as ME/CFS and fibromyalgia, plus people helping them
+- **Problem:** Advisers recommend keeping a diary of bad days before completing the form, but the diary has to be written on the very days the person is least able to write. A blank template does not line up with the activities assessors consider, and one forum user says a diary was used against them because it stressed what they could do.
+- **Cost:** The outcome decides a recurring disability payment, and a badly evidenced claim can mean appeals. I did not verify payment amounts or refusal rates. The time cost is one to two weeks of daily logging on low-energy days.
+- **Workaround today:** The Citizens Advice PDF diary, a paper notebook, or a friend or support worker writing it up afterwards.
+- **Why existing tools fail:** PDFs and notebooks demand writing effort at the worst moment and leave the claimant to organise entries by activity afterwards. Symptom trackers are built for doctors, not for this form. I could not check whether a dedicated PIP diary app already exists, so verify that first.
+- **App idea:** A 30-second evening check-in listing the PIP activity headings. For each one you tap whether it was done, needed help, or could not be done safely or repeatedly, with an optional voice note. After two weeks it exports a dated PDF grouped by activity to send with the form. It never predicts an award and gives no legal or medical advice.
+- **Platform:** android
+- **Region:** UK-specific. The same structure could be re-skinned for other countries' disability forms, but I did not research those.
+- **Evidence:**
+  - Citizens Advice says a diary helps with fluctuating conditions, should record bad days and their effects, can be sent as evidence, and offers a PDF template. (https://www.citizensadvice.org.uk/benefits/sick-or-disabled-people-and-carers/pip/help-with-your-claim/your-supporting-evidence/)
+  - An ME group advises keeping a diary for one to two weeks before the PIP2 form, recording which activities were difficult, what help was needed, and whether tasks can be done safely, repeatedly and reliably. (https://sheffieldmegroup.co.uk/tips-for-making-a-pip-claim)
+  - Search snippet from a fibromyalgia forum: one user sent a daily diary and was awarded PIP, another says a physio diary was used against them. Fetch refused. (https://healthunlocked.com/fibromyalgia-action-uk/posts/143276752/what-to-include-as-evidence-for-pip-in-a-pain-diary?responses) [search snippet only]
+  - Search snippet: a forum poster recommends a notebook noting time, place and one sentence per event, written factually, then building the diary from it. (https://forum.alzheimers.org.uk/goto/post?id=1559864) [search snippet only]
+
+### Dementia carers cannot safely take an opposite-sex partner to a public toilet
+
+- **Who:** Spouses and adult children out with someone with dementia who needs supervision in the toilet
+- **Problem:** The person can get confused inside, leave by another exit, or be unable to find the flush or door, but the carer cannot follow into a single-sex toilet. Carers end up asking strangers to check, or walking into the opposite-sex room. They need a single-room toilet nearby, and fast.
+- **Cost:** One husband's wife left by a different exit in Cambridge and was found wandering in a nearby street. Other costs are embarrassment on both sides, and families cutting short or stopping outings.
+- **Workaround today:** Radar keys in the UK, family restrooms where they exist, entering with a warning, a homemade door note, using the toilet before leaving, and limiting outings.
+- **Why existing tools fail:** The workarounds rely on knowing the area in advance. I did not audit toilet-finder apps, so confirm whether any filter for a single-room toilet a carer can enter. OpenStreetMap coverage of these tags is uneven, which is the main data risk.
+- **App idea:** A mobile web page that, on one tap, shows the nearest toilets likely to be single-room, using OpenStreetMap accessible, family and unisex tags, with walking distance and whether a key is needed. It lets carers save trusted places with a note. A second tap shows a large door-sign screen, such as 'I am helping my husband, one minute please'.
+- **Platform:** web
+- **Region:** Global through OpenStreetMap, but quality varies by city. Radar keys are UK-only.
+- **Evidence:**
+  - A husband describes asking women leaving the ladies to check on his wife, and her being found wandering. Others describe rescuing a husband from the gents, using Radar keys and going in with the person. (https://forum.alzheimers.org.uk/threads/public-toilets.162375/) [2025-05-21]
+  - Search snippet from a thread on managing public restrooms when the caregiver is the opposite sex and no family restroom exists. Site refused the fetch. (https://www.agingcare.com/questions/use-public-restrooms-caregiver-opposite-sex-162256.htm) [search snippet only]
+  - Search snippet: carers describe announcing themselves, checking the room is empty, using the accessible stall, and keeping a note to put on the door. (https://www.agingcare.com/questions/caregiver-take-male-elder-to-bathroom-148511.htm) [search snippet only]
+  - Thread title and snippet: a spouse with dementia and vision problems struggles to see the toilet when out. Advice includes planning outings around family bathrooms. (https://www.agingcare.com/questions/what-do-you-do-when-your-out-and-your-spouse-has-to-use-the-bathroom-he-has-pca-and-dementia-and-the-498435.htm) [search snippet only]
+
+### Dyslexic adults cannot spell a word closely enough for spellcheck to find it
+
+- **Who:** Adults with dyslexia writing texts, emails and forms
+- **Problem:** Spellcheck only helps if the attempt is close to the right word. When the spelling is too far off it suggests nothing useful, or swaps in the wrong real word, such as defiantly for definitely. People break off to hunt for the word elsewhere.
+- **Cost:** Embarrassing mistakes in messages, interrupted writing and repeated lookups many times a day. The paid specialist tools add a software cost, though I could not verify the price.
+- **Workaround today:** Typing into Google, using famous phrases to trigger a correction, asking Alexa or Siri to spell, dictation, keeping a personal list of tricky words, and specialist tools like Ghotit.
+- **Why existing tools fail:** Standard checkers mostly match against dictionary lists, and the specialist option found here is a Windows product. Search works but pulls you out of what you were writing. Dictation does not suit everyone. Gboard's latest ability on this was not tested.
+- **App idea:** A small offline Android tool that appears in the text-selection menu of any app. Select a badly spelled word, or say it, and it ranks real words by sound using phonetic matching and word frequency. Each candidate has a one-line meaning and a read-aloud button so the user can pick by ear, with a warning on sound-alikes. One tap replaces the word. It remembers your personal list.
+- **Platform:** android
+- **Region:** Global for English. Other languages need their own word lists and phonetic rules.
+- **Evidence:**
+  - Caida Mendelsohn says her spelling can be so far off that spellcheck cannot recognise the word, so she searches Google for it, and describes texting defiantly for definitely. (https://www.understood.org/en/articles/6-surprising-ways-dyslexia-affects-me-as-a-young-adult.md) [2019-10-16]
+  - A dyslexia blogger says spellcheckers fall short when stuck on a word, and describes a workaround: typing a famous phrase containing the word into Google to get the correction. (https://dyslexialifehacks.com/?p=25221)
+  - Search snippet: Ghotit Real Writer is marketed for dyslexia with a phonetic spell checker and homophone corrector. (https://dyslexiahelp.umich.edu/apps/ghotit-real-writer/) [search snippet only]
+  - The Microsoft Store listing for Ghotit shows a Windows product, with no trial or tier details stated. (https://apps.microsoft.com/detail/9n91n2jqgbzv)
+  - Search snippet: a 2007 paper reports that phonetic matching outperformed classical spell checkers on misspellings by poor spellers. (https://www.isca-archive.org/interspeech_2007/sitbon07_interspeech.pdf) [2007] [search snippet only]
+
+### Deaf customers are forced to phone to cancel or fix an account
+
+- **Who:** Deaf and hard-of-hearing customers of telecoms, TV, subscription and utility companies
+- **Problem:** Many tasks, particularly cancelling, can only be done by voice call. Video relay may only work from one place, and captioning does not work for everyone. Written routes often exist only on request, for registered accessibility customers, or in some jurisdictions.
+- **Cost:** Money and time: one cochlear implant user was charged when she forgot a monthly online step she used to avoid calling. Others wait for replies, or need an interpreter to do a simple task.
+- **Workaround today:** Video or text relay, asking a hearing friend to call, hunting through support forums for an unlisted email address, and writing formal letters.
+- **Why existing tools fail:** The written routes are hidden, inconsistent and spread across forum threads. Company help pages steer people to the phone. I did not audit existing contact directories, and any such directory will go stale without upkeep.
+- **App idea:** A searchable directory answering one question: how do I do this with this company without a phone call? It lists cancel, change details and complain routes, with the date last confirmed. A small generator writes a dated written request for an accessible route and keeps a record of what was sent. Seed with 50 to 100 large companies in one or two countries, then accept user corrections.
+- **Platform:** web
+- **Region:** Country by country. Company data and any legal wording are local, so start with one market.
+- **Evidence:**
+  - Philip Mecham can only use video relay at home. Caroline Bailey finds captions do not work for her, got charged when she forgot to cancel online, and got email cancellation only after asking. (https://www.modernretail.co/retailers/why-call-to-cancel-policies-are-an-accessibility-nightmare/) [2020-07-22]
+  - Sky moved to phone-only cancellation, then allowed email for registered accessibility customers. Commenters report other providers being phone-only and the email route being a hassle. (https://limpingchicken.com/2014/07/04/deaf-news-sky-allow-deaf-customers-to-cancel-by-email-not-just-by-calling/) [2014-07-04]
+  - Search snippet: a deaf user asks how to cancel without a call after failing by text relay and email. Fetch refused. (https://helpforum.sky.com/t5/Account-Billing/Cancel-without-calling/m-p/4745303) [2024] [search snippet only]
+  - Search snippet: a deaf customer asks for an email route to cancel and is pointed to interpreter and relay services. Fetch refused. (https://community.ee.co.uk/t5/Contracts-Billing/cancel-plan/td-p/1479443) [search snippet only]
+
+### Carers cannot update the reminder board at mum's house from a distance
+
+- **Who:** Family carers who live elsewhere, supporting a parent with early dementia who still lives alone
+- **Problem:** The person keeps asking what day it is and when someone is coming, sometimes phoning for hours. Boards and calendars must be physically updated by the carer, and one weekly board made a mother think nothing was happening once the entries ran out. Diaries get lost, and clock formats confuse people.
+- **Cost:** Repeated calls through the day, up to 5 or 6 questions in 30 minutes in one report, plus carer stress. Carers spent around £60 on clocks and improvised with old laptops, cereal boxes and homemade magnetic strips.
+- **Workaround today:** Dementia clocks, whiteboards, tear-off calendars, thick marker on card, an old laptop or tablet as a display, and carers repeating the answer on the phone.
+- **Why existing tools fail:** Physical boards cannot be changed remotely and go blank when the week's entries run out. Standard calendars show too much. Mindings was reported as a remote option in 2015, but its current state is unverified. Carers also report that any prompt only helps for a time and does not suit everyone, so this is a bridge, not a fix.
+- **App idea:** A full-screen page for an old tablet that shows only the part of the day, the day of the week and one or two lines in plain words, such as 'Sarah comes at half past nine'. It never runs out because the next day is prefilled by repeating routines. The carer edits it from their own phone in seconds. There is no date field unless wanted, and no navigation at all.
+- **Platform:** web
+- **Region:** Global.
+- **Evidence:**
+  - A carer's mum wakes at night to check a whiteboard and is upset by dates. The weekly board leaves her thinking nothing is planned once entries run out. Replies are mixed: some clocks help, others fail. (https://forum.alzheimers.org.uk/threads/fixated-on-days-and-dates.83927/) [2015-07-03]
+  - Carers report that notes and diaries get lost. One mum phoned from about 3pm asking where the carer was. One family rigged an old laptop as a date display, and another used Mindings on a tablet, remotely controlled. (https://forum.alzheimers.org.uk/threads/calendars-diaries-and-reminders.79352/) [2015-01-27]
+  - Families compare clocks from £3 calendars to a £60 flip clock. One mother asked the date 5 or 6 times in 30 minutes and phoned often. A tear-off calendar stopped working within three months. (https://forum.alzheimers.org.uk/threads/to-buy-a-clock-with-day-date-or-not.39419/) [2011-11-29]
+
+**Limits of this search:** Coverage limits: the session-wide 200 WebSearch budget ran out before my final checks, so these were not completed: whether a PIP diary app already exists, whether SpeechLabel is on Android, whether CareZone still runs, Ghotit's price, and audits of toilet-finder and senior-launcher apps. Each candidate's why_existing_tools_fail says where this applies. Check them before committing a build day.
+
+Source limits: Reddit could not be searched or fetched, so first-person evidence comes from Alzheimer's Society forum, ALZConnected, Limping Chicken, personal blogs and Lemmy. AgingCare, HealthUnlocked, Mayo Clinic Connect, Sky and EE forums all refused fetches. Those items are marked fetched=false and rest on search snippets or titles only. Evidence skews UK, because that is where the open forums are. Some threads are old (2011 to 2016), though the same problems appear in 2025 and 2026 posts.
+
+My ranking by evidence strength and one-day buildability: 1 Deaf waiting room (best overall: strong evidence, global, simple build, and a Deaf tester can be filmed), 2 sole carer manual, 3 dementia phone (most proven spend at $349, but hardest to build), 4 bus number spotter (strong data, real technical risk), 8 dyslexic spelling, 5 ADHD post, 6 PIP diary, 7 toilets, 9 phone-only contact, 10 today board (weakest: carers report mixed results and fading benefit).
+
+Dropped: NFC talking labels (PenFriend costs £107.99, but a 2025 comparison lists SpeechLabel as a free app doing NFC and QR labels). Hearing-loop status map (well evidenced, but needs a crowd the developer does not have). Dinner-table captions (Ava already covers this with a free tier). Symptom trackers and injection-site logs (crowded with existing apps). QR-menu access (only one strong first-person source, and general reading apps overlap). Dementia QR ID tag (real, but engraved bands and the Dementia Buddy scheme cover much of it).
+
+None of these ideas gives medical advice or diagnoses. The PIP tool must not predict awards.
+
+## Frontline and informal work still running on paper, WhatsApp groups and spreadsheets
+
+### Home-care workers cannot prove that unpaid travel between visits drops their pay below minimum wage
+
+- **Who:** UK domiciliary care workers on per-visit or zero-hours contracts who drive between clients' homes
+- **Problem:** Pay covers only time in the client's home. Rotas allow far less drive time than the journey takes, and nobody gives the worker a figure for real pay per working hour. Forum posters say the legal test is total pay divided by total working time including travel, but the worker has to build that record alone.
+- **Cost:** One carer in 2015 estimated about £4,200 owed over two years and about £13,000 for a colleague with seven years' service (their own estimates). A carer in September 2026 says they fall below minimum wage once travel counts. UNISON says 75% of surveyed home-care staff are unpaid for travel between visits.
+- **Workaround today:** Mental arithmetic, a suggested stopwatch, asking ACAS or a union, or raising it informally with a manager and seeing nothing change.
+- **Why existing tools fail:** Rota and visit-monitoring records belong to the employer and show allotted time, not real time. This run found no worker-side tool, but the search was limited, so that gap needs confirming.
+- **App idea:** A private Android log. Tap arrive and leave at each call, with no client names stored. It compares allotted drive time with actual time, calculates pay per working hour against the current minimum wage, and exports a dated weekly PDF to take to ACAS or a union.
+- **Platform:** android
+- **Region:** UK, since the logic depends on UK minimum wage rules. Other countries would need their own wage-law check.
+- **Evidence:**
+  - Carer says the rota allowed 5 minutes for a drive that took 13. Mileage is paid, travel time is not, and they calculate they fall below minimum wage once travel is included. Another poster suggested timing each journey with a stopwatch. (https://www.mumsnet.com/talk/am_i_being_unreasonable/5579763-struggling-with-community-care-job) [2026-09-18]
+  - Zero-hours carer paid per visit estimates about £4,200 owed over two years, and £13,000 for a colleague. A reply says a winning case turned on travel taking overall pay below minimum wage. (https://forums.moneysavingexpert.com/discussion/5189392/homecare-carer-travel-time-between-calls-not-paid) [2015-03-04]
+  - UNISON survey of over 300 domiciliary care workers in England: 75% not paid for travel between appointments. Search snippet only, the page returned 403. (https://www.unison.org.uk/news/2023/06/majority-of-homecare-staff-are-unpaid-for-travel-between-visits-says-unison/) [2023-06] [search snippet only]
+  - A commenter says pay across all hours including travel must stay above minimum wage. Search snippet only. (https://www.mumsnet.com/talk/legal_matters/3057462-As-I-carer-should-I-be-paid-for-time-traveling) [search snippet only]
+  - Think tank says enforcement relies on workers raising complaints, which vulnerable workers are often unwilling to do. Older data. Search snippet only. (https://www.resolutionfoundation.org/press-releases/national-scandal-of-care-workers-illegally-paid-5-an-hour/) [search snippet only]
+
+### Owner-operators lose detention pay because brokers reject the proof of wait time
+
+- **Who:** US owner-operators and small-fleet truck drivers hauling brokered freight
+- **Problem:** When a dock keeps a truck waiting, the driver must prove arrival and departure times, notify the broker in time, and file quickly. Handwritten BOL times can be rejected as proof, some docks reportedly will not sign, and many drivers stop chasing the claim.
+- **Cost:** FreightWaves gives typical detention at $30 to $75 per hour, with claims usually due within 24 to 48 hours. In a small forum poll, 7 of 13 said requests are ignored or too much hassle to fight.
+- **Workaround today:** Writing in and out times on the BOL and asking for initials, ELD or GPS screenshots, check calls, and emailing the broker at the two-hour mark.
+- **Why existing tools fail:** Hey Bubba is a broad fleet back-office platform rather than a single-purpose tool. Forum posts in search results say ELD screenshots count for less than a signed BOL and that an exported location history was too confusing to help. Broker apps are also run by the side refusing to pay.
+- **App idea:** A per-load Android timer. Enter the rate con terms, tap arrived to capture a timestamped geotagged photo, and get a prefilled broker email when free time ends. Then capture a signature or BOL photo and export a one-page claim PDF inside the filing window, with an unpaid-claims list.
+- **Platform:** android
+- **Region:** Mainly US. Canada is untested, and the sources here are US trucking sources.
+- **Evidence:**
+  - Thread titled Lost detention pay again because broker said no proof. Snippet describes a driver denied after relying on a handwritten BOL note. Search snippet only, the page returned 403. (https://www.thetruckersreport.com/truckingindustryforum/threads/lost-detention-pay-again-because-broker-said-no-proof.2540236/) [search snippet only]
+  - Poll: 7 of 13 votes said requests are ignored or too much hassle. One poster lost a claim for late paperwork. Very small sample. Search snippet only. (https://www.thetruckersreport.com/truckingindustryforum/threads/whats-the-1-reason-your-detention-claims-get-denied-poll.2529156/page-3) [search snippet only]
+  - Advises photographing the GPS at arrival, getting BOL times signed, emailing the broker near the 2-hour mark as proof of notice, and filing within 24 to 48 hours. Gives $30 to $75 per hour as the usual rate. (https://www.freightwaves.com/news/understanding-detention-pay-clauses) [2025-05-22]
+  - Vendor page showing an existing product: a fleet back-office platform that tracks dwell time from ELD geofences and files claims. No pricing or statistics on the page. (https://bubba.ai/problems/broker-wont-pay-detention)
+
+### Small growers on paper spray diaries must produce machine-readable records from 1 January 2027
+
+- **Who:** Small EU and Northern Ireland growers without farm software, such as part-time farmers, small vineyards, orchards and market gardens
+- **Problem:** Each pesticide application now needs fields like product authorisation number, EPPO crop code and sometimes growth stage. From 2027 records must be in a machine-readable format, and PDFs and scans do not count. Paper users have to re-key everything, and the deadline varies: Germany is reported at 30 days after use, while France (through 2029) and Northern Ireland use 31 January of the following year.
+- **Cost:** Re-keying time and inspection exposure. France and Northern Ireland both refer to about 10 working days to hand records over on request. One French report from 2025 said roughly one farmer in two might lack a compliant digital solution. The deadline is two months from today.
+- **Workaround today:** Paper notebooks, authority Excel templates, paid farm software, and regional free tools such as PSM-DOK, which search results say is limited to businesses based in Saxony.
+- **Why existing tools fail:** Farm software covers far more than a small grower needs. Excel templates work at a desk rather than in the field, and the grower still has to find the codes (my inference). Official tools are regional or unfinished. This is also a risk, because free official tools may arrive and take the market.
+- **App idea:** An offline spray diary for one chosen country. Pick product, crop and growth stage, enter dose and area, and let the app fill in the codes. It exports the CSV or XLSX format that country accepts and shows the next conversion deadline. It should not claim to guarantee compliance.
+- **Platform:** both
+- **Region:** EU member states and Northern Ireland, with different rules per country. Needs French or German and a national product database. Whether that database is open was not checked.
+- **Evidence:**
+  - Farmers' association president and arable farmer Lutz Wercham calls the added record requirements completely superfluous, saying larger farms with digital field records can cope. (https://www.topagrar.com/acker/news/bauernbund-brandenburg-kritisiert-pflanzenschutz-aufzeichnungspflichten-20023525.html) [2026-02-24]
+  - Says roughly one farmer in two may lack a digital solution meeting the rule. Written before the postponement, so its dates are out of date. (https://www.pleinchamp.com/actualite/j-100-pour-le-passage-obligatoire-au-numerique-du-registre-phytosanitaire) [2025-09-22]
+  - Reports the delay to 2027, saying some member states needed more time to train users, including small and older farmers. (https://www.reussir.fr/le-registre-phytosanitaire-numerique-reporte-2027) [2025-10-09]
+  - Official rules: lists required fields, confirms Excel, CSV, XML and JSON are acceptable and PDFs and scans are not, and offers an Excel template. (https://www.daera-ni.gov.uk/articles/new-regulations-regarding-recording-plant-protection-products-ppps-usage)
+  - French rules: paper recording allowed 2027 to 2029 if converted by 31 January of the next year, then conversion within 30 days from 2030. (https://www.terre-net.fr/produits-phytos/article/892753/le-ministere-precise-les-modalites-pour-le-registre-phytosanitaire-numerique) [2026-01-08]
+  - Confirms the transition and mentions a Chambre d'agriculture app in testing with a farmer panel since October. Subscriber article, only the visible part was read. (https://www.terre-net.fr/produits-phytos/article/905029/registre-phytosanitaire-numerique-etes-vous-pret-pour-2027) [2026-10-20]
+  - German authority: handwritten records allowed through 2026, electronic machine-readable records from 2027, PDFs rejected. The planned JKI DiPAgE platform is still in development. (https://www.hamburg.de/politik-und-verwaltung/behoerden/bwai/themen/pflanzenschutz/die-eu-durchfuehrungsverordnung-zur-digitalen-maschinenlesbaren-dokumentation-von-pflanzenschutzmittel-anwendungen-1124050)
+
+### Solo tutors and music teachers chase parents because nobody can see the lesson balance
+
+- **Who:** Independent tutors and private music teachers paid per lesson or by block
+- **Problem:** Payment arrangements live in cash books, chats and memory. Lessons get taught unpaid, parents 'forget', cancellations and make-ups are argued about afterwards, and terms often were never written down.
+- **Cost:** Tutors describe regularly being out of pocket and spending time chasing money. One says bank transfers slipped from days to months, and a UK tutor says chasing took more time than teaching. No amounts are given.
+- **Workaround today:** Signed cash books, tallies inside lesson books, spreadsheets, blocks paid in advance, and no-payment-no-lesson rules.
+- **Why existing tools fail:** Studio-management software exists, but I could not check its pricing or fit in this run. The evidence points to a narrower gap: the parent cannot see the balance, so the tutor has to raise it each time.
+- **App idea:** A web ledger. Each student gets a private link with no login showing lessons prepaid, taught, make-ups owed and the accepted cancellation terms. The tutor marks a lesson in one tap and gets a prefilled WhatsApp reminder when the balance runs low.
+- **Platform:** web
+- **Region:** Global. The workflow does not depend on any country's law.
+- **Evidence:**
+  - Tutor keeps a cash book that parents sign and gives receipts, yet payments still slip from days to months. Another tutor reports being regularly out of pocket. A music teacher's family kept a running tally in the lesson book. (https://www.mumsnet.com/talk/tutoring/3799097-non-or-late-paying-parents) [2020-01-18]
+  - Tutor paid on the day has a client who 'forgot' for 3 weeks. They are texting and emailing, and say they need to up their game. (https://www.mumsnet.com/talk/_chat/4962921-non-payment-private-tutor) [2023-12-14]
+  - Parent and music teacher dispute missed lessons and notice, with no written terms and nothing showing what was owed. (https://www.mumsnet.com/talk/am_i_being_unreasonable/4483694-Issues-with-missed-private-music-lessons-AIBU) [2022-02-17]
+  - Tutor with a seven-day cancellation rule says they spend more time chasing payment than teaching, and moved to payment at booking. Search snippet only, the page returned 403. (https://www.ukbusinessforums.co.uk/threads/feeling-a-bit-deflated.419624/) [search snippet only]
+  - Thread titled How do you all handle last-minute cancellations or no-shows? shows teachers comparing make-up limits and notice windows. Search snippet only. (https://forum.pianoworld.com/ubbthreads.php/topics/3635791/how-do-you-all-handle-last-minute-cancellations-or-no-shows.html) [search snippet only]
+
+### Shift nurses cannot tell whether a payslip's unsocial-hours pay is correct
+
+- **Who:** NHS nurses and healthcare assistants on Agenda for Change working nights, weekends and bank shifts, with US hospital nurses as a possible later group
+- **Problem:** Pay depends on shift times, differentials, overtime rules and punches. Payslips show results, not the logic, so errors surface only if the nurse compares the stub with a personal record. Forum advice is simply to watch the stub every period.
+- **Cost:** Nurses in a 2014 Northern Ireland payroll failure were underpaid by hundreds of pounds, with about 7,000 staff affected. GOSH nurses were later compensated for missed unsocial-hours payments. These are big incidents; how often smaller individual errors occur is unknown.
+- **Workaround today:** Comparing the stub with the timecard by hand, asking HR for the rules in writing, and escalating through a union rep.
+- **Why existing tools fail:** Rostering and payroll systems belong to the employer. This run found no worker-side checker, but that needs confirming. Every employer's rules differ, so a general tool would be inaccurate.
+- **App idea:** Enter band and shifts, then the app applies Agenda for Change unsocial-hours rules, predicts the next payslip and flags differences by line. A mismatch generates a dated note for payroll or a rep. Support one contract only in version one.
+- **Platform:** both
+- **Region:** UK NHS first. Other countries and employers would each need their own pay rules.
+- **Evidence:**
+  - About 7,000 Northern Ireland health staff hit by payroll errors, including missing travel and unsocial-hours payments. Nurses underpaid by hundreds of pounds. (https://www.cipp.org.uk/resources/news/payrollsystemerrornhsni.html) [2014-05-02]
+  - Great Ormond Street nurses to be compensated for missed unsocial-hours payments. Only the headline and subtitle were readable. (https://rcni.com/node/141046) [2018-10-30]
+  - Nurse thread on missing hours. Search results describe a timecard approved with three missed punches, later fixed with a hand-cut check. Search snippet only, the page returned 403. (https://allnurses.com/issues-paychecks-missing-hours-t499543/) [search snippet only]
+  - RCN publishes a template letter for members claiming underpaid wages, which suggests a recurring need. Search snippet only. (https://www.rcn.org.uk/Get-Help/Underpayment-of-wages-letter-step-2) [search snippet only]
+
+### Self-managing landlords and tenants enter deposit disputes without dated proof of condition
+
+- **Who:** Small UK landlords managing their own lets, and the tenants on the other side of the dispute
+- **Problem:** When a tenancy ends, deductions depend on showing the condition at move-in and move-out. Many have no inventory or photos, or lose paperwork when an agent changes, and undated-looking photos can be rejected.
+- **Cost:** The disputed deposit, such as £850 in one thread, plus the stress of arguing it through the scheme. The side without evidence is at a disadvantage.
+- **Workaround today:** Phone camera rolls, unsigned Word or paper inventories, or nothing at all.
+- **Why existing tools fail:** A camera roll is not tied to a room, is not acknowledged by the other party, and is not easy to submit as one document. Inventory products exist, but I could not check their price or fit in this run.
+- **App idea:** A guided room-by-room photo walkthrough with server-recorded timestamps. The other party acknowledges it through a link, move-out photos sit beside move-in photos, and it exports one PDF for the deposit scheme.
+- **Platform:** both
+- **Region:** UK first because the evidence comes from deposit schemes there. Other rental markets were not tested.
+- **Evidence:**
+  - An £850 deposit is disputed over carpets, walls and a worktop chip, with no inventory and no photos from either side. Replies say a missing check-in inventory weakens the landlord's case. (https://forums.moneysavingexpert.com/discussion/6236107/rental-deposit-and-no-inventory) [2021-01-27]
+  - Landlord guide says adjudicators weigh dated, independently confirmed photos and signed inventories, and describes an undated-looking photo being rejected. Search snippet only, the page returned 403. (https://www.landlordzone.co.uk/news/winning-deposit-disputes) [search snippet only]
+  - A landlord has no copy of the check-in report after an agency change. Search snippet only. (https://forums.moneysavingexpert.com/discussion/6497386/reclaiming-deposit-with-change-of-agents-and-missing-inventory) [search snippet only]
+
+### Small repair shops lose core credits because old parts miss supplier return windows
+
+- **Who:** Independent auto repair shops, especially small shops without a parts manager or full shop-management software
+- **Problem:** Each core has a credit attached and a return deadline. Cores end up in bins or the wrong box, returns go unlogged, and credits are not matched to the repair order. Search results cite return windows of 21 to 30 days.
+- **Cost:** Shop owner Larry Brown says some cores can be $200. A vendor employee reports seeing $500 to $5,000 of dirty cores lying in parts departments. A vendor estimates $5,000 to $20,000 a year, but that is illustrative rather than measured.
+- **Workaround today:** Vendor bins, paper tracking sheets, folders of return slips and month-end matching by hand.
+- **Why existing tools fail:** Tekmetric and Shopmonkey document core tracking, but only inside a full shop system. A shop without one has paper. How many small shops lack one was not checked.
+- **App idea:** Log each core from an invoice photo with repair order, supplier, amount and return deadline. It gives an aging list by supplier, captures a photo of the signed return slip, and shows credits not yet posted at month end.
+- **Platform:** both
+- **Region:** US sources only. Core charges in other countries were not checked.
+- **Evidence:**
+  - Owner of Davis Repair describes vendor core areas, return slips filed by supplier, and month-end matching of credits. A real owner's workaround showing the time involved. (https://www.ratchetandwrench.com/articles/4828-tips-for-tracking-returns-and-cores) [2018-01-18]
+  - A dealer-software vendor employee says he often sees $500 to $5,000 of dirty cores sitting around, and that staff do not treat them as real money. Written for dealers rather than small shops. (https://automate.com/rocks-rants-dirty-cores/)
+  - Vendor article describes five failure points and estimates shop losses. The figures are illustrative with no study behind them. (https://www.wickedfile.com/blogs/core-charges-profit-leakage-auto-shops/) [2026-04-23]
+  - Shop owner trade article describes a tracking sheet by repair order, part, supplier, amount and tech, reconciled against credit memos. Search snippet only, the page returned 403. (https://www.shopownermag.com/?p=187760) [search snippet only]
+
+### Small-flock keepers keep medicine and lambing records on paper because farm software is priced for big flocks
+
+- **Who:** UK smallholders with a few dozen sheep, goats or pigs
+- **Problem:** Keepers must be able to show treatments with date, supplier, batch number, withdrawal period and expiry, and they want lambing history at hand. Paper records get misplaced, and they worry about inspections.
+- **Cost:** Software was quoted at £475 and a handheld recorder at £1,525 in 2014, which keepers of small flocks say they cannot justify. The cost otherwise is inspection anxiety and lost records. Current prices were not checked.
+- **Workaround today:** Notebooks, Rolodex card indexes, Excel, and printed vet-med record books.
+- **Why existing tools fail:** Shearwell, Sheepware and similar tools are built around larger flocks and tag readers. Newer cheap apps may exist since these threads, and that was not checked.
+- **App idea:** An offline medicine book. Tap an animal or group, record the treatment, batch and withdrawal period, and it shows the first safe-to-sell date, warns of expiring stock, and exports a tidy PDF for an inspector. Leave out tag readers.
+- **Platform:** android
+- **Region:** UK-specific rules. The evidence is 10 or more years old, which is the main weakness, so the current rules and market need rechecking.
+- **Evidence:**
+  - Keeper of a couple of dozen sheep says they cannot justify buying software. Another says paper gets misplaced. Others use Excel or a Rolodex. Quoted prices are £475 and £1,525. (https://accidentalsmallholder.net/forum/index.php?topic=41687.0) [2014-01-31]
+  - Posters say electronic recording pays off at a few hundred sheep, and notebooks and card indexes are far cheaper. Power cuts are a concern for computer records. (https://www.accidentalsmallholder.net/forum/index.php?topic=67833.0) [2015-10-03]
+  - New keeper preparing for a first trading standards visit asks if his notes suffice. A reply lists the required medicine fields, including batch, withdrawal period and expiry. (https://www.accidentalsmallholder.net/forum/index.php?topic=79056.0) [2016-11-04]
+
+### Small landlords cannot prove they tried to complete gas and electrical safety checks on time
+
+- **Who:** Self-managing landlords in England with one to a few properties
+- **Problem:** Certificates expire on different dates, tenants may not give access, and councils look for records. A short lapse can cause trouble later, and a tribunal case turned on the lack of evidence of attempted inspections.
+- **Cost:** One Liverpool landlord had a £5,625 penalty upheld, with a separate £3,375 fine quashed. A landlord trade article cites EICR fines of up to £30,000, rising to £40,000. One landlord fears a two-week lapse will hurt a possession case.
+- **Workaround today:** Paper diaries, calendar reminders, or paying a letting agent, which the 2019 case shows can also fail.
+- **Why existing tools fail:** A calendar reminds you but does not hold certificates or a record of access attempts. Landlord software was not checked in this run, so overlap is likely.
+- **App idea:** A per-property register of certificates with expiry dates and reminders, plus a dated log of every access request and tenant reply, and a one-click compliance pack for a council.
+- **Platform:** web
+- **Region:** England, and possibly Wales. Possession rules have been changing, so current law must be checked before this is built.
+- **Evidence:**
+  - Landlord says the agent let a gas certificate lapse by two weeks, and now worries about it in a court hearing alongside other notice failures. (https://forums.moneysavingexpert.com/discussion/6078609/past-gas-safety-certificate-expired-repercussions) [2019-12-04]
+  - Liverpool landlord had a £3,375 fine quashed, but a £5,625 penalty was upheld for lacking evidence of inspection attempts. Search snippet only. (https://www.landlordzone.co.uk/news/landlord-wins-legal-battle-over-3300-gas-safety-paperwork-fine) [search snippet only]
+  - Trade article advises a digital compliance register, a diary of EICR expiry dates, and keeping evidence of tenant access requests. Search snippet only. (https://www.landlordzone.co.uk/news/furniture-and-electrical-safety-regulations-amendments---what-every-landlord-should-know) [search snippet only]
+
+### Savings-group treasurers keep the only record, so members cannot check balances or turns
+
+- **Who:** Treasurers and members of rotating savings and welfare groups, such as Kenyan chamas and Tongan lili groups
+- **Problem:** Contributions, payout order and loans sit with one person, in a spreadsheet, notebook or WhatsApp chat. Members cannot verify anything until a dispute starts.
+- **Cost:** One Tongan group in Auckland reported about $50,000 in Christmas savings missing with the treasurer. A Kenyan welfare group's members demanded statements and an audit. Enough demand exists that someone sells an Excel toolkit for KES 250 to 450.
+- **Workaround today:** Treasurer spreadsheets, paid Excel kits, WhatsApp announcements, meeting minutes and memory.
+- **Why existing tools fail:** A spreadsheet stays with the treasurer, so members cannot verify it. Dedicated chama apps exist but were not checked in this run. A record does not stop theft by itself, so the product can only make discrepancies visible sooner.
+- **App idea:** The treasurer logs each contribution with its mobile-money or bank reference. Members get a read-only link showing their balance and the payout order, and each change leaves a visible history. The app never holds money.
+- **Platform:** both
+- **Region:** Kenya first, with similar groups elsewhere. It should work on low-end Android phones. Local rules on holding member data were not checked.
+- **Evidence:**
+  - Paid Excel toolkit for chama treasurers, KES 250 to 450. The seller names messy records, turn disputes and unresolved loan balances as the problem. This is a sales page, but it shows people paying for a workaround. (https://payhip.com/b/5rl0V)
+  - Weekly savings group in Auckland reports about $50,000 missing and the treasurer unreachable. Details of each member's share remain unclear. (https://kanivatonga.co.nz/2024/12/tongan-group-complains-after-50000-christmas-savings-allegedly-disappeared-with-treasurer-in-auckland/) [2024-12-27]
+  - Headline reports WhatsApp group admins in trouble over missing funeral funds. Only the headline and metadata were readable. (https://www.thestandard.ke/business/amp/coast/article/2001543270/luo-professionals-whatsapp-admins-in-trouble-over-missing-funeral-funds) [2026-03-17]
+  - Member sued admins after removal from a welfare WhatsApp group, while pressing for accountability. Members demanded financial statements and an audit. Search snippet only. (https://nation.africa/kenya/news/whatsapp-group-admins-sued-for-removing-member-5393916) [search snippet only]
+
+**Limits of this search:** Candidates are ordered strongest first. Home care has the best evidence: a first-person complaint from September 2026 plus union data. Detention has clear forum complaints, but they were read only through search snippets. Spray records have a hard deadline two months away, but the strongest voice is a farmers' association president, not an individual small grower.
+
+Limits of this research:
+- The 200-search budget ran out before four planned searches ran: tip allocation, parcel courier pay, farmers-market vendor sales and walk-in barber queues. No candidate covers delivery riders, market traders or barbers as a result. Send a follow-up to continue if those trades matter.
+- Reddit did not appear in results and cannot be used as a search domain, so there is no Reddit evidence.
+- AllNurses, TruckersReport, UKBusinessForums, LandlordZone, UNISON, Shop Owner and Nairobi News blocked fetching (403). Evidence from them is marked fetched=false.
+- Piano World redirected bots to a paid-access gateway, which I did not pass through.
+- Two fetched news items (RCNi, The Standard) showed only a headline. Where a search summary did not tie a claim to one thread, I described it generally rather than guess the source.
+- A search summary mentioned a Charente co-op charging a re-keying fee for paper records. I could not trace it to a URL, so it is excluded.
+- 'No tool exists' claims were not fully tested, and each candidate notes where that applies. Legal details need checking against current official sources before any build, especially UK possession rules.
+
+Rejected:
+- Flat-rate mechanic hour tracking: real demand, but already served by Flat Rate Tracker, FlagPace, Flat Rate Live and PieceWork Pro.
+- Barber no-shows: evidence was mostly vendor pages or old forum threads, and Booksy, Fresha and others already cover it.
+- Nurse shift swaps by WhatsApp: the one vivid source looks like a union training exercise, not a real case, and the rest was vendor content.
+- Travel nurse credential tracking: the pain was mild in the snippets.
+- Gig driver tips and deactivation: lawsuits and news rather than a recurring job.
+- Cleaner keys and cancellations: Mumsnet threads exist, but no clear repeating job emerged.
+- Market trader credit books: only stationery and app marketing surfaced.
+
+## Android users in low-connectivity and low-cost settings (Sub-Saharan Africa, South Asia, Southeast Asia, Latin America)
+
+### Counter staff cannot tell a real mobile payment from a fake one
+
+- **Who:** Small shopkeepers, bodegueros, market traders, bar and restaurant staff and POS agents who take M-Pesa till, MoMo, Yape, Nequi or bank-transfer payments. The worst case is a shop where the till SIM stays with an absent owner.
+- **Problem:** The customer shows a doctored SMS, a fake receipt app screen or a fake bank alert. The person handing over the goods often has no way to see what actually arrived, so they trust the customer's screen.
+- **Cost:** Stock is lost in under a minute. Reported losses range from S/ 40 at a Lima bodega to a Sh620 sale in Uasin Gishu. Some traders stop accepting digital payments altogether. One Accra trader said: "When that happens, I no longer accept MoMo transactions." Yape's adviser told Rest of World the company gets up to 30 scam reports a day.
+- **Workaround today:** Asking to see the customer's phone, writing down codes to check later, phoning the owner, checking the balance by hand, renting a hardware soundbox in India, or refusing digital payment.
+- **Why existing tools fail:** Hardware soundboxes carry rent and disputed deductions. The phone-based voice alert apps I found are written for Indian UPI notifications, and my search found no equivalent for M-Pesa or MoMo, though that was one search and not a proof of absence. Staff access to till data through a business app depends on the owner setting it up and on data.
+- **App idea:** Till Speaker. Put it on the phone holding the till SIM, or on a spare cheap Android. It reads the incoming payment notification only from the genuine sender ID, speaks the amount and payer aloud in the local language, and shows a large rolling list for the counter. It also gives an end-of-day total. No server and no account. One-day scope: two provider parsers, for example M-Pesa and Yape, plus offline text-to-speech.
+- **Platform:** android
+- **Region:** Global pattern. Evidence covers Kenya, Ghana, Nigeria, Peru, Colombia and India. Each provider needs its own parser.
+- **Evidence:**
+  - Covers Peru and Colombia (Yape, Nequi, Daviplata). Unofficial apps generate realistic receipts from a typed name and number. A Lima ghost-kitchen worker caught one only by checking her own account. Merchants rely on screenshots because payment apps do not always notify sellers. (https://restofworld.org/2023/fake-receipts-scammers-digital-shoplifting/es/) [2023-02-16]
+  - Kenyan bars, restaurants and shops are targeted because the till SIM stays with the owner, so staff ask to see the customer's SMS. Text-generator apps change the amount and time. Staff writing down the code for later checking does not reliably stop it. (https://businesstoday.co.ke/?p=92114) [2021-05-21]
+  - A Miraflores bodega owner's husband saw a fake receipt for S/ 40 of goods and assumed it was paid. He found no payment in their own app after the two buyers had left. (https://rpp.pe/lima/actualidad/miraflores-bodeguera-es-estafada-con-la-modalidad-de-pago-falso-por-yape-noticia-1495254) [2023-07]
+  - Accra market traders say MoMo transactions that never reach their accounts make them reluctant to take digital payments. One named trader stopped accepting MoMo. (https://www.citinewsroom.com/?p=1372767) [2026-07-14]
+  - Named Kenyan vendors describe tricks: a reversal after goods change hands, one confirmation forwarded around a group, 'please call me' messages mistaken for payment during rush hour, and Sh1 paid instead of Sh100. (https://www.the-star.co.ke/opinion/star-blogs/2021-08-26-adhiambo-rahab-customers-cheat-businesspeople-through-m-pesa) [2021-08-26]
+  - Search snippet only: an Oyo suspect reportedly generated fake bank alerts to defraud POS operators and business owners in Nigeria. (https://www.withinnigeria.com/news/2022/07/13/suspect-reveals-how-he-makes-millions-by-scamming-pos-operators-business-owners-with-fake-bank-alerts-in-oyo/?amp=1) [2022-07-13] [search snippet only]
+  - An Indian merchant says Paytm soundbox rent rose stepwise from Rs 29 to Rs 135 a month, but kept paying because the spoken confirmation is valued. This shows people pay for this job to be done. (https://www.desidime.com/discussions/arbitrary-monthly-charges-on-paytm-business-soundbox) [about 2025-10]
+
+### Borrowers cannot tell a licensed loan app from a predatory one until they are being shamed
+
+- **Who:** Cash-strapped borrowers using instant-loan apps, especially in Nigeria and Kenya. Help Net Security's snippet of the Lookout findings also lists Colombia, India, Indonesia, Mexico, the Philippines, Thailand and Uganda.
+- **Problem:** At the moment of need, a borrower sees a brand name and has no quick way to match it to a regulator's list. After borrowing, some apps message the person's contacts with accusations. One Nigerian borrower's contacts were falsely told he had died.
+- **Cost:** Reputation, relationships and mental health, plus money paid to fixers: N4,000 for a clean-up service, N50 per contact for 'not a fraudster' bulk SMS, and N1,500 for a forged FCCPC clearance letter.
+- **Workaround today:** Victim groups on Facebook and Telegram, paid fixers, bulk SMS to contacts, forged clearance letters, and borrowing from further apps to repay earlier ones.
+- **Why existing tools fail:** Regulators publish lists, but a borrower must find them and map an app's brand to a company name, and the lists change often. Google's policy does not cover apps installed from social media ads. Not verified: my search budget ran out before I could check whether a good lookup tool already exists. Check this before building.
+- **App idea:** Lender Check. A small offline lookup: type or pick a loan app and get licensed, delisted or unknown from a bundled country list that maps brand to company. The Android version also scans installed loan apps for risky permissions. A harassment kit logs threats with timestamps, fills in a regulator complaint, and generates one honest message to send contacts. It must not encourage non-repayment. One-day scope: Nigeria and Kenya data.
+- **Platform:** both
+- **Region:** Country-specific data. Start with Nigeria and Kenya, where evidence and lists were found. Other countries need their own regulator data.
+- **Evidence:**
+  - Named and pseudonymous Nigerian borrowers describe apps threatening or messaging contacts. Borrowers paid an individual fixer to stop it. Apps removed from Play still advertise on social media and can be downloaded. The article gives no way for a borrower to verify a lender. (https://restofworld.org/2022/nigeria-loan-apps-reputation/) [2022-10-27]
+  - Victims formed Facebook groups, one with over 20,000 members, and a Telegram channel. Some sell bulk-SMS rebranding or a forged regulator letter, which the FCCPC disowned. (https://www.icirnigeria.org/inside-story-illegal-loan-apps-victims-form-groups-to-seek-retribution-vow-not-to-repay/) [2022-05-26]
+  - A report that 48 more apps were approved was called false by the FCCPC, which also said a court order had suspended the 2025 lending regulations since April 2026. Even the press could not read the approved list reliably. (https://www.legit.ng/business-economy/money/1716661-fccpc-denies-approving-48-digital-loan-applications/) [2026-06-28]
+  - Kenya's licensed digital credit providers reached 281 after 29 more were added on 30 September 2026. The list keeps moving and exists as a directory that borrowers have to find. (https://paybillke.com/news/cbk-licenses-29-more-digital-credit-providers-september-2026) [2026-09-30]
+  - Search snippet of Lookout's findings: about 251 predatory loan apps on Google Play with over 15 million downloads, using contacts to pressure borrowers. Fetching the page returned nothing, and Lookout's own page returned 403. (https://www.helpnetsecurity.com/2022/12/01/predatory-loan-apps-android-ios/) [2022-12-01] [search snippet only]
+  - Search snippet: Google barred personal-loan apps from contacts and photos from 31 May 2023 in markets hit hardest. This does not reach sideloaded apps. (https://thecondia.com/google-to-prevent-financial-lending-apps-from-accessing-user-photos-contacts/) [search snippet only]
+
+### Savings groups run on one person's memory, with no shared record
+
+- **Who:** Members and honest organisers of small rotating savings groups: ajo or esusu in Nigeria, susu in Ghana, chama in Kenya, committee in Pakistan, tanda in Mexico.
+- **Problem:** Usually one person knows who has paid, whose turn is next and where the money sits. Coordination happens in WhatsApp chats and on trust. When the organiser dies, stalls or vanishes, members have nothing to check.
+- **Cost:** Reported losses include six months of N1,000 daily savings meant for a shop rent, Sh163,000 from a Mombasa chama, and nearly $1,000 for one Karachi victim. There is also lasting distrust. One Lagos saver said she would never join again.
+- **Workaround today:** WhatsApp group chats, notebooks, verbal promises, and choosing organisers by personal trust.
+- **Why existing tools fail:** The accounts show groups living inside WhatsApp, where nothing forms a ledger that members can check. Not verified: my search budget ran out before I could review savings-group apps such as those I know by name, so test those before building. Honest limit: a ledger cannot stop a determined fraudster or a Ponzi operator. It suits small groups of about 6 to 30 people and makes missed deposits visible early.
+- **App idea:** Round Book. An offline-first PWA, with no custody and no account. The organiser sets members, amount and a payout order locked at the start. Members log payments with their mobile money code. Each round produces a plain-text summary with a running checksum to paste into the WhatsApp group, so any later edit to a past round shows as a mismatch. Exports to PDF.
+- **Platform:** web
+- **Region:** Global. Only names and currency change. Localise labels for each country's term.
+- **Evidence:**
+  - A Nigerian woman paid an ajo collector N1,000 a day for six months for shop rent. The collector vanished with her money and others'. No written record is mentioned. (https://www.legit.ng/people/1718360-lady-shares-experience-saving-money-ajo-collector-what-happened-6-months/) [2026-07-09]
+  - Five first-person accounts of ajo groups failing. In one, the organiser died and nobody knew where the money was kept. Coordination was WhatsApp and verbal assurance, and organisers often collected first. (https://www.zikoko.com/?p=260498) [2022-01-22]
+  - Pakistani committees often have no paper trail and rest on trust. Victims of one Karachi organiser describe losses of about $2 million in total. This one is large and Ponzi-like, not a small group. (https://www.vice.com/en/article/sidra-humaid-committee-scam-pakistan/) [2022-12-07]
+  - A Mombasa chama treasurer allegedly gave members fake account details all year, then moved about Sh163,000 to her personal mobile money. Members could not see the real account. (https://biznakenya.com/?p=120719) [2022-12-15]
+  - Nuevo Leon prosecutors are investigating a tanda organiser over more than 50 victims and an estimated 20 to 27 million pesos. (https://www.adn40.mx/mexico/2026-01-06/investigan-megafraude-millonario-tandas-en-nuevo-leon/) [2026-01-06]
+  - Search snippet only, as the page returned 403: a Ghanaian susu collector was charged over GH¢156,455 from 35 traders. (https://www.modernghana.com/news/1509821/susu-collector-arraigned-for-allegedly-defrauding.html) [search snippet only]
+
+### Prepaid users cannot independently check where their data went
+
+- **Who:** Prepaid mobile data buyers, documented in Nigeria, Kenya and South Africa, who see bundles vanish and have only the operator's word on why.
+- **Problem:** Users feel data disappears, while operators say apps use it in the background. The figures available to the user come from the party they are disputing. Unused data may also expire before they can use it.
+- **Cost:** Money spent on data, plus time on complaints. Nigeria alone logged 23,396 data depletion complaints in January to June 2026. South Africa's regulator says prepaid users still complain of losing data at expiry.
+- **Workaround today:** Digging through Android settings, turning off background data app by app, operator daily reports, and filing complaints.
+- **Why existing tools fail:** Operator tools come from the accused party. Android settings show totals but do not tie usage to the bundle or its cost. Not verified: my search budget ran out before I could check the current state of third-party data monitors, so check those first.
+- **App idea:** Data Receipt. Each day it prints a receipt per app and per SIM, split into foreground and background, priced at what the user paid per GB. It flags overnight use while the phone was idle and shows a bundle expiry countdown. The user can enter the operator's balance before and after to compare, and share a dispute card. It uses Android's usage stats rather than a VPN, with no server. Position it as 'know what used your data', not 'prove theft', because the NCC audit found no major issue.
+- **Platform:** android
+- **Region:** Global for prepaid. Evidence is from Nigeria, Kenya and South Africa. Prices are entered by the user, so no operator data is needed.
+- **Evidence:**
+  - NCC figures for H1 2026: 23,396 data depletion complaints, led by MTN at 12,212 and Airtel at 9,806. (https://techeconomy.ng/ncc-nigeria-telecom-complaints-hit-413587-in-h1-as-data-billing-issues-persist) [2026-09-29]
+  - Operators are adding daily usage reports and calculators. A regulator audit found no major unfair deductions. Nothing described lets a subscriber cross-check figures independently. (https://www.techeconomy.ng/nigeria-telecom-data-calculators-data-depletion-complaints) [2026-05-28]
+  - A named Kenyan media personality publicly complained his data had been draining for months. Safaricom blamed background activity. Its usage portal itself needs mobile data. (https://thekenyatimes.com/latest-kenya-times-news/why-your-safaricom-data-bundles-drain-faster-than-expected-and-6-saving-tips/) [2026-01-16]
+  - South Africa's regulator ICASA says consumers keep complaining about losing prepaid data at expiry, a dispute now headed to court. (https://www.sabcnews.com/sabcnews/battle-over-expiring-unused-mobile-data-heading-to-court/) [2026-10-01]
+  - Search snippet only: Google removed its Datally data-saving app from Play in 2019, with no dedicated replacement found. (https://www.phonearena.com/news/Google-discontinues-Datally-Android_id119726) [search snippet only]
+
+### Debited but not delivered: customers do not know the refund deadline or how to escalate
+
+- **Who:** Bank app, USSD, POS and UPI users. The strongest first-person evidence is from Nigeria. India has a clear rule but weaker customer voices in what I found.
+- **Problem:** Money leaves the account, the transfer fails, and the customer is sent to queues or told to wait. Deadlines and any compensation sit in regulator circulars that ordinary customers never read.
+- **Cost:** Money given up: one Abuja customer abandoned about N10,000 rather than face the queue. Other costs are repeat branch visits and days without funds, including a recipient who needed the money for medication.
+- **Workaround today:** Queuing at the banking hall, repeat visits, calling support, or giving up on small amounts.
+- **Why existing tools fail:** Bank apps do not show a deadline countdown, and rule tables live in PDFs. Search could not confirm whether Indian banks pay compensation automatically in practice. Nigerian timelines came from older sources, so verify them against current CBN circulars.
+- **App idea:** Refund Clock. Enter or paste the debit details and pick the channel. It shows the legal deadline, a day counter and any compensation owed, then writes the escalation message for each stage: bank, then nodal officer or regulator. Everything is stored locally. One-day scope: India and Nigeria rule tables.
+- **Platform:** web
+- **Region:** Rule tables per country. India and Nigeria first. Other countries need regulator rules.
+- **Evidence:**
+  - Five named Nigerian customers describe unreversed debits, long complaint queues, repeated branch visits, and a request to cut resolution from seven working days to two. (https://nannews.ng/failed-transactions-banks-customers-decry-delay-tedious-process-of-money-reversal/) [2025-09-21]
+  - A House motion said over 69 percent of customer complaints in July 2023 involved failed transactions, and asked that reversals happen without customers requesting them. It cites CBN timelines of four hours to 72 hours by channel. (https://www.arise.tv/nigerian-lawmakers-urge-cbn-to-direct-banks-on-prompt-reversal-of-failed-transactions/) [2024-03-13]
+  - RBI rule: UPI and IMPS transfers reverse by T+1, UPI merchant payments and POS by T+5, with Rs 100 per day of compensation after that. (https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=11693&Mode=0) [2019-09-20]
+  - Search snippet only: a Kwara business says a N630,000 mistaken transfer needed a court order to reverse. (https://www.opinionnigeria.com/%e2%82%a6630000-transfer-business-accuses-access-bank-of-defying-kwara-court-order/) [2026-03] [search snippet only]
+
+### Published outage schedules do not match reality, and nobody records what actually happened
+
+- **Who:** Small businesses, students and households in places with load shedding, documented in Zambia, Pakistan and Ghana.
+- **Problem:** Utilities publish timetables, or none at all, then cut power early and restore it late. People cannot plan work, cooking or generator use.
+- **Cost:** Generator fuel, lost trade and disrupted production. In Zambia a cut scheduled for 08:00 came at 06:00, and power due back by 14:00 returned at 19:00.
+- **Workaround today:** Generators, calling the utility, asking neighbours, and news-site timetables.
+- **Why existing tools fail:** Schedule tools repeat the utility's plan and depend on manual reports. Those found are single-country or single-utility: EskomSePush, 3News, KE Live. Only the utility's plan is published, not what really happened.
+- **App idea:** Light Log. Leave a phone charging. When charger power drops it logs an outage, and when power returns it logs the restore time, entirely offline. It shows scheduled versus actual, monthly hours lost, and a typical return time from your own history. When data is available, a tiny ping feeds a neighbourhood page. It must be useful with one phone, because there are no existing users.
+- **Platform:** both
+- **Region:** Any load-shedding area. Evidence covers Zambia, Pakistan and Ghana. The logger itself needs no country data.
+- **Evidence:**
+  - Zambia's commerce minister relayed small business complaints that ZESCO cuts came early and restored late. Lusaka residents reported unannounced extra hours. (https://zambianobserver.com/government-frustrated-by-zescos-failure-to-follow-load-management-schedule/?amp=1) [2024-05-20]
+  - Named Rawalpindi residents report six to eight hour cuts with little warning. Shopkeepers run generators, and residents want a day's notice. (https://www.devdiscourse.com/article/international/3997885-pakistan-rawalpindi-faces-hours-of-unannounced-frustrating-load-shedding) [2026-10-27]
+  - Ghana's traders' union demanded a timetable, saying shop owners and artisans lost trade and turned to generators, raising fuel costs. (https://citinewsroom.com/2024/04/power-outages-affecting-our-businesses-release-dumsor-timetable-guta/) [2024-04-28]
+  - Berkeley's GridWatch work in Accra found the utility undercounted outages by nearly 100 percent, using 462 sensors. The page mentions smartphone crowdsourcing but gives no method. (https://cega.berkeley.edu/collection/gridwatch/)
+  - A Ghanaian news site built a schedule lookup for 2,552 areas and warns that actual outages may differ, pointing to crowd reports. This shows demand, and that it needs ground truth. (https://3news.com/tools/dumsor) [2026-04-25 to 2026-05-01 schedule]
+
+### Prepaid numbers lapse silently, taking bank OTPs and wallets with them
+
+- **Who:** People whose main SIM sits unused: migrants, overseas workers, travellers and owners of a spare SIM that is still tied to a bank or wallet. Documented in Nigeria and the Philippines.
+- **Problem:** A number goes inactive and is later reassigned, often with no warning the owner sees. OTPs and alerts then go to a stranger, or the owner is locked out of accounts that need that number to recover.
+- **Cost:** Direct theft: one Nigerian subscriber reportedly lost N100,000 after reassignment. Losing a number held for years. For Filipinos abroad, recovery may need branch visits, notarised forms or apostilles.
+- **Workaround today:** Remembering to top up, asking relatives to load the SIM, or going to the bank after the damage is done.
+- **Why existing tools fail:** The evidence suggests no reliable warning reaches users, and rules vary by telco and are hard to find. A proposed Nigerian notice rule was not confirmed in force.
+- **App idea:** Keep My Number. List every SIM you own, including one in a drawer. Enter the operator and the last paid activity. It shows a countdown based on an operator rule table, and what counts as activity. A checklist records what is tied to each number, such as banks, wallets and WhatsApp, so you can move them before lapse. Local notifications only, no server. The rule table is the real work, and each entry should show its source and date.
+- **Platform:** android
+- **Region:** Rule table per operator. Nigeria and the Philippines first. Indian rules appeared only in weak sources.
+- **Evidence:**
+  - A man who kept a SIM since secondary school learned it had been sold on. A professor's number was reallocated while he was abroad, and he urged the regulator to warn users. NCC rules imply roughly 12 months to recycling. (https://www.icirnigeria.org/regulatory-gaps-on-phone-number-recycling-fuel-data-breaches/) [2025-06-08]
+  - Reports a subscriber's N100,000 GTBank loss after her old number was reassigned. Published the same day as the ICIR piece, so it may share a source. (https://mobileidworld.com/nigeria-faces-security-risks-from-phone-number-recycling-as-ncc-implements-new-policies/) [2025-06-08]
+  - Philippine legal commentary on lapsed SIMs: lost OTPs, circular verification that needs the dead number, and hard recovery from abroad. It says receiving texts may not count as activity. Each telco has its own rules. (https://www.respicio.ph/commentaries/sim-card-expiration-and-recovery-for-filipinos-abroad) [2026-05-05]
+  - Mentions a proposed rule for 14 days' notice before a line is churned, presented as a proposal. It contains no personal stories. (https://www.withinnigeria.com/2026/09/19/recycled-sims-warning-the-risks-your-old-nigerian-phone-numbers-pose-to-your-bank-accounts-in-2026/?amp=1) [2026-09-19]
+
+### Mobile money agents run out of float and shut the shop to rebalance
+
+- **Who:** Small mobile money agents and kiosk owners, especially rural ones, in Uganda, Ghana, Tanzania and Kenya.
+- **Problem:** An agent holds a split of cash and e-money. If either runs out, deposits or withdrawals are refused. Many cannot predict demand, so they turn customers away or close to travel for more.
+- **Cost:** Lost commission, travel cost and time closed. A search summary put lost customers at up to 20 percent, but I could not confirm that on the page. Agents also absorb small unresolved losses.
+- **Workaround today:** Closing to travel to a bank or master agent, borrowing cash from neighbours, paper logbooks.
+- **Why existing tools fail:** Agents favour paper for simplicity, per the Ghana study snippet. A Nigerian agent app, POSA, appeared in search but I did not review it. Evidence for the gap is older and more institutional than first-person.
+- **App idea:** Float Book. A one-screen offline log with big tap buttons for cash-in and cash-out, or SMS notification capture. It shows running cash and e-float, warns by day-of-week pattern when a side will run out, and runs a nightly check that cash plus e-float equals opening balance plus recorded transactions. Exports the logbook.
+- **Platform:** android
+- **Region:** Sub-Saharan Africa mainly. Parsers and ID rules vary by provider.
+- **Evidence:**
+  - Ugandan agents: too little float means lost sales. Rural agents travel far to rebalance. National ID rules for large transactions pushed agents into manual logbooks. Cites a study that 53 percent of agents had been fraud victims. (https://nymynet.com/?p=14942) [2025-09-15]
+  - Agents must shut the store to rebalance and cite inability to predict demand. In Tanzania some master agents began delivering float. Note this is from 2015. (https://blog.mondato.com/liquidity/) [2015-05-26]
+  - Ghana: many agents lack the capital and skills to predict how much cash and float they need. It proposes technology to track transactions and forecast needs. (https://www.graphic.com.gh/features/features/liquidity-for-momo-agents.html) [2022-09-13]
+  - Search snippet only, as the page returned 403: a peer float-rebalancing tool called Rebalance was tested with 32 agents in Kenya. (https://www.ideo.org/project/rebalance-float-marketplace) [search snippet only]
+  - Search snippet only, as the PDF was unreadable by fetch: a Ghana study found even smartphone-comfortable agents often prefer paper for simplicity and reliability. This is the main adoption risk. (https://refind-isser.ug.edu.gh/index.php/media/97/download) [search snippet only]
+
+### Piped water arrives at unknown times, so households wait up or miss it
+
+- **Who:** Households on intermittent municipal supply, documented in Indian cities and Rawalpindi.
+- **Problem:** Water comes on alternate days or less, for a short window, at a time nobody announces. Miss it and the tank stays empty.
+- **Cost:** Lost sleep and empty tanks. Sonepat residents stayed up all night on an official's promise and got nothing.
+- **Workaround today:** Staying awake, asking neighbours, storing as much as possible.
+- **Why existing tools fail:** The search found no schedule tool. It was one search and I could not run a follow-up on alert apps, so check this. Utilities in these reports did not keep to stated times.
+- **App idea:** Water On. A street group joined by a code. Any neighbour taps once when water starts, and everyone's phone rings loudly, overriding silent mode where allowed. It logs each arrival and shows the usual pattern. Weakest fit here: it needs roughly 5 to 10 households in one street to be useful, which is hard with no audience. Works as a demo with one real street.
+- **Platform:** both
+- **Region:** India and Pakistan in this evidence. Needs a very local group, and no country data.
+- **Evidence:**
+  - Sonepat residents with no supply for a month waited all night after officials promised night supply. No water came. (https://www.tribuneindia.com/news/haryana/empty-buckets-in-hands-locals-protest-in-sonepat-629295/amp) [2024-06-10]
+  - Hyderabad residents say supply has no fixed time now, so families cannot plan. It used to arrive around midnight. (https://deccanchronicle.com/amp/nation/current-affairs/071119/hyderabad-residents-seek-regular-water-supply.html) [2019-11]
+  - Rawalpindi Cantonment residents say water runs about half an hour on alternate days. The page shows 1 July, and I could not confirm the year. (https://www.app.com.pk/punjab/water-shortage-sparks-outcry-among-rawalpindi-cantonment-residents/) [July 1, year unconfirmed]
+  - Search snippet only: Talabkatta residents in Hyderabad complain of supply at 2 am and losing sleep to fetch it. (https://www.siasat.com/hyderabad-talabkatta-residents-loose-sleep-over-water-woes-2971528/amp/) [search snippet only]
+
+**Limits of this search:** Ranked best first by evidence strength and one-day buildability. My top picks are the first four.
+
+Limits of this research:
+- The WebSearch budget ran out partway, so competitor checks did not run for four areas: savings-group apps, loan lookup tools, current data monitors and water alerts. Android's sideloading limits on notification access were not checked either. These gaps are stated in each candidate and should be closed before committing to a build.
+- Reddit was not reachable through search, so there are no Reddit threads. Evidence is mostly local news quoting named people, plus regulator data.
+- fetched=false means I saw only a search snippet.
+
+Weaker spots:
+- Mobile-money agents: the evidence is older and institutional.
+- Water: the evidence is local news, and the app needs several households in one street to be useful.
+- India failed transactions: this rests on the rule more than on customer voices.
+
+Considered and dropped:
+- Shared-phone privacy for women: good research, but my judgment is that Android gives a third-party app little to work with on low-end phones.
+- Low storage: Files by Google and WhatsApp's storage manager cover it.
+- Offline file sharing: the complaints found were old.
+- Older phones losing bank apps: mostly rich-market evidence.
+- Venezuelan daily repricing: no real evidence found.
+- Kenya Power token downtime: one country, with thin first-person evidence beyond https://www.kenyans.co.ke/news/97024-kenyans-complain-over-8-hour-kenya-power-token-downtime
+- Night-bundle download queues: only operator plan pages, with no user complaints.
+- Migrant wage logs and funeral contribution lists: searches did not run.
+
+## App backlash and stranded users
+
+### Printed QR codes and short links get an ad gate, or stop working until the owner pays
+
+- **Who:** People who printed a free Bitly QR code or short link: couples on wedding invitations, nonprofit fundraisers, small businesses with posters, packaging or etched metal
+- **Problem:** Bitly's free tier now puts an ad page between the scan and the destination. Some reviewers say dynamic codes stopped working, or hit a pay-to-reactivate wall, within a week or two of printing. The code is already on paper or metal, so the owner cannot swap it, and reviewers say they were not told clearly up front.
+- **Cost:** One nonprofit reviewer paid $35 a month to remove the ad screen because the $10 plan required an annual commitment. Others face reprinting invitations, flyers or packaging, and etched metal cannot be reprinted. Donors and customers see a suspicious-looking page.
+- **Workaround today:** Pay Bitly, often on an annual plan, reprint, or accept the ad page. Support reportedly will not convert a dynamic code to a static one.
+- **Why existing tools fail:** Free static QR generators exist, but none of the sources show one that warns people before printing or helps with codes already out in the world. My assessment, not sourced: many QR sites run the same hosted-redirect model that causes this.
+- **App idea:** A web tool with three jobs. (1) Scan or upload any QR image and see the redirect chain and who can switch it off. (2) Make a direct QR with no middleman, generated in the browser. (3) For codes already printed, produce a sticker sheet at the exact size to cover the old code. It cannot revive a bit.ly code without Bitly, and it should say so. Reading redirects likely needs a small free serverless function (my assessment).
+- **Platform:** web
+- **Region:** Global. Reviewers on the pages read are from the US, UK, Germany, Finland, Nigeria and Australia.
+- **Evidence:**
+  - M J (US): a nonprofit fundraiser's printed QR code sent donors through an ad screen. Paid $35 a month to remove it, since the $10 plan needed an annual commitment. (https://uk.trustpilot.com/review/bitly.com) [2026-09-25]
+  - Adaline Dorca (US): printed a QR code on wedding invitations without knowing a paid subscription was needed to keep it active. Only annual plans were offered. (https://uk.trustpilot.com/review/bitly.com) [2026-06-30]
+  - Mallam Yahai (Nigeria): ad gates hurt businesses using permanent materials such as etched metal or printed packaging, and the fix needs an annual lump sum. (https://uk.trustpilot.com/review/bitly.com) [2026-09-18]
+  - Adam (GB): codes were deactivated after about a week and needed a subscription to reactivate, after they had already been printed. (https://uk.trustpilot.com/review/bitly.com) [2026-05-19]
+  - Simon Jahreiss (Germany): a QR code on a poster worked at first, then about a week later led to an ad-filled preview page needing a button click. (https://www.trustpilot.com/review/bitly.com?page=3) [2025-11]
+  - Search snippet only (page returned 403): a reviewer's nonprofit event code got a 3-day expiry notice, and support reportedly refused to convert a dynamic code to static. (https://www.capterra.com/p/172575/Bitly/reviews/) [search snippet only]
+
+### Snapchat's Memories export loses dates and locations and splits captions from photos
+
+- **Who:** Long-time Snapchat users over the 5GB free cap, with years of Memories, who do not want to pay monthly or run command-line tools
+- **Problem:** Snapchat capped free Memories at 5GB and pushes people to export. The export has no usable metadata in the files, keeps overlays and captions as separate files, can arrive as several ZIPs, and uses links that expire. Imported into a gallery, years of photos land on the wrong date with black-box overlays or none at all.
+- **Cost:** Paid plans run $1.99 to $15.99 a month. The alternative is about $10 for a repair tool, or hours of manual work. The worst outcome is losing the personal timeline. One guide also warns of fake downloader sites that harvest Snapchat logins.
+- **Workaround today:** Pay about $10 for a desktop tool, use a cloud service that takes your private photos, run a Python or Rust script, or batch-save 100 at a time from the app.
+- **Why existing tools fail:** The options found are paid, need a desktop install, need the command line, or upload very private media to someone's server. One free script has already broken after a format change. I found no free, no-install, local-only option, but my searching was limited.
+- **App idea:** A web page where you drop in your export ZIPs. Everything runs on your device, with nothing uploaded. It reads the history JSON, writes dates and GPS into each photo, merges overlays onto photos, sets video creation dates, and gives back a clean folder for Google Photos. It reports what is missing and never asks for a Snapchat login. For 8 to 12 hours, skip video overlay burn-in. Streaming large ZIPs in a browser is the main technical risk, and link-based exports may hit cross-origin blocks (my assessment).
+- **Platform:** web
+- **Region:** Global
+- **Evidence:**
+  - Snapchat capped free Memories at 5GB, with plans at $1.99, $3.99 and $15.99 a month and 12 months of temporary storage for over-limit Memories. Camera roll export handles 100 at a time. (https://techcrunch.com/2025/10/03/snapchat-is-planning-to-charge-for-storage-heres-how-to-save-your-memories-for-free) [2025-10-03]
+  - 11 people reviewed a paid repair tool, nearly all for Snapchat. Examples: five years of memories recovered (Julia Ternier), many hours of manual work saved (Adrian Elvaker), about 400 of 4,000 missing (Eve). (https://at.trustpilot.com/review/fixmyexport.com) [2026-02 to 2026-10]
+  - oatmealdragon had sensitive data in the export and inspected the tool's network traffic before trusting it. This shows privacy is part of the job. (https://at.trustpilot.com/review/fixmyexport.com) [2026-05-12]
+  - Guide lists separate overlay files, wrong dates or GPS in galleries, split ZIPs, expiring links, and login-harvesting downloader sites. Says older Memories over the allowance get archived from January 2027. (https://thecondia.com/download-snapchat-memories/) [2026-09-26]
+  - Developer built a Python script because exports have no metadata and store captions separately. The README now warns it no longer works after Snapchat changed the format. (https://github.com/aidandenlinger/SnapchatMemoriesCaptionAdder)
+  - Rust command-line tool for the same job. Confirmed working as of January 2026, warns that failed downloads usually mean expired links. (https://github.com/Zk2u/snatch) [2026-01]
+  - Paid repair tool at about $10 one-time for Mac and Windows. Its online version uploads files to the cloud. (https://alternativeto.net/software/memories-export/about/)
+
+### Medication reminders outside the US went behind a subscription, including family missed-dose alerts
+
+- **Who:** Medisafe users outside the US, especially people on disability or low income taking several medications, and family members who watch over a parent's doses
+- **Problem:** From January 1, 2026 Medisafe requires a subscription outside the US. Medfriend, the feature that alerts a family member when a dose is missed, is listed as Premium. Long-time users must pay for a basic reminder or rebuild their routine in another app.
+- **Cost:** $4.99 a month or $39.99 a year per Medisafe, which reviewers on disability describe as hard to justify. The hidden cost is missed doses during a switch, and losing the family safety net.
+- **Workaround today:** Pay, or move to a free reminder app and re-enter every medication. Families fall back on calling to check.
+- **Why existing tools fail:** Plain reminder apps are plentiful, so a clone is pointless. The specific gap is free missed-dose alerts to a family member, plus an all-clear when the dose is taken late, which a reviewer asked for. I did not verify every competitor, and MyTherapy reportedly offers some caregiver sharing.
+- **App idea:** An Android reminder app with no account, built around one job: if a dose is not confirmed within a set time, a chosen family member gets an alert, and an all-clear follows if it is taken late. Pair two phones by QR code and use a free push channel. Checks needed first (my assessment): exact alarm reliability on aggressive battery-saving phones, and Google Play's restrictions on sending SMS. It must state it is a reminder aid, not medical advice.
+- **Platform:** android
+- **Region:** Paywall applies outside the US, so the need is everywhere except the US. A free tier appears to remain in the US.
+- **Evidence:**
+  - Official notice: paid outside the US from January 1, 2026. New users get a 14-day trial, then the app locks. Premium includes unlimited medications, Medfriends and dependents. (https://help-center.medisafe.com/en/articles/13052285-medisafe-is-now-a-fully-paid-app-for-users-outside-the-u-s) [2026-01-01]
+  - Ashleigh J (Australia): living with a disability makes money tight, and paying for a few reminders feels like price gouging. (https://uk.trustpilot.com/review/medisafe.com) [2026-01-04]
+  - Taya Green (New Zealand): says the fee exploits vulnerable people and moved her reminders to a free app. (https://uk.trustpilot.com/review/medisafe.com) [2026-01-05]
+  - A Swedish user who used it only for reminders switched apps. An Australian user after years of use has to find a new app and routine. (https://au.trustpilot.com/review/medisafe.com) [2025-12]
+  - DominicF: when a Medfriend is alerted, the user cannot then tell them the dose was taken. YaSahiibi wants a caregiver or partner able to log doses from another device. Reviews undated. (https://justuseapp.com/en/app/573916946/medisafe-medication-management/reviews)
+  - Competitor page: says free users are limited to 2 medications and promotes its own free app. The page does not say caregivers get missed-dose alerts. (https://pillo.care/blog/medisafe-not-free-what-to-do)
+
+### Fitbit owners lost the at-a-glance dashboard when the app was force-replaced by Google Health
+
+- **Who:** Long-time Fitbit wearers who want their daily numbers on one screen, without an AI coach or Premium, and who cannot revert to the old app
+- **Problem:** On May 19, 2026 the Fitbit app became Google Health with no way back. Metrics are squeezed into a small top area, AI coach text takes much of the screen, and reading a number can take several tabs. Sleep Profile, badges, groups and other features were removed.
+- **Cost:** Extra tabs for numbers people check daily. Reported loss of years of food logs and custom meals, and historical badges deleted, with removed-feature data downloadable only until July 15, 2026.
+- **Workaround today:** Dig through tabs, customise tiles, turn off the AI coach in privacy controls, or leave Fitbit hardware for other brands.
+- **Why existing tools fail:** Google's roadmap focuses on bugs and food logging, not on a dense no-AI overview. No source read mentions a third-party replacement. I did not search for one, so check this first.
+- **App idea:** An Android app with one dense screen and a home-screen widget showing today's steps, sleep, heart rate, weight and weekly trends, read from Health Connect. No AI, no account, no server. Check first: which metrics Google Health actually writes to Health Connect, and whether you can test it without owning a Fitbit. Do not rebuild food logging, because Google has promised that fix. This cannot restore deleted badges or food logs.
+- **Platform:** android
+- **Region:** Global wherever Fitbit devices and Google Health are used.
+- **Evidence:**
+  - Users report a cramped top area, less visible at a glance, status content instead of raw data, and several tabs to reach specific numbers. (https://www.droid-life.com/2026/05/25/fitbit-switched-to-google-health-and-people-are-pissed/) [2026-05-25]
+  - Users say years of food logs and custom meals vanished. Key metrics are squeezed to the top of the main tab, and the rest of the screen is blank without Premium. (https://www.androidheadlines.com/2026/05/fitbit-users-wake-up-to-an-absolute-dogsht-app-redesign.html) [2026-05]
+  - AI coaching notes take over the main screen. Reddit and Google's help forum filled with criticism and requests to restore the old app. (https://www.shopifreaks.com/google-replaces-the-fitbit-app-with-ai-centric-google-health-and-many-longtime-users-want-the-old-app-back/) [2026-05-26]
+  - Itemised removals: Sleep Profile, badges (history deleted), groups, messaging, minute-level skin temperature, EOV, snore detection. Removed-feature data was exportable only until July 15, 2026. (https://piunikaweb.com/2026/05/25/google-health-app-removes-fitbit-features-badges-sleep-profile/) [2026-05-25]
+  - Google's fix roadmap acknowledges food tracker and data complaints, and promises custom foods back. The article says data is largely present but moved. No desktop view or badges mentioned. (https://9to5google.com/2026/05/27/google-health-roadmap-fitbit-backlash/) [2026-05-27]
+
+### TV Time refugees hold an export file with no home, and the destinations have limits
+
+- **Who:** TV Time users who saved their export before the July 15, 2026 shutdown, particularly those with long histories who will not pay for a tracker
+- **Problem:** TV Time closed with two weeks' notice and deleted personal data. The export is a set of CSV files covering watches, ratings and follows, but not comments or social content. Imports depend on title matching, and destinations have limits: Trakt capped free lists at 100 items, and Simkl's TV Time import was paid-only as of late July.
+- **Cost:** Years of episode-level history are at risk of mismatch or sitting unused. Trakt VIP went from $30 to $60 a year, and Simkl PRO is $34.99 a year. Users who missed the deadline lost everything.
+- **Workaround today:** Import into Trakt, Serializd or another tracker, then spot-check titles by hand, or leave the file unused.
+- **Why existing tools fail:** The tracker market is crowded, so a new tracker adds nothing. The narrow gap is a neutral, private place to open your own file, see what would fail to match, and leave with clean data, without joining a service. Evidence for this gap is indirect, and most of the pages are vendor content, so this is the weakest of the strong problems.
+- **App idea:** A local-only web page. Open the TV Time export and get your full history, a next-episode list, and monthly and yearly stats, with a review screen for unmatched titles and clean CSVs for each destination. Nothing is uploaded and there is no account. The audience shrinks with time, since the shutdown was in July.
+- **Platform:** web
+- **Region:** Global
+- **Evidence:**
+  - TV Time shut down July 15, 2026, with app removal and all personal data deleted afterward. Exports went through a GDPR self-service tool. (https://macrumors.com/2026/07/02/show-tracking-app-tv-time-shutting-down) [2026-07-02]
+  - Export is a set of CSV files, and images and GIFs in comments appear not to be included. (https://wiki.archiveteam.org/index.php/TV_Time)
+  - Export covers episodes, titles, ratings and follows. Friends and comments have no export format. Advises spot-checking 10 to 15 titles after import, because the 95% accuracy claim comes from an interested party. (https://cord-cutters.gadgethacks.com/news/how-to-use-the-tv-time-shutdown-migration-tool-before-july-15/) [2026-07]
+  - Vendor page: no single app reproduces the free checklist plus community. Simkl's import was limited to paying users as of July 26, 2026, described as temporary. (https://theflickpicker.com/alternatives/tv-time) [2026-07-26]
+  - Trakt free tier limited to two lists of 100 items, VIP doubled to $60. One user called it low-key predatory, and others moved to Simkl, Letterboxd or Showly. (https://alternativeto.net/news/2025/2/trakt-tv-has-set-stricter-limits-for-free-users-and-raised-vip-subscription-prices-by-100-/) [2025-02-07]
+  - Long-time VIP members of 6, 10 and 12 years cancelled or sought alternatives. Commenters name needs such as new-episode alerts and monthly and yearly viewing breakdowns. (https://piefed.jeena.net/post/167328) [2025]
+
+### Microsoft Lens users lost a simple scanner that saves to the phone and scans business cards
+
+- **Who:** People who used Microsoft Lens for quick scans, whiteboards and business cards and want files on the phone without a cloud account
+- **Problem:** Microsoft retired Lens, with scanning ending March 9, 2026. Its recommended replacement, OneDrive, cannot save scans to the device. Per vendor comparisons, OneDrive has one general mode, and the Copilot route lacks business card scanning to OneNote, direct saves to Word or PowerPoint, and read-aloud.
+- **Cost:** Scans are forced into a cloud account, or users move to apps with watermarks or ads. CamScanner's free version carries a watermark, per one vendor table. Workflows built around business cards must be rebuilt.
+- **Workaround today:** OneDrive, Google Drive's scanner, Adobe Scan, CamScanner, PDFgear Scan or OSS Document Scanner.
+- **Why existing tools fail:** General scanning is well served, so a general scanner would be redundant. The possible gap is narrower: offline business card to phone contact, with no account. Caution: I found no direct user complaints, only press and vendor pages, so this does not fully meet the evidence bar and needs user voices before you commit.
+- **App idea:** An Android app for one job: photograph a business card, read it on the device, and save it straight to phone contacts, plus a basic PDF scan saved locally. No account, no ads. Google's on-device document scanning and text recognition make this feasible in a day (my assessment, not sourced).
+- **Platform:** android
+- **Region:** Global
+- **Evidence:**
+  - Official timeline: retirement from January 9, 2026, store removal February 9, scanning ends March 9. OneDrive is recommended but does not support saving scans locally. (https://support.microsoft.com/en-gb/topic/retirement-of-microsoft-lens-fc965de7-499d-4d38-aeae-f6e48271652d) [2026]
+  - Calls it bad news for people who rely on Lens, and lists features missing from Copilot, including business cards to OneNote and direct saves. Dates here were later superseded by Microsoft's page. (https://9to5mac.com/2025/08/08/microsoft-will-soon-discontinue-its-excellent-pdf-scanner-app/) [2025-08-08]
+  - Vendor page: OneDrive has a single scan mode and no local saving, and Lens's business card and whiteboard modes are not replaced by Copilot. (https://www.pdfgear.com/scan-pdf/microsoft-lens-alternatives.htm)
+  - Vendor blog: lists gaps in the Copilot route and notes CamScanner funds itself with ads. Shows rivals competing for displaced users. (https://www.docutain.de/en/Blogartikel/Microsoft_Lens_Is_Discontinued_Best_Alternative_Docutain)
+  - Search snippet only (page returned 403): the author suggests OSS Document Scanner and PDFgear Scan. (https://www.androidauthority.com/microsoft-lens-pdf-scanner-retirement-timeline-3631730) [search snippet only]
+
+### Free Cozi users can no longer see the family calendar beyond 30 days
+
+- **Who:** Families, usually the parent who runs the household calendar, who relied on Cozi's free tier for school dates, appointments and shared lists
+- **Problem:** Cozi's free tier now limits access to events more than 30 days ahead, and those events need Cozi Gold. Families plan school holidays and appointments months out, so the free app no longer covers its main job, and the app also contains ads.
+- **Cost:** One UK parent was quoted £17 for the first year and £35 a year after. Otherwise the family must move years of habit to another app and get everyone to switch.
+- **Workaround today:** Pay for Gold, or move to FamilyWall or a shared Google Calendar.
+- **Why existing tools fail:** Alternatives exist, and one parent reports FamilyWall's free tier is enough. My assessment: the only opening is no per-person accounts for children and a printable month for the fridge. This is a crowded category close to generic, so it ranks low.
+- **App idea:** A web app giving a family one private link with no accounts, unlimited future dates, colour per person, and a one-tap printable month for the wall. Needs a free-tier database.
+- **Platform:** web
+- **Region:** Global, with evidence from the UK, US and Australia.
+- **Evidence:**
+  - Waffle12 said free Cozi only allows planning 30 days ahead, with upgrade pricing of £17 then £35. BreezyHedgehog uses FamilyWall free, with no such limit. (https://www.mumsnet.com/talk/_chat/5243671-family-planner) [2025-01-03]
+  - Listing confirms Gold adds events more than 30 days ahead and the app contains ads. cockpitjockey, a Gold family for six years, says Gold is no longer worth it and the free version declined. (https://apps.apple.com/app/407108860) [2024-05-17]
+  - Candi Carey (Australia): says the app is nearly impossible to use without Premium. (https://www.trustpilot.com/review/cozi.com) [2026-05-23]
+  - Search snippet only: a reviewer objected to the free version moving to a 30-day view. This text did not appear on the first page of reviews when read. (https://fr.trustpilot.com/review/cozi.com) [search snippet only]
+
+### Galaxy owners forced off Samsung Messages lost small features Google Messages lacks
+
+- **Who:** US Samsung Galaxy owners on Android 12 or later who liked Samsung Messages, especially those who dislike Gemini prompts or want old texts cleaned up automatically
+- **Problem:** Samsung ended Messages in the US in July 2026. Android Authority names features Google Messages lacks: chat folders, automatic deletion of old texts at 1,000 per chat, picture backgrounds, and the vibrate-on-pickup alert for unread texts. Users also miss a simpler app with no AI prompts and no Google account requirement for RCS.
+- **Cost:** Mostly daily annoyance: pop-ups, lost organisation, reported lag and battery drain, and some worry about Google's data use. One commenter reports messages filed under the wrong contact after switching.
+- **Workaround today:** Accept Google Messages, or move to Textra and give up RCS.
+- **Why existing tools fail:** Third-party apps generally cannot use RCS, per Droid Life, so a replacement messaging app is a poor bet. Only side features are reachable by a small tool. Evidence for the pickup alert specifically rests on one article, and the loudest complaint, themes, is partly addressed by Chat Themes.
+- **App idea:** A tiny Android companion that does not replace Google Messages: vibrate when the phone is picked up if a chosen app has unread notifications, using notification access. Battery use from motion sensing is the main risk (my assessment). Auto-delete and folders likely need the default SMS role, so leave them out.
+- **Platform:** android
+- **Region:** US now, per Samsung, on Android 12 or later. Some sources say it still works elsewhere. Commenters note most non-US users rely on other messaging apps.
+- **Evidence:**
+  - Names four missing features: chat customisation, folders, Alert when phone picked up, and automatic deletion of old texts. (https://www.androidauthority.com/samsung-messages-features-still-missing-from-google-messages-3664303/) [2026-05-10]
+  - Users dislike the layout, lag and battery use, Gemini pop-ups, and needing a Google email address for RCS and AI. Textra suggested as a close match for looks. (https://www.bgr.com/2241389/samsung-features-users-miss-switching-google-messages/) [2026-08-26]
+  - Commenters split. _merlin values being able to turn off RCS and AI, sfsp reports messages under the wrong contact, TwistedGreen asks for a decent SMS app, others see no loss. (https://tech.slashdot.org/story/26/04/06/1651243/) [2026-04-06]
+  - Calls Google Messages the only true alternative, since most third-party messaging apps lack RCS. Says Google has added only a few missed features. (https://www.droid-life.com/2026/07/02/the-final-days-of-samsung-messages/) [2026-07-02]
+  - Says lost customisation and theme packs are the most common complaint. (https://9to5google.com/2026/04/07/samsung-messages-google-shutdown-poll/) [2026-04-07]
+
+**Limits of this search:** Ranking, strongest first: Bitly QR codes, Snapchat export, Medisafe, Google Health dashboard, then TV Time, Lens, Cozi and Samsung. The first three best fit the brief: named people, money spent, and a clear small tool.
+
+Coverage gap: the shared WebSearch budget ran out partway through, so I stopped searching and only fetched pages already found. Not checked: Kindle USB download removal, Strava, AllTrails, Komoot, Microsoft Authenticator, Evernote, Plex. A follow-up run could cover these.
+
+Evidence quality:
+- No Reddit thread was read directly, and I did not fetch Reddit mirror sites.
+- Trustpilot reviews are unverified individual reports.
+- Pillo, PDFgear, Docutain, Moviebase and FlickPicker are competitors or vendors, labelled where cited.
+- The Microsoft Lens candidate has no direct user complaints, so it does not fully meet the evidence bar.
+- Statements marked "my assessment" are engineering judgment, not sourced facts, and no build was tested.
+
+Source conflicts:
+- Snapchat deadline: TechCrunch reports a 12-month grace period, after which recent Snaps are deleted to fit the limit. Condia says over-limit Memories are archived from January 2027. Check Snapchat's own support page before using a date in the series.
+- Medisafe: its help page says the app locks after a 14-day trial outside the US, while Pillo and reviewers describe a 2-medication free tier, and one review says 3. It is unclear how existing users are treated.
+- Microsoft Lens dates from August 2025 were replaced by Microsoft's later timeline.
+
+Leads rejected:
+- Google Maps Timeline: the web version went in 2024, and Dawarich already offers a free in-browser viewer.
+- Gmail POP and Gmailify removal: found announcements but no post-rollout complaints.
+- CapCut auto captions paywall: evidence was almost all vendor blogs.
+- HP Smart login requirement: real complaints, but those found date from 2020-21, outside the window.
+- Accurx Switch, a hospital directory for users outside the UK that closed October 3, 2026, with data requests until January 1, 2027: very specific, but only one source, and worth a separate look.
+
+## Explicit wishes
+
+### You can't tell before buying which appliance functions only work through the manufacturer's app
+
+- **Who:** People replacing a dead washer, dishwasher or TV who refuse, or can't manage, a cloud account for a basic household machine. Their concerns are privacy, longevity, and guests or a second adult needing to use it.
+- **Problem:** The useful question is not whether a machine has Wi-Fi. It is which functions still work from the panel with no app or account. That detail tends to sit in the manual, so buyers find out after installation. One buyer learned that Rinse, Machine Care, HalfLoad, Eco and delayed start were app-only on a Bosch 500 series dishwasher recommended by Consumer Reports.
+- **Cost:** Money: the Bosch 800 series, which keeps those controls on the panel, costs about $400 more. Hours spent researching under time pressure because the old machine has failed. Loss of normal functions for anyone unwilling to connect the machine.
+- **Workaround today:** Buying commercial machines, buying used, keeping the machine offline and losing functions, reading PDF manuals before purchase, or using one retailer's filter where one exists.
+- **Why existing tools fail:** Consumer Reports and retailer filters answer whether a machine has Wi-Fi, not which functions need it. A commenter in the same thread argues most appliances are smart-optional, which is why that distinction matters. The Dumb TV Index covers only TVs on one store. Nobody in the Ask HN thread named a complete list.
+- **App idea:** A web lookup, working name Works Without The App. For each model it shows which functions work from the panel, which need the app, and whether an account is required. Seed it by extracting app-only statements from manufacturer PDF manuals for dishwashers, washers and TVs in one market. Add crowd corrections and side-by-side comparison. Pages per model and per brand give it search traffic.
+- **Platform:** web
+- **Region:** The problem is global, but model numbers and app requirements differ by market. Start with one market and name it.
+- **Evidence:**
+  - Ask HN with 132 comments. The poster's washing machine failed and they asked for lists of non-connected appliances, shopping in Ireland. Replies offered only partial routes: the Consumer Reports Wi-Fi column, one Dutch retailer filter, commercial machines, used machines. (https://news.ycombinator.com/item?id=44488810) [2025-07-07]
+  - A replier (disastronaut) says they know of no such lists, calls the market thin, and points to commercial machines instead. (https://news.ycombinator.com/item?id=44489058) [2025-07]
+  - A different commenter (Tsarp) says someone should build a searchable listing for this. It received no replies. (https://news.ycombinator.com/item?id=44508333) [2025-07-09]
+  - Named buyer found the Bosch functions were app-only, and that they required Wi-Fi and a cloud account, only after installing it. He kept it, never connected it, and rejected a reverse-engineered library as too much work. (https://www.jeffgeerling.com/blog/2025/i-wont-connect-my-dishwasher-your-stupid-cloud) [2025-03-24]
+  - Commenter wants regulators to require a dumb mode after a family member's Vizio TV demanded an app and an account with personal details during setup. (https://news.ycombinator.com/item?id=49613203) [2026-09-08]
+  - A person maintains a monthly hand count of non-smart TVs on Amazon US: 13 models in the October 2026 edition. This shows the demand and the size of the gap. It covers TVs only, US Amazon only. (https://www.smarthomeperfected.com/dumb-tv-index/) [2026-10]
+
+### Android has no way to forward calls on a timer without paying for a new business number
+
+- **Who:** Sole traders, small on-call teams and shift workers who use one ordinary mobile number and want it forwarded during set hours. One poster wanted 7AM to 5PM forwarding.
+- **Problem:** Call forwarding on a phone is a manual on/off setting. Scheduling it means either remembering to toggle it, or moving to a VoIP service that needs a new or ported number.
+- **Cost:** Money: per the Quo roundup, services with scheduled forwarding run $14 to $59 per user per month, and Talkroute puts scheduling on its $59 plan. Risk: a missed customer call or a forgotten toggle.
+- **Workaround today:** Toggling by hand, building a MacroDroid macro, or paying a VoIP provider and changing numbers.
+- **Why existing tools fail:** Paid services solve scheduling by replacing the number. Automation apps work but make the user build the logic. The named free options, Google Voice and Divert Calls, do not forward on a time schedule.
+- **App idea:** An Android app with a weekly schedule grid. Each time block sets a forward-to number, and an optional on-call rota rotates the number by week. It sends the carrier forwarding code at each boundary, confirms the result, and warns if a switch failed. It keeps the existing number and needs no server. Calls only in version one.
+- **Platform:** android
+- **Region:** Global in need, but carrier-dependent in practice. Forwarding codes and charges for forwarded minutes vary by carrier and country, so test on the builder's own carrier and show a compatibility list.
+- **Evidence:**
+  - Search snippet only, the page refused a fetch. A user asks for calls to forward on a timer from 7AM to 5PM. A reply says there is no scheduling option because it depends on the carrier. The poster uses MacroDroid for scheduled SMS forwarding. (https://eu.community.samsung.com/t5/mobile-apps-services/call-sms-forwarder/td-p/9670266) [search snippet only]
+  - Search snippet only, the page refused a fetch. A reply says Android has no built-in text auto-forwarding, that third-party apps are the route, and that some earlier options such as Google Voice forwarding were discontinued. (https://forums.androidcentral.com/threads/call-and-sms-forwarding.1079225/) [search snippet only]
+  - Vendor roundup, so it has a commercial interest. Lists scheduled forwarding at Quo $15, Grasshopper $14, Talkroute $59 per user per month, and others. Says Google Voice cannot create work schedules and Divert Calls forwards on call status rather than time. Quo requires a new or ported number. (https://www.quo.com/blog/call-forwarding-app/) [2026]
+
+### Gmail filters work, but managing a large set of them is painful
+
+- **Who:** Gmail users who have built up many filters and rely on them. Their workaround effort suggests they are comfortable with scripts or file imports.
+- **Problem:** Gmail's filters do the job, but the interface for organising, reviewing and maintaining them is poor. People with long rule sets can't easily see what they have or tidy it up.
+- **Cost:** Hours writing and maintaining personal scripts and rule files. Separately, one developer found decent paid inbox managers cost $25 to $30 a month and required moving to a new inbox.
+- **Workaround today:** Gmail's own settings page, personal Apps Scripts, and importing shared filter files.
+- **Why existing tools fail:** treetalker's direct question went unanswered in the thread. Inbox assistants aim at classifying mail, not at managing the user's existing rules. Check developer tools such as gmailctl first; it was not reviewed in this run and is likely unsuitable for non-programmers.
+- **App idea:** A browser-only tool. Export filters from Gmail, drop the file in, and see every rule in a searchable table grouped by label. It flags duplicates, conflicts and rules that overlap, supports bulk edits, and exports a clean file to import back. No login, no OAuth, nothing uploaded. That makes a strong privacy line for the series.
+- **Platform:** web
+- **Region:** Global.
+- **Evidence:**
+  - treetalker says Gmail's filters work but its tools for organising them are poor, and asks whether any app or service fixes this. The comment got no replies. (https://news.ycombinator.com/item?id=45027987) [2025-08-26]
+  - Show HN by kilroy123 with 59 points: importable filter sets for Gmail and Fastmail, shared as a file and an open-source repo. Commenters describe importing them. (https://news.ycombinator.com/item?id=45026723) [2025-08-26]
+  - hennell, in the same thread, shares a personal Apps Script tool that archives or deletes tagged mail after set periods. This is time spent working around the gap. (https://news.ycombinator.com/item?id=45027569) [2025-08-26]
+  - robterrell, in the same thread, runs an Apps Script that sends mail to Gemini for classification. Another home-made workaround. (https://news.ycombinator.com/item?id=45028182) [2025-08-26]
+  - Separate thread. A developer searched for better Gmail or Outlook management, found decent options at $25 to $30 a month that required a new inbox, and built their own. (https://news.ycombinator.com/item?id=47258343) [2026-03-05]
+
+### Finding a simple single-purpose Android app without scams, adware or spyware
+
+- **Who:** Android users who want a basic tool such as a voice recorder or guitar tuner, and who don't want to judge Play Store listings themselves or leave the store for F-Droid.
+- **Problem:** Play Store results can rank copycats, scams and adware above the app you asked for. Function searches give few trustworthy options, so finding a basic tool takes judgement and time.
+- **Cost:** Risk of installing adware or spyware, plus time spent checking listings. The people who avoid this do it by switching store, which not everyone can do.
+- **Workaround today:** Using F-Droid for simple tools and the Play Store for everything else, or searching by exact app name to skip the ads.
+- **Why existing tools fail:** F-Droid answers this well for technical users, which is a real competitor. It requires leaving the Play Store and lacks some essential apps. Store search does not rank by absence of ads or trackers.
+- **App idea:** A web directory organised by job, not by app name: record voice, tune a guitar, scan a document. Each entry is a hands-on check of a small set of apps, covering permissions, trackers, ad behaviour and subscription prompts, then one recommended pick per job. It would start with about 20 jobs. A later Android add-on could check what is already installed.
+- **Platform:** web
+- **Region:** Global. App availability varies a little by country.
+- **Evidence:**
+  - remuskaos says the Play Store often puts scams, copycats or adware above the app searched for by name. They wish for a real alternative and say F-Droid comes close but lacks essentials such as banking and health insurance apps. (https://news.ycombinator.com/item?id=49197730) [2026-08-06]
+  - MSFT_Edging says free Android apps outside solo developers' are often spyware, and that for a voice recorder or guitar tuner they go to F-Droid. (https://news.ycombinator.com/item?id=45414596) [2025-09-29]
+  - Marsymars says that when searching by function rather than by name, there are usually too few options for store filters to be worthwhile. (https://news.ycombinator.com/item?id=43887789) [2025-05-04]
+  - Search snippet only. LibreFind, an open-source app, scans installed apps for proprietary software and suggests free alternatives. It shows someone spent effort on a related gap, starting from the app you already have. (https://f-droid.org/zh_Hans/packages/com.jksalcedo.librefind/) [search snippet only]
+
+### An elderly parent who can't answer a video call or manage a phone, without a subscription device
+
+- **Who:** Adult children living away from a parent with dementia or age-related difficulty with a phone or tablet, including parents in care homes where staff can't supervise calls.
+- **Problem:** The parent can't reliably answer a call and may hang up by touching the screen, or gets lost in the phone itself. An 80-year-old father struggling to find apps and handle a blanking screen is a recent example.
+- **Cost:** Dignity and contact: calls that don't happen when they matter. Money: RecallCue's video calling sits in its $9.99 per month plan, and ViewClix and JubileeTV need paid memberships plus hardware. One family bought an Echo Show at about £200. Another needed a tablet, Skype, remote control software and a data hotspot.
+- **Workaround today:** Echo Show Drop In, iPad FaceTime auto-answer, dedicated subscription devices, remote control software, or asking care staff to help.
+- **Why existing tools fail:** Answers do exist, so this gap is narrower than it first looks. Remaining pain is the recurring fee, buying new hardware, and adding family to one more account. Check Oscar Senior before building: a review snippet says it starts calls automatically on Android, which was not verified here.
+- **App idea:** An Android app that turns an old tablet into a dedicated family screen. It shows a large day and time clock, stays awake and pinned so it can't be exited, and auto-answers calls only from a family allow-list. Family call from a web link with no install. Include a visible on-camera indicator and an audible chime, because auto-answer turns a camera on without a tap.
+- **Platform:** both
+- **Region:** Global. Care-home Wi-Fi and consent rules vary.
+- **Evidence:**
+  - A daughter worried her mother with Alzheimer's would disconnect calls in a care home. She built a tablet on a stand with Skype, remote control software and a data hotspot so she could answer from home. Note this thread is from 2017 to 2018, well outside the 18-month window. (https://forum.alzheimers.org.uk/threads/anyone-know-an-easy-device-or-app-for-my-mum-to-make-video-call-in-care-home.98208/) [2017-01 to 2018-06]
+  - Ask HN: an 80-year-old father struggles to find apps and deal with the screen going blank. The single reply suggests a flip phone or a refurbished iPhone under remote device management, not a simple product. (https://news.ycombinator.com/item?id=50060197) [2026-10-12]
+  - Review site with a likely affiliate interest. Of six options listed, four need the senior to answer. The two with auto-answer, ViewClix and JubileeTV, need a paid membership. Echo Show offers Drop In without answering. (https://elderlydaily.com/reviews/best-video-calling-devices-for-elderly) [2026-11]
+  - Vendor page. Turns a tablet into a dementia day clock. The free tier is the clock only; video calls and messaging need Pro at $9.99 per month, plus a phone app for family. (https://www.recallcue.com/)
+
+### Tradespeople finish quotes at home in the evening and then never follow them up
+
+- **Who:** Sole traders and very small trade firms that quote on site. The evidence comes from UK forums.
+- **Problem:** Quoting happens as a mix of site notes and photos, then gets written up later at home. Job-management tools are said to be weak at quoting, and sent quotes tend to go unanswered with no follow-up.
+- **Cost:** Unpaid evening hours, plus jobs lost to whoever quoted first or chased. Neither thread gives a figure.
+- **Workaround today:** Notes and photos on site, a spreadsheet or Word template on the sofa, full job-management subscriptions.
+- **Why existing tools fail:** Job-management suites are broad and quoting is reported as a weak point, while spreadsheets don't follow up. Be honest about this one: the market is crowded, with established platforms such as Jobber and a wave of new AI quoting apps. Any gap is in the narrow on-site capture and chase-up step.
+- **App idea:** An Android app used on site, one-handed. Dictate the job, attach photos, pick from a personal price list, and send a link in WhatsApp or by email before leaving the driveway. The customer views and accepts on a web page. The app then reminds the trader to chase if nothing happens in a few days. Users keep their own price list, since live supplier pricing is not available.
+- **Platform:** both
+- **Region:** Evidence is UK only. The need should travel, but tax wording, currency and trade norms differ by country.
+- **Evidence:**
+  - Search snippet only, the page refused a fetch. A tradesperson says a CRM handles customers competently but falls down on quoting. Others describe notes, photos and quotes done later at home, wanting a middle ground between a spreadsheet and full job management software. Roughly a year old per the search summary. (https://www.ukbusinessforums.co.uk/threads/what-apps-are-trades-using-for-quoting-jobs-now.430559/) [search snippet only]
+  - Search snippet only, the fetch failed. A separate forum discussion of a quoting tool notes major suppliers, including Screwfix, did not answer requests for API access, which blocks live product pricing in quotes. (https://community.screwfix.com/threads/how-can-this-quoting-software-develop.269159/) [search snippet only]
+
+### Permanently blocking specific sites across an Android phone without trusting a data-harvesting app
+
+- **Who:** Android users who want certain sites gone for good, not timed or rationed, and who won't install a blocker that collects their data. Includes parents worried about Shorts.
+- **Problem:** One poster wanted specific social sites permanently blocked, with no screen-time limits, from something reliable that doesn't harvest data. Replies only offered partial fixes. Another commenter said existing tools had not helped them.
+- **Cost:** Time and attention, plus the privacy cost of handing browsing data to a blocker. No money figure in the evidence.
+- **Workaround today:** DNS-level services, uBlock filters in one browser, or a patchwork of per-platform settings and extensions.
+- **Why existing tools fail:** DNS services work device-wide but take technical setup, and browser filters stop at the browser. This is a crowded category, so the case rests on doing one narrow thing and proving no data leaves the phone. The Shorts part is largely answered by existing tools and should stay out of scope.
+- **App idea:** An open-source Android blocker for one job: a list of domains blocked everywhere on the phone, filtered locally with no account and no analytics. Unblocking is deliberately slow, using a 24-hour cooling-off or a code held by a friend. It has no timers, no streaks and no dashboard.
+- **Platform:** android
+- **Region:** Global.
+- **Evidence:**
+  - Ask HN seeking permanent, reliable, non-harvesting site blocking on Android. Two replies: NextDNS or AdGuard DNS with an unnamed Firefox add-on, and uBlock Origin filters, which only work inside a supporting browser. (https://news.ycombinator.com/item?id=45542753) [2025-10-10]
+  - mindfulhacker wants a tool to stop compulsive phone, social media and YouTube use, and says the existing ones have not worked. No replies. (https://news.ycombinator.com/item?id=44644361) [2025-07-22]
+  - jcmoscon wishes for a way to remove YouTube Shorts, especially for children. Replies give piecemeal fixes per platform: Unhook on Firefox, Brave on iOS, an F-Droid client, a watch-history setting. One says selectors keep changing. (https://news.ycombinator.com/item?id=49449615) [2026-08-26]
+
+**Limits of this search:** COVERAGE LIMITS, READ FIRST
+1. The named channels mostly could not be reached. Reddit refused every fetch and the search tool refused to filter to it. softwarerecs.stackexchange.com and the Stack Exchange API also refused fetches. I did not use Reddit mirrors or proxies to get around those blocks. Result: no direct r/SomebodyMakeThis, r/AppIdeas, r/androidapps, r/software or softwarerecs threads are in this set. General searches returned no usable threads from them either.
+2. The evidence therefore leans on Hacker News, which skews technical. Candidates 3, 4 and 7 in particular may not reflect ordinary users.
+3. The WebSearch budget for this run ran out partway through, so I stopped searching, including HN's search endpoint, and only read pages already surfaced. Further searching needs a follow-up message or a higher CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION. The niche forum searches I had planned (Mumsnet, MoneySavingExpert, Whirlpool, allnurses, BiggerPockets) did not run, and those are the likeliest source of unglamorous non-tech problems.
+
+ABOUT THE EVIDENCE
+- HN items were read through the Algolia items API. URLs given are the standard news.ycombinator.com form of the same item IDs.
+- Items marked fetched=false rely on a search snippet or summary. Candidate 2 has two of these and candidate 6 rests entirely on them, so read those threads by hand before committing.
+- Comment summaries came through a small model, so spot-check any wording before it goes in a video.
+- The HN comments in candidates 3 and 5 include same-thread evidence: different people, but not independent discussions. Candidate 3's support comes mainly from one HN thread plus a separate March 2026 thread on a related cost.
+- Candidate 5's strongest first-person account is from 2017 to 2018, outside the 18-month focus. Candidate 1's Geerling post (March 2025) is about 19 months old.
+
+MY RANKING BY EVIDENCE STRENGTH
+Candidates are listed roughly in this order. Candidate 1 (appliances) is the only strong one, with several independent voices and no complete answer. Candidate 2 (call forwarding) is second, with clear money evidence but snippet-only user evidence and carrier risk. Candidates 3 and 4 are moderate. Candidates 5, 6 and 7 are real but face existing answers or crowded markets, and I would treat them as backups.
+
+REJECTED AFTER CHECKING
+- Daily I'm OK check-in for people living alone: demand is real (Are You Dead? topped China's paid chart in January 2026, and a GummySearch snippet showed it as a leading r/SomebodyMakeThis theme). But Snug Safety already gives a free, no-time-limit daily check-in with text alerts on Android and iPhone.
+- Country day counting for tax and Schengen: saturated, with at least ten automatic trackers found.
+- Sibling care coordination: many dedicated apps already, and forum repliers often settle on group texts.
+- Bilingual ebook and audiobook reader: Readini was named in the thread as a close match.
+- Removing YouTube Shorts as a standalone product: repliers named several working fixes.
+- TurboTax for US expats in Europe: asked repeatedly, but by one person, and not buildable in a day.
+- Debt payoff visualiser: generic.
+
+NEAR MISS
+Battery dashboard across about 20 household devices (https://news.ycombinator.com/item?id=45616536, October 2025): the cleanest case of nobody naming a full solution, and a neat Android-plus-web build. Excluded because all support comes from one thread, so it misses the two-independent-sources rule. Worth a dedicated search if budget returns.
+
+## Bureaucracy and money quietly lost
+
+### Rental car AI scanners bill renters for damage they cannot disprove
+
+- **Who:** Travellers renting from Hertz, Sixt and similar firms at sites with automated damage gates, especially those who drop the car and leave with no agent present
+- **Problem:** An automated scanner flags damage after return. The bill arrives by text or email with fees added. The renter has no structured 'before' record, and the only photos belong to the rental firm. Dispute links and phone lines fail, and the bill can go to collections.
+- **Cost:** Reported bills of $350 (of which $190 was admin fees), $1,428 and $1,500. One renter spent about 10 months on calls and emails and was sent to collections anyway. Two cases closed only after journalists or a consumer advocate stepped in.
+- **Workaround today:** Taking ad hoc phone photos, card disputes, state consumer complaints, and contacting journalists or advocates
+- **Why existing tools fail:** A camera roll gives scattered photos with no fixed coverage, no odometer or fuel shot, and no ready dispute document. The firm's scan data is not reliably shared with the renter. I did not get to check whether a dedicated renter app already exists, so verify that first.
+- **App idea:** Android walkaround guide. It forces a fixed shot list at pickup and return (each panel, wheels, roof, odometer, fuel), stamps time and GPS, hashes the files, and exports a one-tap PDF dispute pack.
+- **Platform:** android
+- **Region:** Global for the capture tool. Press evidence is mostly US, and EU consumer bodies give the same advice.
+- **Evidence:**
+  - InvestigateTV: Hertz renter Jessica Fields got a damage alert about 17 minutes after drop-off, was refused a look at the car, and had no 'before' photos. $350 bill went to collections. Sixt renter Jessica Paciolla got a $1,500 bill after a clean gate scan, and never received the pre-rental vs return comparison she asked for. (https://www.wlox.com/2026/06/29/rental-car-ai-scanners-flag-alleged-damage-leaving-customers-with-surprise-bills/) [2026-06-29]
+  - Canadian renter Sharon Doyle was billed $1,428 by Sixt for two scratches. An advocate found the same scratches in Sixt's own pickup photos; the scanner had missed them at pickup. Sixt then resolved it. (https://consumerrescue.org/travel-troubles/ai-scanner-mistake-sixt-wrongly-billed-car-repairs/) [updated 2026-05-31]
+  - European Consumer Centre Finland says rental firms charge cards after the rental ends for damage they attribute to the renter, and advises photos or video at pickup and return. (https://www.ecc.fi/en/themes/travelling/car-rental/subsequent-charges)
+  - Search snippet only: reports Hertz customers billed hundreds for small dings, and a Reddit feed of similar complaints. (https://www.frommers.com/tips/car-bus-rail/hertz-is-using-ai-scanners-to-charge-rental-car-damage-that-human-eyes-miss/) [search snippet only]
+  - Search snippet only: senator's letter to Hertz asks about scanner accuracy and fees that often exceed the indicated cost of damage. (https://www.blumenthal.senate.gov/imo/media/doc/2025-08-27_hertz_letter_ai.pdf) [2025-08-27] [search snippet only]
+
+### Tourists hit by Italian ZTL camera fines they find out about months later
+
+- **Who:** Foreign drivers and rental car customers in Italian historic centres; roughly 300 to 350 towns have these zones
+- **Problem:** Camera gates fine each entry into restricted zones. Signs are in Italian and easy to miss, and hours vary. Rental firms add an admin fee per fine. The fine arrives by post up to a year later, often through a collection agency, with Italian-language appeal forms.
+- **Cost:** About EUR 83 per camera (more in Rome), up to about EUR 332 with fees, plus EUR 30 to 60 rental admin per fine. One Siena poster paid EUR 36 per entry or exit, twice a day for five days. A failed appeal doubles the fine.
+- **Workaround today:** Reading signs, parking outside centres, asking hotels to register the plate, loading POI files onto GPS units, and sometimes ignoring the letters
+- **Why existing tools fail:** Wikipedia says most satnav software does not warn drivers. Waze depends on community reports, and Google coverage is partial and ignores hours. The apps I could inspect are stale. A search summary mentioned one iOS app claiming 3,000+ gates in 470+ cities, which I could not verify, and Android coverage is unchecked.
+- **App idea:** Android offline city packs of ZTL gates with active hours. It gives a loud audio warning before a gate, a hotel plate-registration checklist, and a post-trip section that reads a fine and shows payment and appeal dates. Start with the top 15 tourist cities.
+- **Platform:** android
+- **Region:** Italy only, but users come from every country. Gate data needs upkeep and accuracy is the main risk.
+- **Evidence:**
+  - French European Consumer Centre: about 300 towns have ZTLs, signs can be hard to spot and are Italian-only, fines usually arrive within 360 days, 60 days to object, and a failed appeal can double the fine. A hotel's plate registration does not cover other ZTLs in the city. (https://www.europe-consommateurs.eu/en/topics/vehicles/fines/ztl-italy/)
+  - Traveller staying at a Siena hotel inside a ZTL was charged EUR 36 rental admin per entry or exit, twice daily for five days, before any city fine had arrived. (https://community.ricksteves.com/travel-forum/italy/tzl-siena) [2020-02-06]
+  - Connecticut traveller was billed EUR 41 admin by Avis about seven months after a Florence rental, without knowing what the violation was. (https://community.ricksteves.com/travel-forum/italy/traffic-violation) [2012-12-16]
+  - Poster got a ZTL fine by mail about a year after a Sardinia rental, never saw the signs, and the fine had wrong name details. Others warn unpaid fines go to collectors. (https://www.australianfrequentflyer.com.au/community/threads/ztl-italys-dangerous-tourist-tax.96802/latest) [2019-10 to 2019-11]
+  - French traveller asked for a ZTL-aware GPS app; thread found none confirmed working, only map sites and POI files. An app mentioned had vanished from the poster's phone. (https://www.routard.com/forums/t/application-ztl-en-italie/246105) [2019-06]
+  - Traveller asked for a reliable warning app; replies offered Waze (community-reported cameras) and an unofficial map site, and nobody reported testing an app. (https://community.ricksteves.com/travel-forum/italy/ztl-warning-app) [2021-06]
+  - Guide gives per-camera fines, EUR 30 to 60 rental fees, 3 to 12 month delays, and says Google Maps marks only some boundaries and misses time windows. (https://www.expatslivinginrome.com/ztl-italy-guide/) [updated 2026-09]
+  - A paid iOS ZTL app shows 1.7 of 5 from 3 ratings; 2018 reviewers report map errors and only four cities. (https://apps.apple.com/us/app/id1142120445)
+
+### Social Security overpayment notices that force a fast choice between appeal, waiver and repayment
+
+- **Who:** US retirement, disability and SSI recipients who get an overpayment notice, many of them elderly, disabled or low income
+- **Problem:** A notice says you owe money, sometimes years later and sometimes from the agency's own error. The recipient must choose between reconsideration, waiver and lower withholding. If they do nothing, cuts start automatically. The rate changed three times between 2024 and 2025.
+- **Cost:** Default withholding of up to 50% of monthly benefits (10% for SSI). One disability recipient was told to repay almost $58,000 and lived in her car. About 2 million people a year receive notices.
+- **Workaround today:** Legal aid PDF toolkits, long SSA phone queues, or simply paying or being withheld
+- **Why existing tools fail:** Guidance is scattered across state legal aid PDFs, and sources I found disagree on details such as 60 vs 65 days. Older kits predate the 2024 and 2025 changes. No free tool surfaced that turns a specific notice into a decision and a filled worksheet, but this check was limited.
+- **App idea:** Web triage. The user enters notice date, amount, program and whether they agree. It returns which route applies, exact dates, the $1,000 phone route if eligible, a plain-language SSA-632 worksheet, and a printable packet. No account needed.
+- **Platform:** web
+- **Region:** US only. Rules change often, so each rule needs a dated source and a 'not legal advice' notice.
+- **Evidence:**
+  - KFF Health News and Cox Media: Denise Woods of Savannah had benefits cut off, was asked to repay almost $58,000 and lived in her car. About 2 million people a year get notices. (https://kffhealthnews.org/MTk5NzU4MA) [2025-03-11]
+  - SSA default withholding moved to up to 50% via an internal message with no public release. Cuts begin after about 90 days if the recipient does not ask for reconsideration, a waiver or a lower rate. (https://kffhealthnews.org/news/article/trump-administration-social-security-overpayment-clawbacks-withholding-50-percent/) [2025-04-28]
+  - Congressional Research Service: reconsideration generally within 60 days, waivers have no deadline, and Form SSA-632 is 10 pages covering income, expenses and assets. (https://www.everycrsreport.com/reports/IF12632.html) [2024-04-12]
+  - Legal aid guide: file within 60 days to stop collection; $1,000 or less can be waived by phone with no paperwork; appeal and waiver can be filed together. (https://www.washingtonlawhelp.org/en/ssi-and-ssd-overpayments) [reviewed 2026-05-29]
+
+### UK private parking charges where the notice itself fails the keeper liability rule
+
+- **Who:** UK registered keepers and hirers who receive ANPR charges from retail park and business park operators
+- **Problem:** Keepers can often avoid liability if the Notice to Keeper breaks the Protection of Freedoms Act rules, such as arriving after the 14-day window. Few people know how to count this or know not to name the driver, so they pay, or name the driver and lose the defence.
+- **Cost:** Charges of about GBP 60 to 100 in the threads I read, with GBP 150 threatened in one. There are also tight appeal windows and days of waiting on volunteer forums.
+- **Workaround today:** Scanning letters to volunteer forums (MoneySavingExpert, FTLA), copying template appeals, and waiting for strangers to check the dates
+- **Why existing tools fail:** The checks are mechanical but need the legislation read line by line, and volunteers do them by hand for each person. I did not get to check paid appeal services, or the current status of the parking code of practice.
+- **App idea:** Web tool. Upload or type the notice details. It counts the day-14 window, checks required wording, warns against naming the driver, drafts a keeper-based appeal, and shows every deadline.
+- **Platform:** web
+- **Region:** England and Wales rules. Scotland differs, so verify before launch. Risk of being seen as helping dodge valid charges.
+- **Evidence:**
+  - Hirer with a 37-minute overstay charge is told to use the forum template, argue the notice fails POFA, delay the appeal, and not identify the driver, then expects the real fight at POPLA. (https://forums.moneysavingexpert.com/discussion/6550114/initial-parking-pcn-notice-to-hirer/p1) [2024-08-27]
+  - Euro Car Parks keeper with a 3h02 stay against a 2.5h limit; volunteers count the notice as day 15, outside the window, and help draft a POPLA appeal. Final outcome not shown. (https://forums.moneysavingexpert.com/discussion/6054477/parked-longer-than-the-maximum-period-allowed/p1) [2019-10-02]
+  - Members post POPLA wins or operator withdrawals, mainly on notice non-compliance and missing landowner authority, on charges of GBP 95 and 100. Anecdotal, and from 2015 to 2016. (https://forums.moneysavingexpert.com/discussion/4488337/popla-decisions/p193) [2015-12 to 2016-01]
+  - Permit holder got a GBP 100 charge (GBP 60 if paid quickly), then a notice threatening GBP 150 plus admin costs, and needed volunteers to spot the compliance problems. (https://forums.moneysavingexpert.com/discussion/4947917/premier-park-ntk) [2014-04]
+  - Search snippet only: appeal rejected, response deadline missed, charge doubled. The page itself sits behind a captcha. (https://www.ftla.uk/private-parking-tickets/pcn-appeal-declined-missed-response-now-fine-has-doubled/) [search snippet only]
+
+### Renters who do not know their landlord's deposit deadline, or that their own letter starts it
+
+- **Who:** Tenants leaving a rental, especially first-time renters and those who moved cities; the examples here are from New York, Texas and England
+- **Problem:** Each place sets its own deadline and penalty. In New York, missing the 14-day itemised statement forfeits the landlord's right to keep anything. In Texas, the landlord need not refund until the tenant gives a written forwarding address. Tenants wait months without knowing any clock exists.
+- **Cost:** The whole deposit: one New York tenant needed nearly two years to win back $10,000. Elsewhere, cleaning deductions and landlord hostility when challenged.
+- **Workaround today:** Shelter templates, newspaper legal columns, paid demand letters, certified mail, small claims
+- **Why existing tools fail:** Free guides are general and some are unreliable. Paid letter sellers and law firm pages want a sale. Few tools say 'your clock has or has not started, and here is the date'. Pine AI overlaps, so a free narrow tool must win on speed and accuracy.
+- **App idea:** Web 'deposit clock'. Pick jurisdiction and move-out date. It shows whether the clock has started, the exact date, the penalty, and generates the forwarding address letter, demand letter and small claims steps. Start with 5 US states plus England.
+- **Platform:** web
+- **Region:** Jurisdiction by jurisdiction, and law data must be checked per place. The problem itself exists in many countries.
+- **Evidence:**
+  - Gordon v. Arcadian: tenant moved out in March 2021, landlord gave no valid itemised statement within 14 days, and the court awarded the $10,000 deposit plus interest in small claims. (https://caselaw.findlaw.com/court/ny-civil-court/2191880.html) [2023-02-08]
+  - UK tenant with an unprotected deposit after 3.5 years disputed cleaning and toilet deductions using a Shelter template; the landlord called it blackmail, then agreed to return it in full. (https://www.mumsnet.com/talk/property/2679834-Landlord-deposit-issues) [2016-07-07]
+  - Two Texas readers ask why deposits are still unpaid months after move-out; the columnist explains the written forwarding address requirement and itemisation duty. (https://www.austinchronicle.com/columns/the-common-law-11749295/) [2010-10-08]
+  - UK figures from TDS: 34,993 disputes in the year to March 2020, 74% raised by tenants, with cleaning the top cause at 42%. (https://propertyreporter.co.uk/landlords/cleaning-remains-the-top-cause-for-deposit-disputes.html) [2021-02-02]
+  - AI assistant vendor sells deposit timelines and demand letters, which shows demand and also a competitor. (https://www.19pine.ai/blog/landlord-won-t-return-your-security-deposit-a-state-specific-recovery-plan) [2026-08-09]
+  - Search summary flagged this free state-by-state guide as listing wrong statutes for some states. Not checked directly. (https://www.skybriz.com/?p=3189) [search snippet only]
+
+### US patients billed by nonprofit hospitals when they likely qualify for free care
+
+- **Who:** Low-income uninsured or underinsured US patients with bills from nonprofit hospitals
+- **Problem:** Nonprofit hospitals have financial assistance policies, yet many bill and collect without telling patients. Each hospital has its own income limits and form. ER doctors may fall outside the policy, so one visit can produce one forgiven bill and one in collections.
+- **Cost:** Bills from hundreds to tens of thousands of dollars, collections, and in one reported case bankruptcy. 45% of nonprofit hospital organisations routinely billed likely-eligible patients, per a 2019 analysis.
+- **Workaround today:** Dollar For, legal aid, asking billing offices repeatedly, or waiting for attorney general settlements
+- **Why existing tools fail:** Dollar For is free and good, and is the real competitor; its page does not show a per-hospital lookup. The gap is instant self-service: 'at this hospital, at my income, do I qualify, and which form?'. Policies differ by hospital and are buried in PDFs. Could send overflow to Dollar For rather than compete.
+- **App idea:** Web lookup for one state first. Enter hospital, household size and income to see that hospital's thresholds, application link and a ready letter asking to pause billing while assistance is reviewed.
+- **Platform:** web
+- **Region:** US only. A single state fits one day of work.
+- **Evidence:**
+  - Analysis: 45% of nonprofit hospital organisations billed patients who likely qualified, writing off about $2.7 billion. Ashley Pintos was billed $839, had it erased, but still owed $1,611 to ER physicians. Alisha Colyer's unresolved application preceded bankruptcy. (https://kffhealthnews.org/news/patients-eligible-for-charity-care-instead-get-big-bills) [2019-10-14]
+  - NEJM study of 1,800+ hospitals on 2012 filings: only 42% told patients about possible eligibility before trying to collect. (https://www.ajmc.com/newsroom/many-nonprofit-hospitals-fail-to-notify-patients-who-qualify-for-charity-care) [2015-11-17]
+  - PeaceHealth settles for up to $13.4 million after the Washington AG alleged it billed low-income patients up to four times without notifying them. PeaceHealth disputed the findings. (https://www.healthcaredive.com/news/peacehealth-will-pay-up-to-134m-to-settle-charity-care-probe/700449/) [2023-11-21]
+  - Donor-funded nonprofit prepares charity care applications free; testimonials cite bills from about $2,400 to $160,000. Patients need outside help to navigate this. (https://dollarfor.org)
+  - Search snippet only: patient told she might qualify never heard back, then received a $34,884 bill. (https://www.news-medical.net/news/20230814/Patients-in-California-county-may-see-refunds-debt-relief-from-charity-care-settlement.aspx) [2023-08-14] [search snippet only]
+
+### Indian provident fund claims rejected over small name and KYC mismatches
+
+- **Who:** Indian salaried workers withdrawing or transferring EPF after a job change, especially those with several UANs or older employer records
+- **Problem:** Claims fail because a name, date of birth, father's name or bank detail differs across Aadhaar, PAN, bank and employer records. The portal gives a remark rather than a repair order, so people re-file blindly while their own money stays locked.
+- **Cost:** Delayed access to retirement savings, often during unemployment, plus repeat filings and paid help. Reported rejection rates are about 1 in 4.
+- **Workaround today:** Paid consultants, joint declaration forms through employers, grievance filings, and repeat claims
+- **Why existing tools fail:** The official portals show state but do not compare your documents or say what to fix first. Blog guides list causes generically. I did not get to review EPFO grievance channels or consultant apps.
+- **App idea:** Android pre-flight check. The user types fields exactly as printed on each document. It flags mismatches before filing, decodes rejection remarks into ordered steps, and prepares the declaration. In Hindi and English, with data kept on the device.
+- **Platform:** android
+- **Region:** India only. Needs a first-hand test against real rejection remarks.
+- **Evidence:**
+  - Reports 25% of claims rejected in 2023-24, citing KYC gaps, name or birth date mismatches, multiple UANs and conflicting KYC statuses in the portal. Original EPFO source not named. (https://oga-prod.angelone.in/news/personal-finance/1-in-4-pf-claims-rejected-why-epf-subscribers-face-delays-and-denials) [2025-08-19]
+  - Reports about 21.59% of EPFO claims rejected or returned as of late November 2024, attributed to EPFO via secondary sources. (https://www.angelone.in/news/market-updates/twenty-one-percent-epfo-claims-rejected-or-returned) [2024-11-29]
+  - Mirrored r/india post by a fintech account offers to diagnose rejection remarks. A commenter says a misspelled father's name from a past employer stalled a transfer; another attacks the barriers to withdrawing. (https://reddit.sentinel-team.org/posts/1tp295c/snapshots/2026-05-29T19%3A09%3A04.22716Z) [snapshot 2026-05-29]
+
+### UK graduates overpaying student loans through wrong payroll deductions
+
+- **Who:** UK graduates repaying through PAYE, especially those with bonuses, mid-year pay rises, new employers, or close to paying off the loan
+- **Problem:** Employers enter the wrong plan type, deductions start early, or a monthly threshold gets hit even though annual pay stays under the limit. Deductions can continue after the loan clears. Wrong-plan and early-repayment refunds need a phone call and only happen after year-end.
+- **Cost:** GBP 175.2 million refunded to over 721,100 people in 2024/25, about GBP 240 each. At one point roughly 440,000 eligible people had not requested theirs.
+- **Workaround today:** Downloading the SLC plan letter, comparing with payroll, phoning SLC, waiting for HMRC year-end data
+- **Why existing tools fail:** SLC now emails below-threshold cases, but wrong-plan cases rely on the employee noticing. Nobody checks a payslip line against the plan rules in-year. Salary calculators exist generally, but I did not confirm any payslip error check.
+- **App idea:** Web payslip check. Enter gross pay, pay period, plan and deduction. It runs in the browser, gives the expected figure, flags likely errors, and gives the exact wording for payroll and the SLC route.
+- **Platform:** web
+- **Region:** UK only; thresholds change each April.
+- **Evidence:**
+  - SLC figures for 2024/25: GBP 142 million below-threshold refunds to 575,100 people; GBP 23.5 million after clearance to 57,764; employer wrong-plan errors in 17,833 cases worth GBP 5.8 million. (https://thepayrollcentre.co.uk/news/uk-student-loan-refunds-hit-175-million-in-2024-25/)
+  - Which? lists four ways people overpay; wrong-plan and early-repayment refunds require calling SLC, while others use the online account or are automatic. (https://www.which.co.uk/news/article/student-loan-overpayments-approach-80m-are-you-due-a-refund-at6Fd1y2tcqE) [2024-11-08]
+  - SLC contacted 653,000 eligible people, 213,000 had requested refunds, and 17,441 Plan 2 borrowers had employers on the wrong plan, costing about GBP 7 million. (https://wonkhe.com/wonk-corner/getting-money-back-from-the-student-loans-company/) [2024-10-31]
+
+### Retirees on COBRA who wrongly think it protects them from the Medicare Part B penalty
+
+- **Who:** Americans aged 65 or older leaving a job, or relying on COBRA or retiree coverage instead of enrolling in Part B
+- **Problem:** After active employment ends there is an 8-month window to enrol without penalty. COBRA does not extend it, yet people are told it does. Miss it and a 10% surcharge per full year late applies for as long as you keep Part B.
+- **Cost:** About $20 a month more per year of delay on the $202.90 2026 premium, for life in most cases. A five-year delay adds about $101 a month. Gaps in coverage are possible too.
+- **Workaround today:** Newspaper Q&A columnists, brokers, HR departments (who may be wrong), Social Security office visits
+- **Why existing tools fail:** Guidance explains the rule in words but people need dates for their own case. I found no date-specific calculator, though my check was limited. Current law on any fix was not confirmed.
+- **App idea:** Web calculator. Enter birth date, last day of active work and coverage type. It returns the window end date, days left, the penalty and its lifetime cost, and which forms to get signed by HR.
+- **Platform:** web
+- **Region:** US only.
+- **Evidence:**
+  - Reader Robert from Tampa retired at 66, took COBRA after being told it protected him for 18 months, then found he was about to miss his window. Forms CMS-L564 and CMS-40B are needed. (https://enewscourier.com/?p=314459) [2025-02-15]
+  - H.R. 6490 proposed excluding COBRA, retiree and VA coverage from the penalty and capping it, which shows the trap is known. Only introduced status confirmed. (https://www.congress.gov/118/bills/hr6490/BILLS-118hr6490ih.htm) [2023-11-28]
+  - Explains 10% per full 12 months and that it lasts as long as you keep coverage. No counts of people affected. (https://money.com/medicare-part-b-late-enrollment-penalty/) [2026-06-28]
+  - Describes an unnamed 67-year-old executive penalised despite retiree coverage. Not sourced and possibly illustrative. Gives the $20 and $101 monthly figures. (https://247wallst.com/personal-finance/2026/07/15/he-had-retiree-health-coverage-from-a-fortune-500-company-medicare-still-fined-him-for-enrolling-late/) [2026-07-15]
+  - Search snippet only: benefits broker explains the 8-month window applies regardless of COBRA. (https://www.newfront.com:443/blog/how-cobra-and-medicare-interact-for-retirees) [search snippet only]
+
+### UK parents losing funded childcare over a 3-monthly reconfirmation or an unread portal message
+
+- **Who:** Working parents in England using 30 funded hours or Tax-Free Childcare
+- **Problem:** Eligibility must be reconfirmed every 3 months and funded hours depend on term-based deadlines (31 Dec, 31 Mar, 31 Aug). Messages can sit unread inside the portal. Miss one and funding may stop until the next term.
+- **Cost:** A third-party estimate of about GBP 3,120 for a lost term of 30 hours, or GBP 166.67 a month in lost top-up on a GBP 900 bill. One single parent says she might have to quit her job.
+- **Workaround today:** Calendar entries, nurseries chasing parents, paid reminder calls, phoning HMRC, appeals taking about 30 days
+- **Why existing tools fail:** Official reminders exist but are email-only and easy to miss, and they do not link reconfirmation to term deadlines or to the second parent. This one is close to a plain reminder app, so the build must add the rules or it risks being generic.
+- **App idea:** Android tracker. Enter code start date to get escalating alerts, shared with the partner. It shows the linked term cut-off, a prompt to check portal messages, and a grace period explainer for what to do on a miss.
+- **Platform:** android
+- **Region:** England; other UK nations differ.
+- **Evidence:**
+  - Single parent of three returning to work found two unread portal messages saying her son lost 30 hours and a 30-day deadline had passed. She expected an email or text. Funding may not resume until January. (https://www.mumsnet.com/talk/_chat/5578872-childcare-funding-nightmare) [2026-09-15]
+  - Official guide: reconfirm every three months, reminder emails at 4 and 2 weeks, lapse if missed, short grace period for existing places, and fixed term deadlines. (https://beststartinlife.gov.uk/childcare-early-years-education/15-and-30-hours-support/faqs/)
+  - A paid phone-call reminder service ($7 a month) markets directly on this problem, saying emails get lost or go to the wrong parent. Vendor content without real parent cases. (https://reminderit.com/blog/reconfirm-childcare-account-every-3-months-30-hours-code) [2026-10-08]
+  - Estimates about GBP 3,120 lost if a lapsed code delays funding a term, and GBP 166.67 monthly top-up lost. (https://childcaresubsidycalculator.co.uk/reconfirm-childcare-eligibility/) [2026-10-20]
+  - Trade press headline on parents confused by reconfirmation. Body blocked, headline only. (https://nurseryworld.co.uk/news/article/parents-confused-over-reconfirmation-of-30-hour-place) [search snippet only]
+
+**Limits of this search:** Coverage is incomplete. The shared web search budget ran out partway (limit 200 per turn across all agents), so I stopped searching and only fetched URLs already found. Not researched: warranties and refunds, unclaimed money, school admin. A follow-up message could continue those.
+
+Excluded as evidence: terms.law forum threads. The site says all participants are fictional, so anyone else in this run citing it should drop it.
+
+Limits on evidence: reddit.com cannot be searched or fetched, so first-person accounts come from other forums and one r/india mirror. Competitor checks were limited, so each candidate needs a quick store and web search before commitment. Numbers are as stated by sources; none are mine. Some evidence is old (the parking threads and deposit column especially), and legal rules in every candidate need checking against current official sources. Every legal or benefits tool also needs a 'not legal advice' notice.
+
+Considered and left out: Medicaid renewal packets had strong human evidence (Kansas, Missouri, Utah, 2023) but the cause is state mail and systems, which an app cannot fix. FSA forfeiture had strong data (EBRI via IBTimes, 26 Oct 2026: about 4 in 10 holders forfeited, average $404) but no first-person accounts. Debt lawsuits: strong default-judgment figures, but high legal risk. Schengen 90/180: calculators already exist, including an official EU one. Homeowner depreciation deadlines: only search snippets, as the pages blocked fetching. Gym cancellation: real but older accounts, and letter-mailing vendors exist. Airline credits: evidence dates from 2021. UK ILR absences: law firm pages only, no first-person accounts.
+
+Best picks: the rental car and ZTL candidates (Android, usable worldwide), then the Social Security overpayment tool.
+
+## Small group coordination
+
+### Group gift organisers get locked out of the money they collected, and guests drop off at the login or fee step
+
+- **Who:** Colleagues, friends and couples running a one-off collection for a leaving gift, birthday or honeymoon
+- **Problem:** Collecting is easy, but payout is where it breaks. The organiser hits a failed identity check or an account block at withdrawal. Some contributors stall at login or object to fees and tip prompts.
+- **Cost:** Money stays stuck for days or longer while the gift date passes. CollectionPot told one reviewer its fee is 1.9% + 20p per contribution. One organiser closed a pot early after contributors complained about charges. Organisers also spend repeated support time and hand over personal ID.
+- **Workaround today:** Cash in a card (seen in the 2026-10-13 review). Paying the organiser directly and keeping a manual list is likely but is my inference.
+- **Why existing tools fail:** Both services hold the money, so someone must pass verification to get it out, and they earn from fees or tips. The friction looks structural, not a bug (my inference). The same pages also carry many positive reviews, so this is not universal.
+- **App idea:** A no-custody collection page. The organiser sets a goal and their own payment details as free text. Contributors pay by their usual route, tap 'I have paid' and leave a message. The organiser confirms each payment, then exports the messages for a card. No money passes through the app, so there is no withdrawal step.
+- **Platform:** web
+- **Region:** Global. Payment details are free text, so it does not depend on any one country's payment rails.
+- **Evidence:**
+  - Organiser could not withdraw birthday money collected by his wife's friends. Identity verification rejected passport, ID card and driving licence, and support only suggested trying again. (https://www.trustpilot.com/review/leetchi.com) [2026-10-05]
+  - Different reviewer: account blocked at withdrawal and still blocked nearly a week later. (https://www.trustpilot.com/review/leetchi.com) [2026-02-14]
+  - Identity verification and withdrawal were difficult and took repeated support contact. The reviewer says they will not use it again. (https://www.trustpilot.com/review/collectionpot.com) [2026-10-22]
+  - Contributors complained about the fee and end-of-pot tip request, so the organiser closed the pot early. The company replied stating its 1.9% + 20p fee and that tips are optional. (https://www.trustpilot.com/review/collectionpot.com) [2026-10-19]
+  - Some guests struggled to log in and put cash in a card instead. The reviewer also found the commission high. (https://www.trustpilot.com/review/collectionpot.com) [2026-10-13]
+
+### Paid event invitations land in spam, so hosts end up contacting guests one by one
+
+- **Who:** Hosts of family and community events with roughly 30 to 75 guests
+- **Problem:** Hosts pay to send invitations, then find many guests never saw them. The delivery channel itself is the failure, and hosts only learn this close to the event.
+- **Cost:** Reviewers report about $40 for 30 invites and $68 for 75 text invites. Headcounts come out wrong, and hosts have to re-contact guests by hand.
+- **Workaround today:** Hosts message each guest directly by phone or text after the invitation fails.
+- **Why existing tools fail:** Evite sends on the host's behalf, which exposes it to spam filtering, and it charges per send above a limit. All evidence here comes from one product, so alternatives were not checked in this run.
+- **App idea:** An RSVP tool that never sends anything. The host gets one personal link per guest and sends each from their own WhatsApp or SMS, so spam filters are not involved. A dashboard shows opened, replied, meal choice and headcount, plus a one-tap nudge message for non-repliers. Guests never log in.
+- **Platform:** web
+- **Region:** Global
+- **Evidence:**
+  - Many invitees never received the invitation, so the host had to contact each one directly. (https://www.trustpilot.com/review/evite.com) [2026-06-21]
+  - Paying host's invites to 30 guests showed as delivered, but mostly went to spam or failed. (https://www.trustpilot.com/review/evite.com) [2026-05-30]
+  - After paying for premium, invites for about 70 guests were reportedly not received or went to spam. (https://www.trustpilot.com/review/evite.com) [2026-05-20]
+  - Host built the invite and guest list, then was charged $68 for 75 text invites, with no cost shown earlier. (https://www.trustpilot.com/review/evite.com) [2026-01-27]
+  - Several guests had trouble RSVPing with meal choices for a 30-person event. (https://www.trustpilot.com/review/evite.com) [2026-05-19]
+
+### Savings circle treasurers keep contributions by hand, and members cannot see who has paid
+
+- **Who:** Treasurers and organisers of rotating savings groups: chama, stokvel, tanda, susu, ajo, kameti, paluwagan and similar
+- **Problem:** Circles traditionally rely on members seeing every transaction in person. Once that visibility is gone, the record sits with the treasurer. The shift to chat-run circles is my inference: the pages I read do not describe it.
+- **Cost:** Wikipedia says courts in many legal systems offer no remedy for breach of these contracts, so a default is hard to recover. Groups also pay for software: Chamasoft lists paid plans, including a Ksh1,000 figure, though the page layout makes it unclear which plan that belongs to.
+- **Workaround today:** Spreadsheets and written records, a simple slot list, paid group software, or joining a regulated app circle instead.
+- **Why existing tools fail:** Money Fellows replaces your circle with its own product and needs an app. Chamasoft's page does not say whether every member must install anything, and it is built around group accounting, not a simple round-by-round view.
+- **App idea:** A round board kept by the treasurer. It shows the slot order, who has paid this round, whose pot is next and a swap log. Every member sees it through a read-only link, and a paste-ready summary goes into the chat. It keeps records only and never holds money.
+- **Platform:** both
+- **Region:** Depends on ROSCA-using communities: East, West and South Africa, Latin America, South and Southeast Asia, Egypt, the Caribbean, and diasporas. Terminology differs by country, so wording should be configurable.
+- **Evidence:**
+  - Vendor page aimed at investment groups. It helps admins track contribution accounts and says it removes the need for complicated spreadsheets and bulky written reports. It offers a free tier and paid plans, so groups do pay for this. (https://www.chamasoft.com/)
+  - Egyptian money-circle app. A user testimonial values not having to worry about who else is in the circle or whether they will pay on time. It shows people accept moving to a regulated app for that reassurance, but the app must be installed. (https://www.moneyfellows.com/)
+  - Describes slots drawn before contributions start and swaps agreed with the organiser. Records are unnecessary when all members see every transaction, though some keep a slot list. Breach is an inherent risk, often without legal remedy. (https://en.wikipedia.org/wiki/Rotating_savings_and_credit_association)
+  - Says defaults are rare because members can see who has not paid. Estimates about 800,000 stokvels and roughly R50 billion a year, and the article is flagged as needing more citations. (https://en.wikipedia.org/wiki/Stokvel)
+  - The association's page claims it regulates over 125,000 groups and 2.5 million individuals. It says nothing about record keeping or disputes. (https://nasasa.co.za/)
+
+### Families raising money for urgent bills find funds paused or fee-reduced when the bills are due
+
+- **Who:** Relatives and friends raising money for medical costs, family crises or funerals
+- **Problem:** Fundraising platforms hold donated money behind verification and bank checks. Families can wait while the bills are already due. Fees are also taken from money people gave in a hardship.
+- **Cost:** Reviewers report payouts delayed by 60 days and by six months, an 8% fee on a family donation, and repeated dead ends with automated support. M-Changa states a 4.25% platform fee.
+- **Workaround today:** Reviewers fall back on family or church support. Using a trusted relative as treasurer is likely but is my inference.
+- **Why existing tools fail:** Custodial platforms need compliance checks before paying out, so the delay is built in. No GoFundMe review on the page I read mentioned funerals, and one surgery fundraiser was paid in three days, so this does not happen every time.
+- **App idea:** A family contribution register with a named treasurer. It tracks pledged, received and spent amounts on a read-only page that relatives can check, with a paste-ready update for the family chat. It holds no money, so nothing can be frozen. It could share a codebase with the group gift tracker.
+- **Platform:** web
+- **Region:** Global, likely strongest where family and community contributions are customary. That second part is my inference and was not verified in this run.
+- **Evidence:**
+  - Family fundraiser's transfers stayed paused for six months with a support ticket still open. (https://www.trustpilot.com/review/gofundme.com) [2026-05-09]
+  - Parent fundraising for a son reports cleared money still not received, and advises turning to family or church instead. (https://www.trustpilot.com/review/gofundme.com) [2026-10-25]
+  - Donations were withheld for 60+ days because a bank account could not be added, with only automated support. (https://www.trustpilot.com/review/mealtrain.com) [2025-04-25]
+  - An 8% fee was taken from a family donation and the money was labelled as income for tax purposes. The reviewer did like the calendar sign-up. (https://www.trustpilot.com/review/mealtrain.com) [2025-12-29]
+  - Fundraising platform listing funerals, medical bills and weddings. It states a 4.25% platform fee and shows 1,834,091 donors and 152,407 campaigns, which shows real spending on this job. (https://www.mchanga.africa/)
+
+### Small clubs only need to know who has paid, but their team platform holds the money or adds fees
+
+- **Who:** Treasurers of small sports clubs, societies and small churches
+- **Problem:** The treasurer needs a list of who owes what. Club platforms instead process the payments, so money can sit with the platform and extra charges appear.
+- **Cost:** Club and church money is reported held for 10 to 12 days or longer. Admin fees and convenience fees apply on top. Treasurers then chase support as well as members.
+- **Workaround today:** Staying on the platform and tolerating the delays. A treasurer's manual list and chat reminders are likely but are my inference.
+- **Why existing tools fail:** These are full club suites with payments built in. They do suit larger clubs: one reviewer cut admin from 25 hours to 4, so the gap is at the small end, not the top.
+- **App idea:** A subs sheet for treasurers listing members, amounts due and paid status. One tap produces a reminder for only the people who owe, ready to paste into the chat. Members get a personal link showing their balance, and the app holds no money.
+- **Platform:** web
+- **Region:** Global
+- **Evidence:**
+  - Club funds were held by Spond for a long time and the chatbot was unhelpful. It was resolved once the reviewer reached a person. (https://www.trustpilot.com/review/spond.com) [2025-10-13]
+  - Attendance tracking works well, but payments were held for over 10 days after members paid. (https://www.trustpilot.com/review/spond.com) [2024-09-24]
+  - Reviewer says the app adds admin fees and charges extra for electronic payments. (https://www.trustpilot.com/review/teamsnap.com) [2026-09-23]
+  - Club administrator says the new version dropped invoicing and auto-rostering, and admin tasks now need a desktop. (https://www.trustpilot.com/review/teamsnap.com) [2026-03-06]
+  - Small church reports repeated deposit delays, including a recurring gift that took about 12 days, and no direct phone support. (https://www.trustpilot.com/review/tithe.ly) [2026-06-16]
+
+### Casual groups will not adopt a team app, so 'who is in this week' stays in the chat
+
+- **Who:** Organisers of weekly games, training sessions, clinics and similar recurring meetups
+- **Problem:** Organisers adopt a team tool, but members keep using the chat, or are forced onto an app they resent. The app then adds a second place to check and the headcount stays unreliable.
+- **Cost:** The organiser's time goes on checking two places. Members get locked out by errors and email mismatches, and people without smartphones are excluded.
+- **Workaround today:** Keeping attendance in the chat itself, or paying for a poll tool. A $15 one-time Doodle payment was reported as worthwhile by another reviewer.
+- **Why existing tools fail:** Team apps assume everyone installs and registers, so one non-adopter breaks the list. Doodle is built around one-off polls and free-tier limits, not a repeating weekly roster.
+- **App idea:** A weekly roster link with a player limit, automatic waitlist and automatic reset each week. People tap their name with no login. The organiser can paste the current list back into the chat.
+- **Platform:** web
+- **Region:** Global
+- **Evidence:**
+  - Reviewer calls the app pointless because, in their words, "Everyone still just uses whatsapp anyway". (https://www.trustpilot.com/review/spond.com) [2025-11-12]
+  - Error when responding 'Attending' to a club game invite. After re-registering, the reviewer was removed from the event for using a different email. (https://www.trustpilot.com/review/spond.com) [2026-04-24]
+  - Reviewer says the app effectively requires a smartphone, leaving non-smartphone users out. (https://www.trustpilot.com/review/teamsnap.com) [2026-10-04]
+  - Finds it slower than printed or emailed schedules and uses it only because the club requires it. (https://www.trustpilot.com/review/teamsnap.com) [2025-01-03]
+  - Says the free version now caps polls, deletions and answer choices, making it hard to use without upgrading. (https://www.trustpilot.com/review/doodle.com) [2026-09-02]
+  - Positive: uses it to organise softball clinics, with members signing up in their own time. Shows demand for link-based sign-up. (https://www.trustpilot.com/review/doodle.com) [2026-10-15]
+
+### Housemates and trip groups stop trusting shared balances and rebuild them in a spreadsheet
+
+- **Who:** Housemates and repeat travel groups who share costs over weeks or months
+- **Problem:** Groups cannot see how a balance was reached, and any member can change past entries. Someone ends up re-checking everything in a spreadsheet. Daily entry limits and forced downloads also push whole groups to move tools.
+- **Cost:** Hours of re-checking, and arguments over who owes what. A whole group's data can have to move mid-trip when free limits arrive.
+- **Workaround today:** Exporting to Excel, keeping a spreadsheet, or moving the group to another tool.
+- **Why existing tools fail:** Balances are computed but not explained, entries can be silently changed, and free limits or app requirements block some members. Reviewers leave Splitwise for Tricount, then report trust problems there too.
+- **App idea:** An append-only shared tab opened by link. Corrections are new entries, never edits. Every balance can be expanded to show its working, line by line. No account or install is needed. Keep it deliberately narrow to one household or one trip.
+- **Platform:** web
+- **Region:** Global
+- **Evidence:**
+  - Reviewer did not trust the balance reconciliations, so exported the data to Excel to check them. (https://www.trustpilot.com/review/splitwise.com) [2025-10-10]
+  - Any group member can edit or delete expenses, including by accident. (https://www.trustpilot.com/review/splitwise.com) [2026-04-08]
+  - After a few expenses the app asked for a subscription, so the group moved everyone's expenses to another platform. (https://www.trustpilot.com/review/splitwise.com) [2026-07-23]
+  - The three-items-a-day limit and ads drove this reviewer and their housemates to Tricount. (https://www.trustpilot.com/review/splitwise.com) [2025-03-30]
+  - Reviewer found balances wrong after checking them in a spreadsheet. (https://www.trustpilot.com/review/tricount.com) [2026-05-16]
+  - Reviewer says the service cannot be used without downloading the app, so it cannot be used from a computer. (https://www.trustpilot.com/review/tricount.com) [2026-07-13]
+
+### Volunteer organisers lose sign-up history and lack reminders for repeat rotas
+
+- **Who:** Parent booster clubs and other volunteer organisers running repeating sign-ups
+- **Problem:** Volunteer sign-ups are rebuilt year after year in tools that organisers do not control. When an account breaks, the history can go with it, and some sign-ups send no reminders.
+- **Cost:** Years of a nonprofit's volunteer records lost, with more than a month of unresolved support. Organisers also spend extra manual effort without duplicate or reminder features.
+- **Workaround today:** Staying on the same tools and rebuilding sign-ups by hand.
+- **Why existing tools fail:** The organiser's data lives inside a vendor account, with no simple copy the organiser keeps. This evidence is thin: only two direct complaints, so treat it as a lead and not a finding.
+- **App idea:** Sign-up sheets with one-tap duplication from last term, reminders the organiser can paste or send, and an automatic export the organiser owns. Volunteers tap a slot by name with no login.
+- **Platform:** web
+- **Region:** Global, though booster clubs specifically are US-centred. Other countries would call them PTAs or parent committees.
+- **Evidence:**
+  - Parent booster club says its account became corrupted and linked to another account, leaving it without years of sign-up data, and support took over a month without resolving it. (https://www.trustpilot.com/review/signupgenius.com) [2026-03-03]
+  - Volunteer sign-up user finds the site clunky and slow, with no duplicate option and missing reminders on some sign-ups. (https://www.trustpilot.com/review/signupgenius.com) [2026-02-16]
+  - Among other complaints, mentions a meal train where recipients ended up with more food than needed, which suggests a coordination gap. (https://www.trustpilot.com/review/mealtrain.com) [2026-03-06]
+  - Says they love the calendar sign-up, especially for postpartum support. Shows real demand for the sign-up itself. (https://www.trustpilot.com/review/mealtrain.com) [2025-12-29]
+
+### Neighbours posting practical street notices get suspended or paywalled on the neighbourhood platform
+
+- **Who:** Residents trying to share something practical with nearby households, such as a lost pet or a street event
+- **Problem:** Everyday neighbour notices depend on a platform where anonymous reports can hide posts or suspend accounts. One reviewer was also told that contacting nearby people needed a business page and subscription.
+- **Cost:** Notices go unseen when they matter, such as a missing pet, and the person posting can lose access to their neighbours altogether.
+- **Workaround today:** Not established in these sources. Paper notices and street chat groups are likely but are my inference.
+- **Why existing tools fail:** A city-wide social platform has to moderate at scale, which catches ordinary posts. We only hear the suspended users' side, and no moderation detail is available, so this is one-sided evidence from a single platform.
+- **App idea:** A one-street board reached by a QR code on a paper notice. Posts expire automatically, need no account, and are moderated by one named resident. It would need a clear plan for spam and abuse before launch.
+- **Platform:** web
+- **Region:** Global concept, but the evidence comes from one platform's users, whose location was not checked
+- **Evidence:**
+  - Says posts, including one about a missing cat, led to three suspensions in a month. (https://www.trustpilot.com/review/nextdoor.com) [2026-10-30]
+  - Tried to post Halloween house listings for neighbours and was suspended after one post, then suspended again. (https://www.trustpilot.com/review/nextdoor.com) [2026-10-25]
+  - Posts hidden and account suspended after anonymous neighbour reports, with no way to see who reported. (https://www.trustpilot.com/review/nextdoor.com) [2026-10-26]
+  - Reached out to nearby people but was told a business page and paid subscription were needed to contact them. (https://www.trustpilot.com/review/nextdoor.com) [2026-10-21]
+
+**Limits of this search:** LIMITS OF THIS RESEARCH. WebSearch was refused on all 6 attempts because the run's shared search budget was already used up, so no web searches ran. I did not route around that with search engines or site search. Instead I used WebFetch to read 29 specific pages I already knew of, so coverage is limited to those pages, not a real sweep.
+
+MAIN GAPS. There is no Reddit, Mumsnet, forum or news evidence. Almost all of the complaints are from Trustpilot, which skews negative and does not verify claims. They show organised tools failing; only one review (Spond, 2025-11-12) directly mentions WhatsApp, so the claim that chat groups break down is mostly inferred. Evidence in candidate 2 and candidate 9 comes from different people on one platform only. Candidate 3 rests on vendor pages, Wikipedia and one testimonial, not on treasurers' own complaints, so it needs validating even though it has the largest population. Candidate 8 is thin.
+
+BELOW THE BAR, SO DROPPED. Tenants: the Met Council on Housing guide shows groups door-knocking and listing repairs by hand, but I found no second source; the BuildingLink and TownSq pages had no useful reviews, AppFolio had no relevant tenant repair complaints, and justfix.org returned only a redirect stub. Carpools: only GoKid's vendor page. School parents: ParentSquare returned 404, Classlist had no reviews, and ParentPay reviews concern lunches and trips, with none on class collections. India housing societies: MyGate had one irrelevant review.
+
+RULE CHECK. Candidate 7 sits close to the banned expense app category and passes only if kept narrow as an auditable append-only tab. Candidate 2 is close to generic event RSVP; its specific pain is delivery failure.
+
+BEFORE USING ON CAMERA. Pages were read through a summarising model and Trustpilot listings change, so re-check any review before citing it. Dates and paraphrases are as reported by that summary. Reviewer names are left out on purpose. App ideas, and anything marked as inference, are my own and not from sources. No competitor scan was run, because that needs search. A follow-up run with a fresh search budget should target Reddit and forums for tenants, carpools, school parents and ROSCA treasurers.
+
+## Android-only power (share targets, notification listener, call screening role, Quick Settings tiles, widgets, on-device ML, NFC, USB OTG, foreground services, local file management)
+
+### Reading a received voice note without playing it aloud and without uploading it
+
+- **Who:** People who receive WhatsApp or Telegram voice messages in places where they cannot play audio, such as public transport, and who want transcription to stay on the phone. Four separate users asked for this on one offline Whisper app's tracker.
+- **Problem:** Offline Whisper apps on Android mostly take live microphone input. There is no simple way to hand them an audio file that already exists, so a voice note someone sent you stays unreadable until you can listen to it.
+- **Cost:** Time and delay: messages wait until the person can play them. Privacy is the other cost, because the alternative is a cloud transcriber. The maintainer's suggested workaround is to play the audio in split screen and transcribe it live, which means playing it aloud anyway.
+- **Workaround today:** Play the audio in split screen beside whisperIME, wait until playing it aloud is possible, or use a full note-taking app such as NotelyVoice.
+- **Why existing tools fail:** whisperIME declined the feature because it needs resampling, chunking and timestamped models. Transcribro is an English-only keyboard. NotelyVoice is a whole notes app, and its page shows no share-in path. Caveat: from memory, WhatsApp has its own built-in voice message transcripts. That was not verified in this run and could shrink the problem, so check it first.
+- **App idea:** A single-purpose share target. Select a voice note, tap Share, pick the app, and read the text in a small sheet with copy and translate-free reply actions. It decodes opus/m4a to 16 kHz mono, chunks the audio, and runs whisper.cpp with a tiny or base model on the device. Ship it without the INTERNET permission after the model is bundled, so 'nothing leaves your phone' is provable. Fits one day if scope stays at share in, text out. Confirm on day one that WhatsApp actually exposes the voice note through the share sheet; that is from memory, not verified.
+- **Platform:** android
+- **Region:** Global. Likely strongest where voice notes are the default way of messaging (inference, not evidenced). Accuracy varies by language and model size.
+- **Evidence:**
+  - User Tinsus asks to feed in received voice messages so they can read them without playing audio, for example on public transport. The maintainer labeled it wontfix and linked many related issues. On 2025-10-14 bi4key pointed to NotelyVoice as an alternative. (https://github.com/woheller69/whisperIME/issues/99) [2025-05-22]
+  - User mathe00 asks to import existing audio such as WhatsApp or Telegram voice messages and saved memos. The maintainer closed it as not planned, noted Whisper needs 16 kHz mono input, and suggested split-screen live transcription. Other commenters also asked for it. (https://github.com/woheller69/whisperIME/issues/15) [2025-01-13]
+  - User aahmozart asks to load and transcribe a recording already on the device. Closed with a pointer to #15. (https://github.com/woheller69/whisperIME/issues/8) [2025-01-11]
+  - User ALutz273 independently asks to import an audio file from local phone storage. Closed as a duplicate of #15. (https://github.com/woheller69/whisperIME/issues/28) [2025-01-27]
+  - A 761-star on-device speech keyboard that states it currently supports English only. Its page does not mention accepting audio files shared to it. (https://github.com/soupslurpr/Transcribro)
+  - An 819-star Whisper note-taking app. Its page mentions transcribing recordings and sharing out, but not receiving shares from other apps. The Play build is a separate subscription-based app. (https://github.com/tosinonikute/NotelyVoice)
+
+### Ad-blocking Private DNS has no 'off for 5 minutes' and does not follow the network
+
+- **Who:** Android users running Private DNS for ad blocking, including people with a Pi-hole or custom DNS at home and a public resolver on mobile data.
+- **Problem:** They turn Private DNS off when it blocks something they need, then forget to turn it back on. Separately, the right DNS differs by network: home DNS for local names and rules, a public resolver elsewhere, and some networks block Private DNS outright. Android has no timer or per-network rule for this setting.
+- **Cost:** Protection silently stays off. Workarounds cost setup time (ADB with a PC, or Shizuku), and most people use Tasker, which one commenter called overkill. Users are also asking strangers for compiled debug APKs from forks.
+- **Workaround today:** Tasker tasks, Shizuku or an ADB grant from a PC, and unofficial fork builds passed around in issue comments.
+- **Why existing tools fail:** The leading open-source tile has no merged timer or network rules at the time of reading. The maintainer is reluctant to add the permissions needed for network detection, and Tasker is paid and heavy for one rule.
+- **App idea:** A Quick Settings tile where tap means pause DNS for 5 minutes, long-press picks a duration, and it restores automatically with a visible countdown notification. Add a simple rule list: on this Wi-Fi use this resolver, on mobile use that one. Include a guided one-time permission setup. Fits one day.
+- **Platform:** android
+- **Region:** Global
+- **Evidence:**
+  - neurolizer sometimes disables Private DNS temporarily, forgets to re-enable it, and asks for an automatic restore after a set time. GitStudying (2025-11-06) has the same need and wrote pull request #61. victay44 (2026-01-14) asked for a compiled build. The issue is still open. (https://github.com/karasevm/PrivateDNSAndroid/issues/59) [2025-08-23]
+  - Spp595 asks for automatic switching by Wi-Fi network versus mobile. GenericMale says most people use Tasker and calls that overkill. xyxyxoxo wants Pi-hole at home and Cloudflare on mobile data. ten24bytes asks how to build it in Tasker. The maintainer has not built it, citing network permissions they are not comfortable requesting. (https://github.com/karasevm/PrivateDNSAndroid/issues/27) [2024-07-08]
+  - A Quick Settings tile for switching Private DNS, about 1.1k stars. It needs WRITE_SECURE_SETTINGS, granted through Shizuku or a manual ADB command from a PC, which shows how much effort people accept for a one-tap toggle. (https://github.com/karasevm/PrivateDNSAndroid)
+
+### A long voice recording is lost or cut short when the phone or app misbehaves
+
+- **Who:** People recording lectures, meetings or interviews on an Android phone. Reports come from Fairphone 3, 4 and 5 owners using Fossify Voice Recorder.
+- **Problem:** One user's 1.5-hour recording ended with a critical-battery shutdown and left a 102.1 MiB file reporting a duration of 0 seconds. Others record 30 seconds and get a file of about 5 seconds.
+- **Cost:** A one-off recording may be unrecoverable, and there is no second take for a meeting or lecture. The reporter of the 1.5-hour file got no reply and the page does not show whether the audio can be recovered.
+- **Workaround today:** None posted. Both reports sit unanswered in triage.
+- **Why existing tools fail:** Evidence comes from one app's tracker, so this may be that app's bugs rather than a general failure. Other recorders were not checked. Compare two or three popular recorders before committing, including a forced-shutdown test.
+- **App idea:** A recorder whose only promise is that it cannot lose your recording. It writes audio in short closed segments or a stream-safe container, so a crash, reboot or dead battery loses a few seconds at most. It finalizes on a low-battery signal, and on next launch it finds interrupted sessions and stitches them automatically. The series demo is pulling the battery or forcing a shutdown on camera. Fits one day.
+- **Platform:** android
+- **Region:** Global
+- **Evidence:**
+  - beedell-roke recorded about 1.5 hours in M4A. The phone hit critical battery and shut down, and the saved 102.1 MiB file reports 0 seconds duration. No replies. (https://github.com/FossifyOrg/Voice-Recorder/issues/429) [2026-10-08]
+  - GrobDebian reports 30-second recordings saved as 4 to 7 seconds on a Fairphone 3. elietheocari (2026-10-07) confirms it on a Fairphone 4 with the Play build, and says another player shows the same truncated length. No maintainer response. (https://github.com/FossifyOrg/Voice-Recorder/issues/390) [2026-07-22]
+
+### Blocking unknown callers without learning regex, on phones that do not get Call Screen
+
+- **Who:** Android users plagued by sales or spam calls who are not on a Pixel in a supported country, and who want a plain rule such as 'only contacts ring'.
+- **Problem:** Google's automatic Call Screen is Pixel-only and listed for five countries. The strong free alternative, SpamBlocker, works but gets configured through rule priorities and regex, which trips up even motivated users. Other tools are built around one country's number lists.
+- **Cost:** Repeated interruptions from sales calls. People invest real time: PhoneBlock's site says thousands of users report new numbers daily, and it also runs an answering machine that keeps spam callers talking. Fraud losses were not evidenced here.
+- **Workaround today:** SpamBlocker regex rules, country-specific blocklist apps, or router-level setups such as FRITZ!Box rules.
+- **Why existing tools fail:** Google's option is tied to Pixel and a short country list. SpamBlocker is capable but its owner intentionally keeps settings rule-based, and users struggle with priorities and regex. Community lists only cover their own country. This is a usability gap, not a capability gap, so the pitch must be simplicity.
+- **App idea:** A call-screening app with three plain presets and no regex: only contacts ring, silence unknown callers, or block a typed number prefix. Add a timed 'expecting a call' window that lets unknown numbers through for two hours, for example for a courier or a clinic. That window is my own addition and is not evidenced. Show a daily log of what was stopped. Fits one day.
+- **Platform:** android
+- **Region:** Global for the presets. Any prefix or number list is country-specific, and the developer's country is unknown.
+- **Evidence:**
+  - Google lists automatic Call Screen on Pixel only in Australia, Canada, Ireland, UK and US, and manual screening on Pixel in 11 countries, plus selected Android devices in the US and Canada. It works only with a SIM from a supported country. (https://support.google.com/phoneapp/answer/9118387)
+  - rootvalues wants to block non-contact calls but let non-contact texts through, tried a contact-name regex, and it failed. antodc could not find where contact regex rules live. The owner declined a simpler checkbox and pointed to regex rules. (https://github.com/aj3423/SpamBlocker/issues/705) [2026-10-30]
+  - A German-language community spam filter describing persistent sales calls about electricity bills, solar and fake prizes. It says thousands of users report new numbers daily and offers an Android app with real-time blocking. (https://phoneblock.net/)
+  - An open-source call and SMS blocker with about 1.9k stars that works as a Caller ID app, with filters for contacts, repeated calls, STIR/SHAKEN and spam databases. Evidence that people want this outside the Google app. (https://github.com/aj3423/SpamBlocker)
+  - A 184-star Android app that blocks unwanted calls, with topics pointing at French telemarketing (inference from arcep and demarchage tags). The repository is archived and moved to Codeberg. Another country-specific build of the same idea. (https://github.com/cbouvat/saracroche-android)
+
+### Finding out quietly that phone backup to your own server or PC stopped working
+
+- **Who:** Self-hosters using Nextcloud or Syncthing as their photo and file backup from Android.
+- **Problem:** Background backup fails without an obvious alarm. Nextcloud's maintainers say auto upload is still not in perfect shape. The official Syncthing Android app was discontinued, and its fork has reports of the service getting stuck. The user only notices when they look.
+- **Cost:** Risk of losing photos and files believed to be safe. Time spent on Termux and Tasker setups, debug builds and log collection.
+- **Workaround today:** Check by hand, run Termux plus Tasker scripts, or install debug APKs and send logs.
+- **Why existing tools fail:** These tools focus on doing the sync and each reports its own state. Nothing independent confirms that the newest photos actually reached the server. This 'no independent check' gap is my inference; I found no one asking for exactly that.
+- **App idea:** A backup watchdog that does not sync anything. A home-screen widget shows how old your last verified backup is. Daily, it compares the newest camera-roll files against a WebDAV folder or a marker file, and alerts if recent photos are missing. Fits one day because it reads and compares rather than transfers.
+- **Platform:** android
+- **Region:** Global, but the audience is small and technical.
+- **Evidence:**
+  - A pinned maintainer call for help debugging auto upload, opened by tobiasKaminsky, admitting it is not yet reliable. Linked sub-issues cover unreliable photo uploads, 'Local File not found', files skipped forever, and battery optimization. Page listing showed 58 comments. (https://github.com/nextcloud/android/issues/16550) [2026-02-19]
+  - rmharold configured upload on unmetered Wi-Fi, saw 'waiting for non-meter' while on Wi-Fi, and nothing uploaded. No working workaround was found. (https://github.com/nextcloud/android/issues/17811) [2026-10-12]
+  - Maintainer imsodin retires the official app, citing Play publishing that had become very hard and a lack of maintenance. User stone runs Syncthing in Termux with Tasker, and onetimecontributor says they relied on it to back up contacts, calendar and KeePassDX data. (https://forum.syncthing.net/t/discontinuing-syncthing-android/23002) [2024-10-20]
+  - The fork's open list includes #427 (service restarts into a permanent Sleeping state, core never starts, opened 2026-10-30) and #350 (metered Wi-Fi run condition misread, 2026-08-19). Titles and summaries only; the issue bodies were not read. (https://github.com/Catfriend1/syncthing-android/issues) [2026-10-30]
+
+### Switching mobile data or the data SIM means a trip into Settings since Android 12
+
+- **Who:** Dual-SIM users and people who often flip between Wi-Fi and mobile data.
+- **Problem:** Android 12 merged Wi-Fi and mobile data into a single Internet tile, so switching takes several taps. Choosing which SIM carries data still means opening the SIM settings menu.
+- **Cost:** Repeated taps throughout the day. The current fix requires root or Shizuku, and without root Shizuku must be restarted after each reboot.
+- **Workaround today:** Long-press the Internet tile and go through Settings, or install Better Internet Tiles with Shizuku or root.
+- **Why existing tools fail:** The best-known app has no SIM switching, and its maintainer does not know a method for it. Its setup is too heavy for ordinary users, and restarting Shizuku after reboot is an ongoing chore.
+- **App idea:** A SIM tile that shows which SIM is carrying data and, in no-permission mode, opens exactly the right settings screen in one tap. Add true one-tap switching where shell access exists. Spend the first two hours on a technical spike, because real switching may turn out impossible without privileged access. If so, this collapses to a deep-link tile, which is thin for a series episode.
+- **Platform:** android
+- **Region:** Global. Probably strongest in markets where dual SIM use is common, which is inference, not evidenced.
+- **Evidence:**
+  - A 264-star app built because the Android 12 Internet tile makes switching take several taps. It needs shell access through root or Shizuku, and the Shizuku server must be restarted after each reboot. (https://github.com/CasperVerswijvelt/Better-Internet-Tiles)
+  - DX37 wants a tile to switch the SIM used for mobile internet, to avoid opening the SIM menu each time. The maintainer replied asking how that can be detected and toggled at all. (https://github.com/CasperVerswijvelt/Better-Internet-Tiles/issues/58) [2025-04-17]
+  - tazihad asks for dual SIM support with one tile per SIM. Two thumbs-up. Still open. (https://github.com/CasperVerswijvelt/Better-Internet-Tiles/issues/24) [2023-04-12]
+  - pimterry wants to avoid Shizuku entirely and just have tiles that open the right settings page. Three thumbs-up, and the maintainer said a pull request would be welcome. (https://github.com/CasperVerswijvelt/Better-Internet-Tiles/issues/57) [2025-04-16]
+
+### Seeing a transit card's balance and recent rides without a machine or next-day delay
+
+- **Who:** Riders with stored-value transit cards, with open requests for India's NCMC, Porto's Andante, Milan's Ricaricami and Riga's E-talons.
+- **Problem:** Riders cannot easily check what is on their card. For India's NCMC, one requester says transit transactions show in issuer apps only after overnight settlement. The general reader app, Metrodroid, has a growing backlog of unsupported cards and limited maintenance.
+- **Cost:** Time and uncertainty, plus technical effort: one user wrote their own Python script using a PN532 reader to read their card. Another attached raw dumps while trying to work out an undocumented format.
+- **Workaround today:** Metrodroid where the card is supported, ticket machines or issuer apps, or a hand-built reader for technical users.
+- **Why existing tools fail:** Each card format needs separate reverse engineering, and the general app cannot keep up. Card requests sit unanswered and the maintainers have limited time.
+- **App idea:** A one-card NFC reader rather than a general one: tap the card, see balance and recent rides, and keep a local history with a home-screen widget. NCMC looks most tractable because #910 says the specification is public. Only worth it if the developer physically holds that card and can test it. It should not store full card numbers.
+- **Platform:** android
+- **Region:** Entirely card-dependent: India for NCMC, Portugal, Italy or Latvia for the others. Do not pick this without access to a real card.
+- **Evidence:**
+  - w0qs1 asks for NCMC balance and history reading. They already wrote a Python reader using a PN532, point to the official interface specification, and note issuer apps show transit rides only after overnight settlement. No replies. (https://github.com/metrodroid/metrodroid/issues/910) [2026-09-16]
+  - anongeek requests support for Porto's Andante blue paper card, says no public documentation exists, and attaches four card dumps. No replies. (https://github.com/metrodroid/metrodroid/issues/887) [2025-11-18]
+  - IzzySoft asks whether the project is maintained. squalou asks if building from source is required. micolous confirms no APK since 2019 until v3.1.0 in November 2025 and says he no longer uses an Android phone. An update request on 2026-09-23 is unanswered. (https://github.com/metrodroid/metrodroid/issues/880) [2025-09-26]
+  - 55 open issues, including card requests for Milan (#875) and Riga (#896), showing demand across several countries. Titles only for those two. (https://github.com/metrodroid/metrodroid/issues)
+
+### A spare Android phone as a relay for SMS, calls and app alerts
+
+- **Who:** People who keep a backup phone or second SIM, and small builders in countries where virtual numbers cannot be bought.
+- **Problem:** The SMS, calls and alerts on a spare phone need to reach the person or their system. One author says many countries do not allow buying virtual numbers, and that he found no ready-made way to send and receive SMS through a simple API.
+- **Cost:** Missed codes and messages on the absent phone, or no access at all to programmatic SMS. Costs were not stated on the pages read.
+- **Workaround today:** Sideloading one of these APKs and configuring webhooks or bots by hand.
+- **Why existing tools fail:** This space is crowded and the gap is narrow. SmsForwarder's page is Chinese-language and built around Chinese work tools, while httpSMS and android-sms-gateway are developer APIs. The webhook app already does Telegram. A non-developer setup is the only opening I can see.
+- **App idea:** A two-minute setup: scan a QR code, link a Telegram bot, and pick which alerts to relay, with a heartbeat warning if the spare phone goes offline. Sideload-only by design. Requires real care with one-time codes, since forwarding them is sensitive.
+- **Platform:** android
+- **Region:** Global, strongest where virtual numbers are unavailable per the httpSMS author. Forwarding rules and carrier limits vary by country.
+- **Evidence:**
+  - Author from Cameroon explains many countries do not allow buying virtual numbers, so he turned an Android phone into an SMS gateway. 6.2k stars, distributed as an APK. (https://github.com/NdoleStudio/httpsms)
+  - 28.7k stars. Monitors SMS, calls and app notifications and forwards them by rule, and calls itself an essential tool for a backup phone. Page is in Chinese and targets services such as DingTalk, WeCom and Feishu. (https://github.com/pppscn/SmsForwarder)
+  - 6.0k stars. Phone as SMS gateway for two-factor codes, confirmations and reminders. Installed as an APK from GitHub releases. (https://github.com/capcom6/android-sms-gateway)
+  - 702 stars. Forwards SMS to a webhook or Telegram. Its FAQ says Play's SMS permission policy does not allow this use, so it ships only on F-Droid and GitHub. (https://github.com/bogkonstantin/android_income_sms_gateway_webhook)
+
+### Reaching files inside Android/data needs hacks on recent Android
+
+- **Who:** Android users who need to clean or reach app folders, for example someone removing piled-up QQ logs.
+- **Problem:** File managers cannot reliably reach Android/data on newer versions without root, Shizuku or a system file picker shortcut, so users improvise.
+- **Cost:** Wasted storage, and risky workarounds: one suggestion was running MT Manager as a local FTP server, which another commenter called a red flag.
+- **Workaround today:** Shizuku-capable managers such as MT Manager, MiXplorer, X-plore or AppManager, or the system file picker shortcut.
+- **Why existing tools fail:** Weakest candidate. SD Maid SE already has about 8.0k stars and supports ADB and Shizuku access, so a new app would duplicate it. Any new build must still rely on Shizuku or ADB.
+- **App idea:** A narrow log-and-cache cleaner for one or two named apps that leave heavy data in Android/data. Only worthwhile if testing shows SD Maid SE misses those folders.
+- **Platform:** android
+- **Region:** Global
+- **Evidence:**
+  - CodeCracker-oss could not reach Android/data on a Pixel 6 without root. About 22 thumbs-up and pinned. Commenters trade Shizuku, local FTP and Termux workarounds through 2026. (https://github.com/zhanghai/MaterialFiles/issues/611) [2021-10-29]
+  - naloder tried to delete surplus QQ logs under Android/data with Shizuku and hit an error, while MT Manager and MiXplorer succeeded on the same files. (https://github.com/zhanghai/MaterialFiles/issues/1636) [2026-09-22]
+
+**Limits of this search:** SEARCH LIMIT, READ FIRST: WebSearch was unavailable. The shared 200-search budget for this run was already used up, so my first eight searches returned nothing and I ran zero searches. Everything here comes from direct fetches of about 50 pages I could name myself, mainly GitHub repos and issues, Google policy pages and Android docs. I did not use site search or third-party proxies. To continue the search, send a follow-up message or raise CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION.
+
+BIAS THIS CAUSES: Reddit and Android Stack Exchange refused fetches, and Google Play listings came back empty, so there are no consumer forums or Play reviews here. Evidence therefore skews toward technical, open-source users. Requester counts are small, and star counts show interest rather than willingness to pay. I found almost no money-spent evidence. The only hints are Tasker and a subscription build of NotelyVoice. Treat the list as vetted leads, not a measure of market size.
+
+COVERAGE GAPS: Notification listener has no direct consumer complaints, only SmsForwarder as indirect demand. USB OTG produced only developer-level reports in the libaums tracker, such as #401 (slow copy) and #423 (exFAT write failure), so no candidate came from it. No widget-only problem surfaced. The promising areas to search next are camera import over USB, keyword alerts from notifications, and screenshot OCR.
+
+SINGLE-SOURCE LEADS LEFT OUT (under the two-source bar):
+- GPS data stripped when sharing photos between apps, zell-mbc, Fossify File-Manager #510. Coordinates must then be retyped by hand.
+- One-tap call widget for elderly relatives or emergencies, xandro0777, Fossify Phone #855.
+- WhatsApp Export chat fails to save, sachaweb, MaterialFiles #1655.
+I also excluded Nextcloud #17905 as evidence because it says Claude Code filed it on the user's behalf, so it is not the person's own words.
+
+MY RANKING FOR THE CHALLENGE: 1) voice-note transcription, 2) DNS pause tile, 3) unlosable recorder, 4) no-regex call screening. These have the clearest user voice, fit one day, and have manageable policy exposure. The transit card is good only if the developer owns a testable card. The SMS relay and Android/data candidates are the weakest.
+
+PLATFORM CONSTRAINTS THAT AFFECT THE WHOLE SERIES:
+- Play production access: personal developer accounts created after 2023-11-13 need at least 12 testers opted in for 14 continuous days before applying. A new account cannot reach Play production inside 10 days, so plan on a closed test track or direct APK distribution. The page lists no exceptions and covers only personal accounts.
+- Developer verification: protections began 2026-09-30 for installs from participating stores in Brazil, Indonesia, Singapore and Thailand on certified Android 7+ devices, with global expansion in 2027. Limited distribution accounts allow students, teachers and hobbyists to share with up to 20 devices without government ID or a fee. An advanced flow exists for power users, but the page does not fully explain how sideloading is treated. Check this for the developer's country.
+- Restricted settings: Android may block sensitive settings until the user allows them in App info. The help page gives accessibility as the example and does not list notification access or mention sideloading, so test this on a real device.
+- Android 15 OTP redaction: untrusted notification listeners cannot read unredacted content where an OTP is detected.
+- Foreground services: types must be declared with a video; dataSync and mediaProcessing are limited to 6 hours in 24 on apps targeting Android 15 and later.
+- Accessibility API: non-accessibility apps need in-app prominent disclosure, consent and a declaration with video; autonomous action is prohibited. The page I read does not mention call audio recording.
+- Play's sensitive-permissions page does not mention notification listener, NFC, USB or call screening. That is an absence on one page, not clearance. Data from restricted permissions is still treated as personal and sensitive.
+
+NOT VERIFIED IN THIS RUN: the CallScreeningService class text could not be extracted, so API details come from general knowledge and SpamBlocker's description. WhatsApp's built-in transcripts, its share-sheet behaviour for voice notes, and Web Share Target support are from memory. Page content was read through a summarizing fetch tool, so re-check any exact wording, and star counts are as of 2026-11-01, before quoting them on camera.
+
+## Problems created in the last 12 months: new laws, price rises, platform changes, AI slop, scam waves, job application floods, age verification, new fees
+
+### Medicaid enrollees losing coverage because they cannot produce proof, not because they fail to qualify
+
+- **Who:** US Medicaid expansion adults up to age 64 whose activity does not show up in payroll data, such as volunteers, self-employed people and family caregivers. Nebraska and Montana have already started. Other states must start by January 1, 2027.
+- **Problem:** Enrollees must show 80 hours a month of work or community service, or qualify for an exemption. States check their own data first. If that finds nothing, people may need pay stubs, a supervisor's signature, a volunteer-hours statement signed by an organisation official, or a provider-signed declaration. Each state has its own paperwork: Nebraska uses a 5-page form, Louisiana a 10-page form, and Montana a matrix of 22 ways to comply or be excluded.
+- **Cost:** Health coverage. In Nebraska at least 1,090 people lost coverage or were denied, and 92% of those who lost it at renewal were dropped for not providing requested information. KFF notes that people who lose coverage this way also become ineligible for Marketplace premium tax credits.
+- **Workaround today:** Chasing signed paper forms from employers, schools, volunteer organisations and doctors, then responding within the 30-day notice window. Sources describe the forms but not how people keep track of them.
+- **Why existing tools fail:** The state material I read is forms and verification rules. The Georgetown roundup mentions no apps, portals or vendors, but that does not prove none exist. Competing apps were NOT checked because search was unavailable.
+- **App idea:** An offline Android proof wallet. Pick your state and see the accepted proofs from its published form, log hours weekly, photograph pay stubs, collect an on-screen signature from a volunteer coordinator, run a 30-day notice countdown, and export a PDF packet. No account, and data stays on the device. Day one covers only Nebraska, Montana and Louisiana, with dated and sourced rules. It never tells anyone they are eligible.
+- **Platform:** android
+- **Region:** US only, and state-specific. Rules are still moving: a federal judge struck medical-frailty language on October 29, 2026.
+- **Evidence:**
+  - Georgetown CCF on Nebraska's first data: rules applied to applicants from May 1 and enrollees from July 1. At least 1,090 people lost coverage or were denied. 92% of renewal losses were for failing to provide requested information. About 84% of clearly reported new-applicant denials were also procedural. (https://ccf.georgetown.edu/2026/09/30/nebraska-releases-first-data-on-medicaid-work-reporting-requirement-as-expected-coverage-losses-start-to-mount-due-to-red-tape/) [2026-09-30]
+  - State-by-state roundup of forms and accepted proof. It notes that documentation simply does not exist for some caregivers. New Hampshire, North Carolina, Indiana and Utah banned self-declaration in 2026 laws. From 2028, states must require documentation where no electronic data exists. (https://ccf.georgetown.edu/2026/10/29/how-are-states-verifying-compliance-with-or-exclusion-from-work-reporting-requirements/) [2026-10-29]
+  - KFF on the federal rule: 80 hours a month, a look-back at application and at renewals every six months or more often, and a 30-day window to respond to a notice. It says community service and self-employment often cannot be verified through existing data. It also reports that about 18,000 people lost coverage under Arkansas's earlier waiver. (https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/)
+
+### Small importers trying to claim IEEPA tariff refunds through a one-shot customs portal with an 80-day window
+
+- **Who:** Small US importers of record without customs staff, among the more than 330,000 importers CBP cited.
+- **Problem:** After the Supreme Court struck down the IEEPA tariffs on February 20, 2026, refunds moved to CBP's CAPE system. Filers need a verified ACE Portal account with an Importer sub-account, ACH refund enrolment, and a CSV of entry numbers. Entries starting with zero need an apostrophe. Accepted declarations cannot be amended or cancelled. Current phases cover unliquidated entries and those liquidated within the preceding 80 days, and a long list of entry types is rejected. CBP does not email updates, so status comes from ACE reports.
+- **Cost:** Real money for small firms. About $166 billion was collected in total, and $81 billion had been paid back by July 2026. NBC reported that many smaller importers feared the cost of the process would outweigh the benefit. Entries outside the current scope fall into later deployments that CBP lists as under evaluation.
+- **Workaround today:** Paying or waiting on a customs broker, or working through ACE Portal alone. Some companies have explored financing against expected refunds.
+- **Why existing tools fail:** ACE shows status after filing, while CAPE declarations cannot be amended once accepted, so a mistake is hard to undo. Broker services and third-party checkers were NOT checked because search was unavailable.
+- **App idea:** A browser-only pre-flight checker. Upload a broker or ACE entry export, and it applies CBP's published rejection rules, marks each entry eligible or excluded with the reason, shows the days left in the 80-day window, handles the leading-zero quirk, and splits the output into valid CSVs. It also gives a portal and ACH setup checklist and a fraud warning. Nothing leaves the browser, and it is labelled as not customs advice.
+- **Platform:** web
+- **Region:** US import entries only. CBP's phases change, so the rules need a visible last-checked date.
+- **Evidence:**
+  - CBP's own CAPE rules: only the importer of record or the licensed broker who filed the entries can file, and attorneys cannot. It sets out the CSV format, the 9,999-entry limit, rejection reasons and the no-amendment rule. Refunds are held without ACH details. CBP warns that fraudsters are soliciting importers and says it charges no refund fees. (https://www.cbp.gov/trade/programs-administration/trade-remedies/ieepa-duty-refunds)
+  - Reports that 56,497 importers had completed the electronic refund process as of April 9, and that many smaller importers feared the process would cost more than it returned. (https://www.nbcnews.com/business/business-news/us-set-launch-tariff-refund-system-april-20-rcna332018) [2026-04-15]
+  - Small-business coalition page. Executive Director Dan Anthony, speaking on CNN, said some small businesses can file quickly while others struggle with access and delays, and may wait months while still paying ongoing tariff costs. (https://wepaythetariffs.com/)
+  - Secondary source for the timeline: the ruling date, CBP's figure of roughly $166 billion from over 330,000 importers, CAPE opening on April 20, 2026, and $81 billion repaid by July 2026. (https://en.wikipedia.org/wiki/Learning_Resources_v._Trump)
+  - A consumer sued FedEx over $36 in import charges on shoes. FedEx said it would pass on refunds if it receives them, which shows that people who paid through couriers depend on someone else filing. (https://fortune.com/2026/03/13/americans-demanding-tariff-refunds-suing-costco-fedex/) [2026-03-13]
+
+### Self-represented litigants filing AI-invented case citations with no plain-language way to check them first
+
+- **Who:** People representing themselves in court, who account for 1,296 of the 2,246 cases in the main tracker. Solo and small-firm lawyers are the next group: lawyers account for 887 cases, firm size unknown.
+- **Problem:** People draft filings with chatbots and submit citations that do not exist or are wrong. Courts then find it in their decisions, sometimes with sanctions or dismissal. A free-law API can check citations, but it is built for developers, not for someone preparing their own case.
+- **Cost:** Sanctions, adverse costs, dismissals and lost credibility. The largest amount visible in the listing I read was 7,500 USD in Moore v. Jackson Walker LLP (S.D. Texas, October 2026). Many outcomes are warnings or dismissals with no money attached.
+- **Workaround today:** Not directly evidenced. It is presumably manual lookup, or nothing at all, given how many pro se filers appear in the database.
+- **Why existing tools fail:** The free data source I verified is an API, not a product a layperson can use. Consumer and paid legal citation tools were NOT checked because search was unavailable.
+- **App idea:** A paste-your-draft web page that extracts citations, checks each against CourtListener, and shows found, not found, or case name mismatch with a link to the real opinion. It states clearly that a found case may still not support the point being made, and it does not store drafts. API terms and rate limits must be confirmed first.
+- **Platform:** web
+- **Region:** The pain spans common-law countries, but the verified data source covers US case law, so day one is US-only.
+- **Evidence:**
+  - AI Hallucination Cases Database, listing 2,246 court and tribunal decisions as of October 31, 2026. It shows USA 1,517, Canada 240, Australia 112, UK 89 and Israel 58, with party counts of 1,296 pro se, 887 lawyers and 17 experts. Each case is an independent court finding. (https://www.damiencharlotin.com/hallucinations/) [2026-10-31]
+  - CourtListener's Citation Lookup API checks citations against about 18 million records, and its docs describe it as a possible guardrail against hallucinated citations. Limits are 250 citations per request, 60 valid citations per minute, and 64,000 characters of text. The page does not state a price. (https://wiki.free.law/c/courtlistener/help/api/rest/v4/citation-lookup)
+
+### Librarians and peer reviewers spending time proving that an AI-invented reference does not exist
+
+- **Who:** Reference librarians and archivists answering patron requests, plus journal and conference reviewers checking bibliographies.
+- **Problem:** Chatbots produce plausible references, and people then ask staff to find them or submit them in papers. Confirming a real source is quick. Proving a source does not exist takes a long search. Reviewers also miss fabricated references.
+- **Cost:** Staff hours and research integrity. Sources give no hour counts. The Library of Virginia expects to limit the time staff spend verifying requests. NeurIPS policy treats hallucinated citations as grounds for rejection or revocation.
+- **Workaround today:** Manual searching across catalogues, and a likely cap on staff verification time at the Library of Virginia. GPTZero's own checker exists on the publishing side.
+- **Why existing tools fail:** GPTZero's tool is commercial and AI-detection branded. I did not confirm whether a free tool exists that fits a librarian's workflow, because search was unavailable.
+- **App idea:** A batch reference checker for staff. Paste a list or a patron email, look up each item in open scholarly indexes such as Crossref and OpenAlex (availability not re-verified in this run), and label it found, close match with differences, or no match. It then drafts a polite reply explaining that the reference may be AI-generated. Deterministic lookups only.
+- **Platform:** web
+- **Region:** Global. Coverage is strongest for journal articles and weaker for archival records and books.
+- **Evidence:**
+  - Sarah Falls of the Library of Virginia estimates that about 15 percent of emailed reference questions are generated by ChatGPT. She says it is "much harder to prove that a unique record doesn't exist." (https://www.scientificamerican.com/article/ai-slop-is-spurring-record-requests-for-imaginary-journals/) [2025-12-08]
+  - GPTZero reports 100 hallucinated citations across 51 to 53 accepted NeurIPS 2025 papers, from 4,841 scanned, each with three or more reviewers. This is a vendor source with a commercial interest, so treat it with care. (https://gptzero.me/news/neurips/) [2026-01-21]
+
+### Volunteer maintainers hand-closing AI-written issues and PRs because no simple rule-based gate exists
+
+- **Who:** Maintainers of small and mid-sized open source projects on GitHub, many of them volunteers.
+- **Problem:** AI lets anyone produce plausible issues, PRs and security reports at almost no effort. Reports arrive with confident but wrong root causes and fake minimal repros. Maintainers say line-by-line review no longer scales, and they cannot assume authors understand their own code.
+- **Cost:** Maintainer time and morale, plus lost security programs. curl ended a bounty program that had found 87 confirmed vulnerabilities and paid over 100,000 USD, after its confirmed-report rate fell from above 15% to below 5%. Its maintainer describes a serious mental toll.
+- **Workaround today:** Auto-closing from unapproved contributors, vouch lists, disabling bounties, and bans.
+- **Why existing tools fail:** Vouch needs someone to vouch for each newcomer, and thread commenters worry trust systems penalise legitimate first-timers. GitHub listed options without dates in the part I read. A commenter claimed a new per-contributor cap exists, which is unconfirmed. This is the most crowded candidate here, and other tools were not surveyed.
+- **App idea:** A free GitHub Action with a small web config builder, using deterministic rules only: PR must link an open issue, repro section must be filled, cap on open PRs for first-time contributors, and a polite auto-close that explains how to reopen. A simple log shows what was closed so false positives can be reversed. No LLM and no reputation score.
+- **Platform:** web
+- **Region:** Global.
+- **Evidence:**
+  - Daniel Stenberg ends curl's bug bounty on January 31, 2026, citing an explosion in AI slop reports, sharply higher inbound volume, and time lost to debunking. (https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/) [2026-01-26]
+  - Armin Ronacher on the Pi project: AI-written issues mislead debugging, and the project now auto-closes issues and PRs from new unapproved contributors, then manually reopens some. (https://lucumr.pocoo.org/2026/5/24/pi-oss/) [2026-05-24]
+  - GitHub staff acknowledge the low-quality contribution problem. Maintainers ask for a cap on open PRs per new contributor, issue-first gating, an abandoned close status, and CONTRIBUTING.md checks, with some insisting those checks be deterministic. Others object to AI triage and reputation scoring. (https://github.com/orgs/community/discussions/185387) [2026-01-27]
+  - Mitchell Hashimoto's Vouch, an experimental explicit-trust system with 5.2k stars, used by Ghostty. People must be vouched for before they can interact with restricted parts of a project. It is a strong sign that maintainers will adopt workarounds. (https://github.com/mitchellh/vouch)
+
+### Android sideloaders and hobby developers cannot tell which of their apps will be blocked by developer verification
+
+- **Who:** F-Droid users, people installing apps outside Google Play, and student or hobby developers. Brazil, Indonesia, Singapore and Thailand come first, with global expansion from 2027.
+- **Problem:** Android verification protections started on September 30, 2026 in four countries on certified devices running Android 7 or later, and expand to all apps on certified devices globally from 2027. Apps from unregistered developers face blocking. A power-user advanced flow exists, which the Keep Android Open campaign describes as multi-step with a 24-hour wait. Hobbyists get limited accounts capped at 20 devices.
+- **Cost:** Loss of installs and updates for apps people rely on. F-Droid says the rule would end the project as it exists today. Developers face choosing between ID and fee requirements or a 20-device cap.
+- **Workaround today:** The advanced flow, limited distribution accounts, or refusing to register, which the campaign urges.
+- **Why existing tools fail:** Sources cover the policy, not per-device impact. I found no inventory tool, but search was unavailable, so that is not proof that none exists.
+- **App idea:** A sideload audit app. It lists apps not installed from Play with their installer and signing certificate, flags apps likely to be affected, exports a backup list, and drafts a message asking each developer about their plan. Before building, confirm whether a public way exists to query registration status (Google's docs mention developer APIs from August 2026). Also check the Play policy on listing installed apps, because this app may need to ship outside Play.
+- **Platform:** android
+- **Region:** Live in Brazil, Indonesia, Singapore and Thailand, and global from 2027.
+- **Evidence:**
+  - Google's official timeline and regions. Limited distribution accounts cover up to 20 devices with no ID or fee, and an advanced flow exists for power users. (https://developer.android.com/developer-verification)
+  - F-Droid says the requirement would end it and similar sources as they exist today, leaving users unable to install or update apps. It also says it will not claim app identifiers on developers' behalf. The post predates the 12-month window, but the enforcement it warns about started within it. (https://f-droid.org/2025/09/29/google-developer-registration-decree.html) [2025-09-29]
+  - Campaign listing 71 supporting organisations and a 61-day countdown at time of fetch. It names harm to phone owners, hobbyists, privacy-focused developers, and developers in sanctioned countries. This is advocacy, so these are the campaign's own claims. (https://keepandroidopen.org/)
+
+### Small employers cannot see hidden text in resumes aimed at AI screeners
+
+- **Who:** Small business owners and solo recruiters reading resumes or running them through AI screening, during an application surge.
+- **Problem:** Application volume has jumped, partly from bots and agents. Applicants are now writing for machines: Greenhouse found people adding skills they lack and inserting hidden text aimed at AI reviewers. An employer reading the rendered PDF cannot see that text, but software can read it.
+- **Cost:** Sources give no dollar figure. The cost is screening time and shortlists distorted by invisible content. On the applicant side, 81% said they were rejected without contact in the past year.
+- **Workaround today:** Not evidenced for small employers. The enterprise response reported here is more AI in screening.
+- **Why existing tools fail:** The sources focus on large employers and vendors. Whether applicant tracking systems already flag hidden text was NOT checked. This is the weakest candidate on direct complaints, because no small employer speaks in these sources.
+- **App idea:** A browser-only batch PDF checker. Drop in resumes, and it compares the extracted text layer with what is visible on the page, then flags white, microscopic or off-page text and shows exactly what was hidden. No AI verdicts, no scoring of people, and no file leaves the browser.
+- **Platform:** web
+- **Region:** Global. The survey covered five countries.
+- **Evidence:**
+  - Greenhouse survey of over 2,800 job seekers in the US, UK, Ireland, Germany and Australia. 62% tried to get past AI screening, 40% added skills or keywords they lacked, and about a third added hidden text. The base for the hidden-text figure was unclear from my read. (https://www.hrdive.com/news/job-seekers-say-theyre-still-being-ghosted-even-as-theyre-trying-harder/833774/) [2026-10-23]
+  - Gartner's Jamie Kohn says application volume has more than doubled in two years. Data from other companies points to near tripling, partly due to bots and AI agents. (https://www.hrdive.com/news/4-trends-explaining-why-recruiters-are-struggling-right-now/873036/) [2026-10-28]
+
+### Intimate-image abuse victims paying for fake help while the free legal takedown route needs them to track a 48-hour clock
+
+- **Who:** People in the US whose intimate images or deepfakes were posted online, often while being threatened. Minors have a separate route through the National Center for Missing and Exploited Children.
+- **Problem:** Since May 19, 2026 covered platforms have had to act on removal requests, and the FTC says they must remove the images within 48 hours at no cost. Victims still have to file with each platform, note when they did it, and escalate to TakeItDown.ftc.gov if nothing happens. Stressed people searching for help also find paid services that do not deliver.
+- **Cost:** Dignity, safety and money. The FTC alleges Digital Forensics, behind sites such as BlackmailHelpline.com, charged customers thousands of dollars and failed to follow through.
+- **Workaround today:** Filing separately with each platform, then the FTC report, or paying services the FTC says do not deliver.
+- **Why existing tools fail:** The FTC site handles failure after the fact. I could not read the statutory contents of a valid request, and helper tools from nonprofits were NOT checked. Both are required before building.
+- **App idea:** A web tool that never accepts images. Enter the platform and URL, get a removal request to send yourself, log the time locally, and see a 48-hour countdown. It then pre-fills the details for the FTC report and links only to the free help the FTC names. No accounts, no server storage, and a quick-exit button. Have the wording reviewed by a victim-support organisation before release.
+- **Platform:** web
+- **Region:** US law. This is sensitive to feature in a series, so show the tool, never a case.
+- **Evidence:**
+  - FTC alert on its lawsuit over deceptive sextortion help services charging thousands of dollars. It lists the free routes, including the 48-hour platform removal right. (https://consumer.ftc.gov/consumer-alerts/2026/10/how-avoid-deceptive-sextortion-assistance-services-and-find-real-help) [2026-10-13]
+  - FTC steps for reporting a platform that has not acted after 48 hours: name the platform and give as much detail as possible about where the image was posted. (https://consumer.ftc.gov/consumer-alerts/2026/09/how-report-platform-doesnt-take-down-your-intimate-images) [2026-09-23]
+  - Secondary source: enforcement against online services began May 19, 2026. It says the Cyber Civil Rights Initiative warned that platforms unlikely to face FTC scrutiny might ignore reports. (https://en.wikipedia.org/wiki/TAKE_IT_DOWN_Act)
+
+**Limits of this search:** RESEARCH LIMITS, READ FIRST. All 6 WebSearch calls were refused because this turn's shared search budget was already used up, so this report rests on no search results at all. I did not route around that through search engines, proxies, archives or site search. Evidence comes only from direct WebFetch reads of pages I already knew, plus links on those pages. WebFetch then hit a session limit (resets 10:50pm Africa/Lagos), and the final retry failed on all 4 pages, so I stopped.
+
+What this means for the results:
+- Every URL above loaded and is marked fetched=true. None is invented.
+- Reddit and most forums were unreachable, so direct complaints are thin. Evidence leans on institutions and reporters, and the set skews to the US.
+- Competitor checks were NOT done. Read 'why_existing_tools_fail' as what the fetched pages show, not as a market scan. Run a competitor search on any pick before committing a day to it.
+- WebFetch returns a model's summary, so re-read the source before repeating any figure on camera.
+
+To continue the search, send a follow-up message after this reply, or raise CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION.
+
+Strongest evidence: Medicaid proof (Android) and CAPE refund pre-flight (web). Both have primary-source rules, hard deadlines and measurable harm. Weakest: hidden resume text, which has no small-employer voices.
+
+High-stakes candidates: Medicaid, CAPE, citations and Take It Down all touch health coverage, money, court outcomes or personal safety. They need plain 'not advice' wording and dated, sourced rules. The Take It Down candidate rests partly on Wikipedia for independent evidence, so strengthen it first.
+
+Single-source leads left out because they did not reach two independent sources:
+- UK analog landline switch-off on January 31, 2027 (one Register article quoting Openreach, Age UK and an analyst; alarms, card terminals and telecare at risk; a very fresh candidate worth second-sourcing)
+- Silicon Practice collapse affecting GP websites (Register)
+- Vacant-parcel owner impersonation (FBI PSA260616)
+- Fake planning-permit invoices (FBI PSA260309)
+- Hospice enrollment fraud (FBI PSA260603)
+- Rental scams, $65M reported from January 2020 to June 2025 (FTC)
+- Gmail POP fetching and Gmailify ending, with existing users able to continue until January 2027 (Google)
+- Making Tax Digital for Income Tax (GOV.UK)
+- Companies House identity checks (GOV.UK)
+- England rent-increase rules since May 1, 2026 (Shelter)
+- Microsoft Publisher discontinued October 13, 2026 (Wikipedia only; Microsoft's page did not load)
+- Meta UK/EU objection deadline of November 20, 2026 (404 Media)
+
+Could not verify at all: Arc browser shutdown (headline only; the article failed to load) and US SNAP soda and candy restrictions (the USDA page returned 403, so make no claim about it).

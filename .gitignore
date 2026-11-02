@@ -1,0 +1,28 @@
+# Installed agent skills (reinstall from skills-lock.json)
+.agents/
+.claude/
+
+# Design skill working files
+.taste-skill/
+
+# Android / Gradle
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Web
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
