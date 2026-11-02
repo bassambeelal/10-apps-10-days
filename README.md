@@ -4,9 +4,11 @@ Ten small apps, Android and web, each one solving a real problem that real peopl
 
 The plan, the evidence behind each problem and the ideas that were killed are in [PLAN.md](PLAN.md). The raw research is in [research/](research/).
 
+On 2 November 2026 the owner reviewed the first builds: five were rebuilt to a shipped standard and five Nigeria-only apps are being replaced with problems people have everywhere. The new slate is in [NEXT.md](NEXT.md), and the replaced apps are kept in [archive/](archive/).
+
 | Day | App | Platform | Problem | Folder |
 |---|---|---|---|---|
-| 1 | Round Book | Web | Ajo/esusu members can't see balances, turns or where the money went | [day-01-round-book](day-01-round-book/) |
+| 1 | Fair Split | Web | Housemates and trip groups can't see how a shared balance was reached, and free tiers cap them mid-trip | [day-01-fair-split](day-01-fair-split/) |
 | 2 | Light Log | Android | Outage schedules don't match reality and nobody keeps a record | [day-02-light-log](day-02-light-log/) |
 | 3 | Lender Check | Web | Borrowers can't tell a licensed loan app from a predatory one | [day-03-lender-check](day-03-lender-check/) |
 | 4 | Voice Note Reader | Android | Reading a voice note without playing it aloud | [day-04-voice-note-reader](day-04-voice-note-reader/) |
@@ -21,7 +23,7 @@ The plan, the evidence behind each problem and the ideas that were killed are in
 
 | Day | Built | Checked | Not yet checked |
 |---|---|---|---|
-| 1 Round Book | Web PWA | Design inspector 0 FAIL / 0 WARN; full flow clicked through in a browser | A real treasurer |
+| 1 Fair Split | Web PWA | 10 unit tests; full flow at 390 and 1440 px, light and dark, including join and merge across two browsers; offline reload; inspector 0 FAIL on every screen | A real flat or trip group for a week |
 | 2 Light Log | APK 1.2 MB | 8 unit tests | A real phone on a real charger |
 | 3 Lender Check | Web PWA | Inspector clean in 3 states; matching tested on real FCCPC names | Refresh the register on filming day |
 | 4 Voice Note Reader | APK 1.1 MB | 5 unit tests | A real Android 13+ phone, and WhatsApp's own transcripts |
