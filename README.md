@@ -10,7 +10,7 @@ On 2 November 2026 the owner reviewed the first builds: five were rebuilt to a s
 |---|---|---|---|---|
 | 1 | Fair Split | Web | Housemates and trip groups can't see how a shared balance was reached, and free tiers cap them mid-trip | [day-01-fair-split](day-01-fair-split/) |
 | 2 | Light Log | Android | Outage schedules don't match reality and nobody keeps a record | [day-02-light-log](day-02-light-log/) |
-| 3 | Lender Check | Web | Borrowers can't tell a licensed loan app from a predatory one | [day-03-lender-check](day-03-lender-check/) |
+| 3 | Citation Check | Web | AI tools invent references, and nobody can quickly prove a citation doesn't exist | [day-03-citation-check](day-03-citation-check/) |
 | 4 | Voice Note Reader | Android | Reading a voice note without playing it aloud | [day-04-voice-note-reader](day-04-voice-note-reader/) |
 | 5 | Hidden Text Finder | Web | Applicants hide white, tiny and off-page text and AI instructions in CVs, and employers can't see it | [day-05-hidden-text-finder](day-05-hidden-text-finder/) |
 | 6 | Proof Pack | Android | Damage claims you can't disprove at return | [day-06-proof-pack](day-06-proof-pack/) |
@@ -25,7 +25,7 @@ On 2 November 2026 the owner reviewed the first builds: five were rebuilt to a s
 |---|---|---|---|
 | 1 Fair Split | Web PWA | 10 unit tests; full flow at 390 and 1440 px, light and dark, including join and merge across two browsers; offline reload; inspector 0 FAIL on every screen | A real flat or trip group for a week |
 | 2 Light Log | APK 1.2 MB | 8 unit tests | A real phone on a real charger |
-| 3 Lender Check | Web PWA | Inspector clean in 3 states; matching tested on real FCCPC names | Refresh the register on filming day |
+| 3 Citation Check | Web PWA | 5 Node tests; sample list of 8 checked in Chromium against fixture responses (all 8 right) | The live Crossref and OpenAlex calls from a normal browser (blocked from the build machine) |
 | 4 Voice Note Reader | APK 1.1 MB | 5 unit tests | A real Android 13+ phone, and WhatsApp's own transcripts |
 | 5 Hidden Text Finder | Web PWA | Browser test of 18 checks on 9 PDF and Word files (every trick found, clean and designed CVs not flagged); inspector 0 FAIL on every screen | A folder of real CVs from a small employer |
 | 6 Proof Pack | APK 1.3 MB | 4 unit tests | A real walkaround and PDF |

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Citation Check</title>
+  <meta name="description" content="Paste a reference list and see which references exist, which have wrong details, and which can't be found. Checked against Crossref and OpenAlex; court citations link to CourtListener.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preload" href="fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="top"><div class="col top-in">
+    <a class="brand" href="./" aria-label="Citation Check, start again"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h10l4 4v12H5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 11h7M8.5 14.5h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M13.5 17.5l1.6 1.6 3.4-3.6" fill="none" stroke="#1b6e66" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Citation Check</a>
+    <span class="top-note">Checked against Crossref and OpenAlex. Nothing is stored.</span>
+  </div></header>
+  <main class="col" id="main" tabindex="-1"><noscript><p>Citation Check needs JavaScript to look references up.</p></noscript></main>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <script src="cite-core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

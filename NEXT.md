@@ -16,7 +16,7 @@ Five apps stay and get rebuilt to a shipped standard. Five Nigeria-only apps are
 |---|---|---|---|
 | 1 | **Fair Split** (replaces Round Book) | Web | Built 2 Nov: [day-01-fair-split](day-01-fair-split/) |
 | 2 | **Bus Spotter** (replaces Light Log) | Android | New |
-| 3 | **Citation Check** (replaces Lender Check) | Web | New |
+| 3 | **Citation Check** (replaces Lender Check) | Web | Built 2 Nov: [day-03-citation-check](day-03-citation-check/) (live API calls still to confirm) |
 | 4 | Voice Note Reader | Android | Fix and rebuild |
 | 5 | **Hidden Text Finder** (replaces Refund Clock) | Web | Built 2 Nov: [day-05-hidden-text-finder](day-05-hidden-text-finder/) |
 | 6 | Proof Pack | Android | Rebuild |
