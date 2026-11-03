@@ -22,6 +22,11 @@ node demo-video/build.mjs day-07-qr-check
 4. **The music.** `audio.py mix` synthesises a short house beat from scratch for each video (kick, clap, hats, an off-beat bass and pumping chords, in the key and tempo the script sets), ducks it under the voice, and places each line where the stage started it.
 5. **The master.** ffmpeg brings the mix to -14 LUFS with true peaks under -1 dBTP (two-pass `loudnorm`, linear), encodes H.264 at 30 fps (CRF 20) with AAC audio, and saves a poster frame.
 
+## Captions and the YouTube video
+
+- **Captions:** every render also writes `media/demo.srt`, closed captions built from the narration and the moment each line started (`captions.mjs`). Lines whose spoken form differs from the written one ("A P A", "twenty seventeen") carry a `sub` with the text to show.
+- **The joined video:** `node demo-video/compile.mjs` puts an intro, the five demos and an outro end to end, and writes [youtube/](../youtube/): the video, its captions, chapter times, the title and description with every link, and a thumbnail (`thumbnail.html`). Render the intro and outro first with `node demo-video/build.mjs youtube-intro` and `youtube-outro`; they go to `demo-video/out/`, which isn't committed.
+
 ## Test data
 
 - **Citation Check:** Crossref and OpenAlex are answered from the app's own test fixtures (`mocks/citation.js`), in their documented response shapes, because the recording machine can't reach them.

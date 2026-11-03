@@ -48,6 +48,7 @@ window.DEMO = {
     },
     {
       say: 'Snapchat stores every time in UTC. Each memory gets the local time where it was taken, from the nearest of seven thousand cities.',
+      sub: 'Snapchat stores every time in UTC. Each memory gets the local time where it was taken, from the nearest of 7,000 cities.',
       cap: 'Each memory gets *the local time where it was taken*.',
       do: async (s) => {
         await s.zoom('.zone', 1.6, { top: 140 });

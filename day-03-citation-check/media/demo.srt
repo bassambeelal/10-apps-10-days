@@ -1,0 +1,71 @@
+1
+00:00:00,205 --> 00:00:05,722
+AI tools invent references that look
+exactly like real ones: plausible authors,
+
+2
+00:00:05,762 --> 00:00:09,066
+a real journal, sometimes even a real DOI.
+
+3
+00:00:09,485 --> 00:00:13,896
+In court, lawyers have been sanctioned
+for citing cases that do not exist.
+
+4
+00:00:13,936 --> 00:00:17,715
+And checking forty references
+by hand takes an afternoon.
+
+5
+00:00:18,132 --> 00:00:22,535
+Meet Citation Check. Paste a list,
+and it checks every single reference.
+
+6
+00:00:22,958 --> 00:00:28,607
+Paste a list in any style: APA,
+Harvard, MLA, Vancouver, even BibTeX.
+
+7
+00:00:29,027 --> 00:00:33,150
+Each reference is looked up in
+Crossref and OpenAlex, one by one.
+
+8
+00:00:33,420 --> 00:00:36,890
+And the verdict leads. Eight
+references. Two can’t be found.
+
+9
+00:00:37,310 --> 00:00:40,428
+A real DOI attached to an
+invented paper is caught,
+
+10
+00:00:40,468 --> 00:00:43,482
+and you see what that
+DOI really points to.
+
+11
+00:00:43,902 --> 00:00:49,103
+Small slips are spelled out: “You
+wrote 2017; the record says 2015.”
+
+12
+00:00:49,519 --> 00:00:53,733
+And court citations link straight to
+CourtListener, so a real case opens,
+
+13
+00:00:53,773 --> 00:00:55,988
+and a made-up one finds nothing.
+
+14
+00:00:56,408 --> 00:00:59,694
+Citation Check. Free, no
+sign-up, and nothing is stored.
+
+15
+00:00:59,734 --> 00:01:01,746
+Check your references today.

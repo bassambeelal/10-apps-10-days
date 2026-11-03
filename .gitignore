@@ -18,6 +18,9 @@ captures/
 *.keystore
 *.jks
 
+# Demo video parts (rebuilt by demo-video/compile.mjs)
+demo-video/out/
+
 # Web
 node_modules/
 dist/

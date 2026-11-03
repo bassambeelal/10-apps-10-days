@@ -1,0 +1,79 @@
+1
+00:00:00,206 --> 00:00:03,034
+That QR code on your menu
+could stop working tomorrow,
+
+2
+00:00:03,074 --> 00:00:04,805
+and nobody would warn you.
+
+3
+00:00:05,223 --> 00:00:08,855
+Many free QR makers send your
+code through their own server.
+
+4
+00:00:08,895 --> 00:00:12,061
+When the trial ends,
+every printed copy fails.
+
+5
+00:00:12,477 --> 00:00:15,676
+Meet QR Check. See who
+really controls your codes.
+
+6
+00:00:16,100 --> 00:00:20,035
+Scan a code with the camera, upload
+a photo, or paste what it says.
+
+7
+00:00:20,455 --> 00:00:23,340
+It draws the chain, from the
+printed code to your page,
+
+8
+00:00:23,380 --> 00:00:26,122
+and marks the middleman
+who holds the switch.
+
+9
+00:00:26,538 --> 00:00:28,000
+This is a hosted QR code.
+
+10
+00:00:28,040 --> 00:00:32,955
+Whoever runs that service decides where
+it goes, and the fix is spelled out.
+
+11
+00:00:33,379 --> 00:00:35,733
+Save each code with where it is printed.
+
+12
+00:00:37,262 --> 00:00:41,481
+Codes that rely on a middleman go
+straight to the top, ready to replace.
+
+13
+00:00:41,905 --> 00:00:45,083
+Then make a direct code that
+nobody else can switch off.
+
+14
+00:00:48,049 --> 00:00:50,633
+Every code is read back
+the moment it is drawn,
+
+15
+00:00:50,673 --> 00:00:52,866
+to prove it says exactly what you typed.
+
+16
+00:00:52,906 --> 00:00:54,986
+Then print a sheet of stickers.
+
+17
+00:00:55,406 --> 00:00:59,647
+QR Check. Free, offline, and no
+account. Check your codes today.

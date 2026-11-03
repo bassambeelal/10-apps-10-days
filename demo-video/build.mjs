@@ -1,12 +1,14 @@
 // Records one narrated demo video.
 //   node demo-video/build.mjs day-01-fair-split
 // Needs: Playwright's Chromium, ffmpeg, Python 3 with kokoro-onnx, soundfile, scipy; KOKORO_DIR set to the
-// folder holding kokoro-v1.0.onnx and voices-v1.0.bin. Writes <day>/media/demo.mp4 and demo-poster.jpg.
+// folder holding kokoro-v1.0.onnx and voices-v1.0.bin. Writes <day>/media/demo.mp4, demo-poster.jpg and
+// demo.srt (closed captions), or into DEMO.out when the script sets it.
 import { createRequire } from 'node:module';
 import { spawn, spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
+import { cues, toSrt } from './captions.mjs';
 const require = createRequire(import.meta.url);
 const { chromium } = require('playwright');
 
@@ -117,11 +119,12 @@ if (master.status) process.exit(master.status);
 log('master', `from ${meas.input_i} LUFS to -14 LUFS`);
 
 // 6. Mux.
-const outDir = path.join(ROOT, name, 'media');
+const outDir = path.join(ROOT, DEMO.out || path.join(name, 'media'));
 fs.mkdirSync(outDir, { recursive: true });
 const out = path.join(outDir, 'demo.mp4');
 const x = spawnSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', path.join(WORK, 'video.mp4'), '-i', path.join(WORK, 'master.wav'), '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out], { stdio: 'inherit' });
 if (x.status) process.exit(x.status);
 spawnSync('ffmpeg', ['-y', '-loglevel', 'error', '-ss', String(DEMO.poster || 3), '-i', out, '-frames:v', '1', '-q:v', '3', path.join(outDir, 'demo-poster.jpg')]);
+fs.writeFileSync(path.join(outDir, 'demo.srt'), toSrt(cues(DEMO, result.starts, durations)));
 const size = fs.statSync(out).size;
 log('wrote', path.relative(ROOT, out), (size / 1e6).toFixed(1) + ' MB');

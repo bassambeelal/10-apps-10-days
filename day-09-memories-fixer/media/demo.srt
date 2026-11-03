@@ -1,0 +1,86 @@
+1
+00:00:00,206 --> 00:00:02,184
+Downloaded your Snapchat memories?
+
+2
+00:00:02,224 --> 00:00:06,076
+Every photo and video comes
+out dated today, with no place.
+
+3
+00:00:06,494 --> 00:00:10,038
+So years of memories land in
+the wrong spot in Google Photos,
+
+4
+00:00:10,078 --> 00:00:12,719
+and the captions sit in separate files.
+
+5
+00:00:13,139 --> 00:00:17,162
+Meet Memories Fixer. It puts it
+all back, and nothing is uploaded.
+
+6
+00:00:17,582 --> 00:00:20,584
+Drop in every ZIP from
+Snapchat’s email at once.
+
+7
+00:00:20,624 --> 00:00:24,270
+The page streams through
+them, right on your device.
+
+8
+00:00:24,686 --> 00:00:28,458
+Before anything is written, you
+see what is inside: photos, videos,
+
+9
+00:00:28,498 --> 00:00:31,181
+captions to merge, and memories per year.
+
+10
+00:00:31,601 --> 00:00:33,972
+Snapchat stores every time in UTC.
+
+11
+00:00:34,012 --> 00:00:37,588
+Each memory gets the local
+time where it was taken,
+
+12
+00:00:37,628 --> 00:00:40,318
+from the nearest of 7,000 cities.
+
+13
+00:00:40,742 --> 00:00:42,687
+And you see what every file becomes.
+
+14
+00:00:42,727 --> 00:00:46,001
+New Year’s Eve in Sydney,
+at two minutes to midnight.
+
+15
+00:00:46,417 --> 00:00:47,950
+One click fixes them all.
+
+16
+00:00:47,990 --> 00:00:52,227
+Dates and places go into the photos,
+creation times into the videos,
+
+17
+00:00:52,267 --> 00:00:54,126
+and captions go back on.
+
+18
+00:00:54,550 --> 00:00:58,996
+Every file name starts with its date, so
+your memories sort in order, anywhere.
+
+19
+00:00:59,416 --> 00:01:02,856
+Memories Fixer. Free,
+private, and it works offline.

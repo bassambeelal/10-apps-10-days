@@ -32,6 +32,7 @@
       html += '<div class="line ' + size + '"><span>' + rich(text) + '</span></div>';
     });
     if (o.src) html += '<div class="src">' + esc(o.src) + '</div>';
+    if (o.logos) html += '<div class="logos">' + o.logos.map((l, i) => '<figure style="transition-delay:' + (200 + i * 120) + 'ms"><img src="' + l.src + '" alt=""><figcaption>' + esc(l.name) + '</figcaption></figure>').join('') + '</div>';
     if (o.badges) html += '<div class="badges">' + o.badges.map((b, i) => '<span style="transition-delay:' + (300 + i * 110) + 'ms">' + esc(b) + '</span>').join('') + '</div>';
     if (o.url) html += '<div class="url">' + esc(o.url) + '</div>';
     el.innerHTML = html;

@@ -26,6 +26,7 @@ window.DEMO = {
     },
     {
       say: 'Paste a list in any style. A P A, Harvard, M L A, Vancouver, even BibTeX.',
+      sub: 'Paste a list in any style: APA, Harvard, MLA, Vancouver, even BibTeX.',
       cap: 'Paste a list in *any style*.',
       do: async (s) => {
         await s.show('browser', '../day-03-citation-check/app/', 'bassambeelal.github.io/10-apps-10-days/day-03-citation-check');
@@ -65,6 +66,7 @@ window.DEMO = {
     },
     {
       say: 'Small slips are spelled out. You wrote twenty seventeen; the record says twenty fifteen.',
+      sub: 'Small slips are spelled out: “You wrote 2017; the record says 2015.”',
       cap: 'Slips are spelled out: *you wrote 2017; the record says 2015*.',
       do: async (s) => {
         await s.zoom('.ref.close', 1.5);

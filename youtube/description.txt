@@ -1,0 +1,37 @@
+Ten apps in ten days, each one fixing a problem people have everywhere. These are the five that run in your browser: free, no sign-up, nothing to install.
+
+Try them:
+▶ Fair Split: https://bassambeelal.github.io/10-apps-10-days/day-01-fair-split/app/
+▶ Citation Check: https://bassambeelal.github.io/10-apps-10-days/day-03-citation-check/app/
+▶ Hidden Text Finder: https://bassambeelal.github.io/10-apps-10-days/day-05-hidden-text-finder/app/
+▶ QR Check: https://bassambeelal.github.io/10-apps-10-days/day-07-qr-check/app/
+▶ Memories Fixer: https://bassambeelal.github.io/10-apps-10-days/day-09-memories-fixer/app/
+
+All the apps: https://bassambeelal.github.io/10-apps-10-days/
+The code: https://github.com/bassambeelal/10-apps-10-days
+
+Chapters
+0:00 Ten apps in ten days
+0:11 Fair Split: split shared costs, no daily limits
+0:55 Citation Check: catch made-up references
+1:59 Hidden Text Finder: see the hidden text in CVs
+2:59 QR Check: who controls your QR code?
+4:00 Memories Fixer: fix your Snapchat Memories export
+5:05 Try all five
+
+What each one does
+Fair Split: Split costs with housemates or a trip group. No sign-up, no daily limits and no server: the whole book travels inside a link you send to the group chat.
+
+Citation Check: Paste a reference list in any style and every reference is checked against Crossref and OpenAlex. It catches papers that don’t exist, a real DOI attached to the wrong paper, and wrong years. Court citations link to CourtListener.
+
+Hidden Text Finder: Drop in CVs (PDF or Word) and see the white, microscopic and off-page text written for AI screeners, painted back where it sits. Files are read in your browser and never uploaded.
+
+QR Check: Scan or paste a QR code and see whether a link service sits between the code and your page, holding the switch. Then make a direct code that never expires.
+
+Memories Fixer: Puts the dates, places and captions back on your Snapchat Memories download, in the local time where each one was taken, ready for Google Photos. Nothing is uploaded.
+
+The five Android apps are next.
+
+Every demo is recorded from the real app. Narration is an open-source synthetic voice (Kokoro).
+
+#buildinpublic #webapps #productivity
